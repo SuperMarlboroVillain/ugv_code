@@ -1,0 +1,10 @@
+/oak:
+  ros__parameters:
+    camera:
+      i_enable_imu: false
+      i_enable_ir: false
+      i_nn_type: none
+    stereo:
+      i_subpixel: true
+      # 让深度图与 RGB 图像对齐（目标识别需要同一像素在两张图里对应同一物体）
+      i_align_depth: true

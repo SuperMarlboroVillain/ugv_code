@@ -1,0 +1,2104 @@
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Connection failure: Access denied
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+ALSA lib pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Access denied
+
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:38.910257    2168 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:38.917685    2163 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:38.938613    2163 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+ALSA: Couldn't open audio device: Connection refused
+audio usb not connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+W0000 00:00:39.045370    2173 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.99:5000
+Press CTRL+C to quit
+W0000 00:00:39.071712    2177 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+192.168.11.228 - - [01/Jan/1970 08:00:41] "GET /socket.io/?EIO=4&transport=polling&t=O-1Agck HTTP/1.1" 200 -
+192.168.11.228 - - [01/Jan/1970 08:00:41] "POST /socket.io/?EIO=4&transport=polling&t=O-1AgdK&sid=OtLPkA3cc2vpEylnAAAA HTTP/1.1" 200 -
+192.168.11.228 - - [01/Jan/1970 08:00:41] "GET /socket.io/?EIO=4&transport=polling&t=O-1AgdK.0&sid=OtLPkA3cc2vpEylnAAAA HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET / HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /socket.io/?EIO=4&transport=websocket&sid=OtLPkA3cc2vpEylnAAAA HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /style.css HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /js-yaml.min.js HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /jquery-3.7.1.min.js HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /socket.io.js HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /control.js HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /main.js HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /config HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /get_photo_names HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /socket.io/?EIO=4&transport=polling&t=O-1AlHL HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /get_video_names HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /getAudioFiles HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/none.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /font/woff2/SourceCodePro-Regular.otf.woff2 HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/grey/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/capture.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/grey/record.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/movtion_arrow.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/tilt_pointer.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/pan_pointer.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/pan_scale.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/tilt_scale.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/focus.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/grey/capture.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/grey/zoom.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/grey/movtion.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/grey/faces.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/linght.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/baterry.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/pause.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/setting.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/record.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/zoom.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/faces.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/movtion.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/white/delete.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/grey/delete.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /pictures/placeholder_3.jpg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /pictures/placeholder_5.jpg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "POST /socket.io/?EIO=4&transport=polling&t=O-1AlJp&sid=V47UP2I4F0xqTUAqAAAD HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /pictures/placeholder_1.jpg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /socket.io/?EIO=4&transport=polling&t=O-1AlJp.0&sid=V47UP2I4F0xqTUAqAAAD HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:30:26] code 400, message Bad request version ('(\x14¹³<\x1b')
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /pictures/placeholder_4.jpg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03p#\x7fì\x8f®\x19\x96OåÇ'\\¢J½\x0d\x9c/\x87\x8f\x189\x9càÔ*8f\x0d=ð !jV®T\x8bÙ·óÇ àêáÂD-NÖ¿XèÒ\x1f\\²\x1b©Ï\x1aó\x82\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93JJ\x00\x00\x00-\x00\x02\x01\x01\x00\x17\x00\x00\x00#\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1Di\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06\x9a\x9a\x03\x04\x03\x03\x003\x04ï\x04í**\x00\x01\x00c\x99\x04À\x9d£ü}\x06 \x01\x9fÝ\x1c\x01Ô&\x85£D\x87ewà[\x94òçË¬\x94\x1aÆ|î'*\x17fq\x821ºzD\x87é>j\x16\x93ò±Rv'\x8fÇf\x13Wk\x88G\x85bÍi&\x0b¬\x90,·Èy6ÅO'"Kp\x93 ´\x0cÈ\x0b(\x14¹³<\x1b" HTTPStatus.BAD_REQUEST -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /pictures/placeholder_6.jpg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s')
+192.168.11.228 - - [16/May/2024 19:30:26] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03i[±q\x80Õk\x19Ì;±\x8f&\x1d\x9c\x03Â\x8d±\x8d\x1bO\x99êÝrö-"þ÷\x91 îJ¢¸_ÿß\x1dlÈ\x0clm ûjÆe\x91ô±s\x85¦Õ,§fµåïU\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s" HTTPStatus.BAD_REQUEST -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /pictures/placeholder_2.jpg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:26] "GET /img/grey/play.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:30:27] "GET /video_feed HTTP/1.1" 200 -
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1715860417.507173    2168 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1715860417.513419    2163 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1715860417.534767    2163 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.99:5000
+Press CTRL+C to quit
+W0000 00:00:1715860417.657482    2174 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1715860417.682686    2179 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+192.168.11.228 - - [16/May/2024 19:54:35] "GET / HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /style.css HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /jquery-3.7.1.min.js HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /control.js HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /socket.io.js HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /js-yaml.min.js HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /main.js HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /config HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /get_photo_names HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /socket.io/?EIO=4&transport=polling&t=O-1GH5Y HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /getAudioFiles HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /get_video_names HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /font/woff2/SourceCodePro-Regular.otf.woff2 HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /img/white/baterry.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /img/grey/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /img/white/movtion_arrow.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /img/white/linght.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /img/white/tilt_pointer.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /img/white/pan_pointer.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /img/white/pan_scale.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:35] "GET /img/white/tilt_scale.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/white/capture.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/white/focus.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/grey/record.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/white/none.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/grey/zoom.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/grey/movtion.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/grey/faces.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/grey/capture.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/white/pause.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/white/setting.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/white/record.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/white/zoom.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/white/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/white/movtion.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/white/faces.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/white/delete.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/grey/delete.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "POST /socket.io/?EIO=4&transport=polling&t=O-1GH8D&sid=32QeKGFfue0cQ_nZAAAA HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /pictures/placeholder_3.jpg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /pictures/placeholder_5.jpg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /pictures/placeholder_1.jpg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /socket.io/?EIO=4&transport=polling&t=O-1GH8E&sid=32QeKGFfue0cQ_nZAAAA HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:54:36] code 400, message Bad request version ('Ã\x848Ü¢/')
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /pictures/placeholder_4.jpg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03]\x9d\x81´öÑ\x90á4Å\x11}Åt½´7òþö\x1fRBiúo@\x85Û\x96IH >øÈ\x14o\x15ËAÛ\x93yñ)¨F|\x87\x1fx.LÄ\x06$O\x98iÎ³¸ÂÈ\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06súú\x00\x00\x00-\x00\x02\x01\x01þ\x0d\x00ú\x00\x00\x01\x00\x01¥\x00 \x87uø©\x17e:'o\x09Ê@Ûî\x9a\x0cñÀèà\x16Õ\x7fãÿ¨$\x14s%py\x00Ð\x8eZ\x0dÕ.\x8f»\x971}ÎÃAR6\x0e\x9e@<\x85Ã\x848Ü¢/" HTTPStatus.BAD_REQUEST -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /pictures/placeholder_6.jpg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /img/grey/play.svg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] code 400, message Bad request version ('\x90¿ßy×b×r®QWO6\x10G')
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /pictures/placeholder_2.jpg HTTP/1.1" 304 -
+192.168.11.228 - - [16/May/2024 19:54:36] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03ùâ\x88\x042Pà\x11\x07JF7Î¶0|¥#>0Iä\x1a÷¨Ùêô­Ò\x19\x95 \x14¹·tb¬Ûy\x0cf\x80Vp\x0f8m§®\x89\x9a@\x1cOòä§@\x86\x9b\x9d;-\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93jj\x00\x00\x00\x0b\x00\x02\x01\x00\x00\x17\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00+\x00\x07\x06\x8a\x8a\x03\x04\x03\x03þ\x0d\x01\x1a\x00\x00\x01\x00\x01¶\x00 \x90¿ßy×b×r®QWO6\x10G" HTTPStatus.BAD_REQUEST -
+192.168.11.228 - - [16/May/2024 19:54:36] "POST /socket.io/?EIO=4&transport=polling&t=O-1GH8g&sid=32QeKGFfue0cQ_nZAAAA HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /socket.io/?EIO=4&transport=polling&t=O-1GH91&sid=32QeKGFfue0cQ_nZAAAA HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 19:54:36] "GET /video_feed HTTP/1.1" 200 -
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1715861133.562760    2179 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1715861133.570635    2170 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1715861133.594044    2170 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+W0000 00:00:1715861133.701483    2184 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.99:5000
+Press CTRL+C to quit
+W0000 00:00:1715861133.727723    2188 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+192.168.11.228 - - [16/May/2024 20:05:35] "GET /socket.io/?EIO=4&transport=polling&t=O-1InpS HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 20:05:35] "POST /socket.io/?EIO=4&transport=polling&t=O-1Inpk&sid=1GEbh7FmKs5jmNBCAAAA HTTP/1.1" 200 -
+192.168.11.228 - - [16/May/2024 20:05:35] "GET /socket.io/?EIO=4&transport=polling&t=O-1Inpl&sid=1GEbh7FmKs5jmNBCAAAA HTTP/1.1" 200 -
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/jtop/jtop.py", line 1057, in _get_data
+    self._sync_event.wait(self._interval * TIMEOUT_GAIN)
+  File "<string>", line 2, in wait
+  File "/usr/lib/python3.10/multiprocessing/managers.py", line 818, in _callmethod
+    kind, result = conn.recv()
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/jetson/ugv_jetson/os_info.py", line 93, in run
+    self.get_info_jtop()
+  File "/home/jetson/ugv_jetson/os_info.py", line 51, in get_info_jtop
+    with jtop() as jetson:
+  File "/usr/local/lib/python3.10/dist-packages/jtop/jtop.py", line 1277, in __enter__
+    self.start()
+  File "/usr/local/lib/python3.10/dist-packages/jtop/jtop.py", line 1167, in start
+    self._get_data()
+  File "/usr/local/lib/python3.10/dist-packages/jtop/jtop.py", line 1066, in _get_data
+    raise JtopException("Lost connection with jtop server")
+jtop.core.exceptions.JtopException: Lost connection with jtop server
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:42.379082    2003 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.386058    1999 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.407845    2000 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+W0000 00:00:42.526348    2008 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.551043    2012 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failure: No such entity
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:42.509192    1974 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.515060    1967 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.533162    1968 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+W0000 00:00:42.657923    1980 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.680852    1979 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+192.168.50.172 - - [01/Jan/1970 08:03:00] "GET /socket.io/?EIO=4&transport=polling&t=PAFRiZj HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:00] "POST /socket.io/?EIO=4&transport=polling&t=PAFRicg&sid=-ah9kz2h7CtiH7I8AAAA HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:00] "GET /socket.io/?EIO=4&transport=polling&t=PAFRicj&sid=-ah9kz2h7CtiH7I8AAAA HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:00] "POST /socket.io/?EIO=4&transport=polling&t=PAFRidf&sid=-ah9kz2h7CtiH7I8AAAA HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:00] "GET /socket.io/?EIO=4&transport=polling&t=PAFRidg&sid=-ah9kz2h7CtiH7I8AAAA HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:07] "GET / HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:07] "GET /socket.io/?EIO=4&transport=websocket&sid=-ah9kz2h7CtiH7I8AAAA HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:07] "GET /jquery-3.7.1.min.js HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:07] "GET /style.css HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:07] "GET /js-yaml.min.js HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:07] "GET /socket.io.js HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:07] "GET /control.js HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:07] "GET /img/grey/zoom.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:07] "GET /font/woff2/SourceCodePro-Regular.otf.woff2 HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:07] "GET /img/grey/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:07] "GET /img/white/pan_scale.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:07] "GET /img/grey/movtion.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/white/pan_pointer.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/grey/record.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/white/tilt_scale.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/white/pause.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/white/capture.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/white/focus.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/grey/capture.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/grey/faces.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/white/linght.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/white/tilt_pointer.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /config HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /get_photo_names HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /socket.io/?EIO=4&transport=polling&t=PAFRkYR HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /get_video_names HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /main.js HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /getAudioFiles HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "POST /socket.io/?EIO=4&transport=polling&t=PAFRkcK&sid=aWN84XjAniOtKi8yAAAD HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/white/movtion_arrow.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/white/none.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /socket.io/?EIO=4&transport=polling&t=PAFRkcL&sid=aWN84XjAniOtKi8yAAAD HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/white/baterry.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/white/setting.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/white/record.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/white/zoom.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/white/faces.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/white/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/white/delete.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/white/movtion.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /pictures/placeholder_3.jpg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/grey/delete.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /pictures/placeholder_5.jpg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /pictures/placeholder_1.jpg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /pictures/placeholder_2.jpg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /pictures/placeholder_6.jpg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /pictures/placeholder_4.jpg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /img/grey/play.svg HTTP/1.1" 304 -
+192.168.50.172 - - [01/Jan/1970 08:03:08] "GET /video_feed HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:27] "GET /socket.io/?EIO=4&transport=polling&t=PAFRpQC HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:27] "POST /socket.io/?EIO=4&transport=polling&t=PAFRpQf&sid=3MMStZBR98f3TOxPAAAG HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:27] "GET /socket.io/?EIO=4&transport=polling&t=PAFRpQg&sid=3MMStZBR98f3TOxPAAAG HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:03:27] "POST /socket.io/?EIO=4&transport=polling&t=PAFRpR0&sid=3MMStZBR98f3TOxPAAAG HTTP/1.1" 200 -
+192.168.50.172 - - [01/Jan/1970 08:04:00] "GET /socket.io/?EIO=4&transport=websocket&sid=3MMStZBR98f3TOxPAAAG HTTP/1.1" 200 -
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failure: No such entity
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:41.089155    1800 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[ WARN:0@2.027] global cap_v4l.cpp:984 open VIDEOIO(V4L2): can't find camera device
+[ERROR:0@2.028] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+W0000 00:00:41.097679    1796 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+W0000 00:00:41.121343    1798 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:41.225625    1808 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:41.261581    1811 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:42.279899    1836 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.285884    1830 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[ WARN:0@1.989] global cap_v4l.cpp:984 open VIDEOIO(V4L2): can't find camera device
+[ERROR:0@1.990] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+W0000 00:00:42.311858    1830 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:42.418088    1843 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.453352    1844 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+  File "/home/jetson/ugv_jetson/os_info.py", line 93, in run
+  File "/home/jetson/ugv_jetson/os_info.py", line 51, in get_info_jtop
+  File "/usr/local/lib/python3.10/dist-packages/jtop/jtop.py", line 1277, in __enter__
+  File "/usr/local/lib/python3.10/dist-packages/jtop/jtop.py", line 1113, in start
+  File "/usr/lib/python3.10/multiprocessing/managers.py", line 531, in connect
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 502, in Client
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 628, in SocketClient
+  File "/usr/lib/python3.10/socket.py", line 232, in __init__
+OSError: [Errno 24] Too many open files
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:44.365684    2267 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[ WARN:0@2.253] global cap_v4l.cpp:984 open VIDEOIO(V4L2): can't find camera device
+[ERROR:0@2.253] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+W0000 00:00:44.372106    2265 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.393802    2262 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:44.520427    2275 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.557402    2278 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:43.141390    2259 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[ WARN:0@2.076] global cap_v4l.cpp:984 open VIDEOIO(V4L2): can't find camera device
+[ERROR:0@2.076] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+W0000 00:00:43.148708    2255 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+W0000 00:00:43.170113    2255 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:43.280659    2268 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.313012    2270 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:42.849507    2268 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[ WARN:0@2.069] global cap_v4l.cpp:984 open VIDEOIO(V4L2): can't find camera device
+[ERROR:0@2.070] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+W0000 00:00:42.856030    2260 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+W0000 00:00:42.877335    2260 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:42.995341    2273 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.022148    2272 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:42.098786    2282 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.105529    2278 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.126528    2279 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:42.245967    2289 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.270677    2293 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failure: No such entity
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:41.265236    2239 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[ WARN:0@2.048] global cap_v4l.cpp:984 open VIDEOIO(V4L2): can't find camera device
+[ERROR:0@2.049] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+W0000 00:00:41.271600    2234 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+W0000 00:00:41.292174    2234 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:41.403255    2246 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:41.438782    2250 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:42.154313    2277 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.161030    2272 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.183468    2274 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:42.287768    2284 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.312382    2282 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:42.218014    2281 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.226088    2276 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.244046    2277 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:42.352166    2287 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.377209    2288 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/jetson/ugv_jetson/os_info.py", line 93, in run
+    self.get_info_jtop()
+  File "/home/jetson/ugv_jetson/os_info.py", line 51, in get_info_jtop
+    with jtop() as jetson:
+  File "/usr/local/lib/python3.10/dist-packages/jtop/jtop.py", line 1277, in __enter__
+    self.start()
+  File "/usr/local/lib/python3.10/dist-packages/jtop/jtop.py", line 1113, in start
+    self._broadcaster.connect()
+  File "/usr/lib/python3.10/multiprocessing/managers.py", line 531, in connect
+    conn = Client(self._address, authkey=self._authkey)
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 502, in Client
+    c = SocketClient(address)
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 628, in SocketClient
+    with socket.socket( getattr(socket, family) ) as s:
+  File "/usr/lib/python3.10/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+OSError: [Errno 24] Too many open files
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:44.166988    2278 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.173686    2272 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.191218    2276 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:44.302050    2284 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.325708    2286 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failure: No such entity
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:40.956667    2237 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[ WARN:0@2.065] global cap_v4l.cpp:984 open VIDEOIO(V4L2): can't find camera device
+[ERROR:0@2.065] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+W0000 00:00:40.962948    2232 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+W0000 00:00:40.984080    2232 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:41.094244    2243 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:41.126830    2243 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:44.293682    2285 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.298602    2279 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.315873    2284 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:44.426600    2291 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.451344    2293 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:42.635302    2279 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.642049    2275 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.666053    2275 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:42.774887    2285 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.799877    2286 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:44.016579    2286 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.023511    2277 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.047102    2280 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.115:5000
+Press CTRL+C to quit
+W0000 00:00:44.166876    2290 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.194123    2291 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failure: No such entity
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:41.083790    2189 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[ WARN:0@2.037] global cap_v4l.cpp:984 open VIDEOIO(V4L2): can't find camera device
+[ERROR:0@2.037] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+W0000 00:00:41.091705    2187 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:41.113888    2185 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.115:5000
+Press CTRL+C to quit
+W0000 00:00:41.233145    2196 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:41.259166    2196 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:43.905888    2234 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.912474    2232 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.930199    2233 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+W0000 00:00:44.048860    2240 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.073930    2245 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:44.006632    2253 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.013284    2247 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.034138    2247 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+W0000 00:00:44.143715    2259 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+W0000 00:00:44.171350    2262 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:39.925565    2470 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:39.934498    2465 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:39.955927    2468 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+W0000 00:00:40.059921    2477 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.5:5000
+Press CTRL+C to quit
+W0000 00:00:40.085157    2479 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+  File "/home/jetson/ugv_jetson/os_info.py", line 98, in run
+  File "/home/jetson/ugv_jetson/os_info.py", line 59, in get_ip_address
+OSError: [Errno 24] Too many open files
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:43.984142    2286 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.991215    2280 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.012376    2283 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+W0000 00:00:44.115535    2292 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:44.141214    2294 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+  File "/home/jetson/ugv_jetson/os_info.py", line 93, in run
+  File "/home/jetson/ugv_jetson/os_info.py", line 51, in get_info_jtop
+  File "/usr/local/lib/python3.10/dist-packages/jtop/jtop.py", line 1277, in __enter__
+  File "/usr/local/lib/python3.10/dist-packages/jtop/jtop.py", line 1138, in start
+  File "/usr/lib/python3.10/multiprocessing/managers.py", line 723, in temp
+  File "/usr/lib/python3.10/multiprocessing/managers.py", line 606, in _create
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 502, in Client
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 628, in SocketClient
+  File "/usr/lib/python3.10/socket.py", line 232, in __init__
+OSError: [Errno 24] Too many open files
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:43.123466    2285 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.129542    2282 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.152190    2279 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+W0000 00:00:43.262021    2294 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:43.285934    2294 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET / HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /js-yaml.min.js HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /style.css HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /jquery-3.7.1.min.js HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /control.js HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /socket.io.js HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /main.js HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /config HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /get_video_names HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /get_photo_names HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /socket.io/?EIO=4&transport=polling&t=PBLvlCu HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /getAudioFiles HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /img/white/none.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /img/white/movtion_arrow.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /img/white/pause.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /img/white/pan_pointer.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /font/woff2/SourceCodePro-Regular.otf.woff2 HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /img/white/tilt_scale.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /img/white/capture.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /img/grey/ctrl_arrow.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /img/white/pan_scale.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /img/white/focus.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /img/grey/record.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /img/grey/faces.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /img/grey/zoom.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /img/grey/capture.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:14] "GET /img/white/tilt_pointer.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "POST /socket.io/?EIO=4&transport=polling&t=PBLvlDQ&sid=tmJ4FGFg7nnhai5hAAAA HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /socket.io/?EIO=4&transport=polling&t=PBLvlDR&sid=tmJ4FGFg7nnhai5hAAAA HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /img/grey/movtion.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /img/white/baterry.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /img/white/linght.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /img/white/setting.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /img/white/record.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /img/white/zoom.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /img/white/ctrl_arrow.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /img/white/faces.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /img/white/movtion.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /img/white/delete.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /img/grey/delete.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /pictures/placeholder_3.jpg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /pictures/placeholder_5.jpg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /pictures/placeholder_1.jpg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /pictures/placeholder_6.jpg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /pictures/placeholder_4.jpg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /pictures/placeholder_2.jpg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /img/grey/play.svg HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /video_feed HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:32:15] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.10.161 - - [29/Oct/2024 09:32:23] "GET /socket.io/?EIO=4&transport=websocket&sid=tmJ4FGFg7nnhai5hAAAA HTTP/1.1" 200 -
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:44.094148    2287 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.101311    2283 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.121903    2283 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+W0000 00:00:44.227166    2293 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:44.251821    2297 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:43.376325    2282 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.384098    2280 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.407495    2278 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:43.521035    2287 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.552030    2291 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET / HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /jquery-3.7.1.min.js HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /socket.io.js HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /style.css HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /js-yaml.min.js HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /control.js HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /main.js HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/white/movtion_arrow.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/white/none.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/white/baterry.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/white/linght.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/white/tilt_pointer.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/white/tilt_scale.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/white/focus.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/white/pan_pointer.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/white/pan_scale.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/grey/record.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/grey/faces.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/grey/capture.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/grey/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/white/pause.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/white/capture.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/grey/zoom.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/grey/movtion.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:54] "GET /img/white/setting.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /img/white/record.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /img/white/zoom.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /img/white/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /img/white/faces.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /config HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /get_photo_names HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /get_video_names HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /socket.io/?EIO=4&transport=polling&t=PBL_rt- HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /getAudioFiles HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /img/white/movtion.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /img/white/delete.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /img/grey/delete.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /font/woff2/SourceCodePro-Regular.otf.woff2 HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "POST /socket.io/?EIO=4&transport=polling&t=PBL_rvD&sid=KpjSO-1EqK95hLnVAAAA HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /socket.io/?EIO=4&transport=polling&t=PBL_rvE&sid=KpjSO-1EqK95hLnVAAAA HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /pictures/placeholder_3.jpg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /pictures/placeholder_5.jpg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /pictures/placeholder_1.jpg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /pictures/placeholder_4.jpg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /pictures/placeholder_6.jpg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /pictures/placeholder_2.jpg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /img/grey/play.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 09:58:55] "GET /video_feed HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:59:04] "POST /send_command HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 09:59:36] "GET /socket.io/?EIO=4&transport=websocket&sid=KpjSO-1EqK95hLnVAAAA HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 10:27:33] "GET / HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /jquery-3.7.1.min.js HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /style.css HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /js-yaml.min.js HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /socket.io.js HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /control.js HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /video_feed HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /config HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /main.js HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /socket.io/?EIO=4&transport=polling&t=PBM6PZn HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /get_video_names HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /get_photo_names HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /getAudioFiles HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/baterry.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/grey/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/pan_pointer.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/pan_scale.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/tilt_scale.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/pause.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/capture.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/focus.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/grey/record.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/grey/movtion.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/none.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/grey/zoom.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/grey/capture.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/movtion_arrow.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/grey/faces.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/tilt_pointer.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/linght.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "POST /socket.io/?EIO=4&transport=polling&t=PBM6PaU&sid=mWxnO5rabXnIjBitAAAD HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /socket.io/?EIO=4&transport=polling&t=PBM6PaV&sid=mWxnO5rabXnIjBitAAAD HTTP/1.1" 200 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/setting.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/record.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/zoom.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/faces.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/movtion.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/white/delete.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /pictures/placeholder_3.jpg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/grey/delete.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /pictures/placeholder_5.jpg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /pictures/placeholder_1.jpg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /pictures/placeholder_6.jpg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /pictures/placeholder_4.jpg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /pictures/placeholder_2.jpg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /img/grey/play.svg HTTP/1.1" 304 -
+192.168.10.161 - - [29/Oct/2024 10:27:34] "GET /font/woff2/SourceCodePro-Regular.otf.woff2 HTTP/1.1" 304 -
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:43.981090    2286 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.988383    2280 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.011520    2283 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.216:5000
+Press CTRL+C to quit
+W0000 00:00:44.116567    2291 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.141721    2294 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:44.658984    2504 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.669683    2498 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.693740    2498 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+W0000 00:00:44.796301    2511 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.5:5000
+Press CTRL+C to quit
+W0000 00:00:44.821529    2512 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failure: No such entity
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:42.292881    2372 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.300344    2371 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.321334    2367 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.5:5000
+Press CTRL+C to quit
+W0000 00:00:42.430277    2380 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.456618    2378 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failure: No such entity
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:42.308182    2369 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.314315    2365 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.335171    2365 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+W0000 00:00:42.447253    2376 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.5:5000
+Press CTRL+C to quit
+W0000 00:00:42.471780    2377 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:44.180582    2398 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.187874    2393 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.206157    2395 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.5:5000
+Press CTRL+C to quit
+W0000 00:00:44.327686    2405 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.353479    2408 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:46.008270    2402 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:46.014861    2396 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:46.035975    2399 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+W0000 00:00:46.149758    2408 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.5:5000
+Press CTRL+C to quit
+W0000 00:00:46.175113    2409 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:42.036627    2329 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.040805    2327 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.061605    2327 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+W0000 00:00:42.172973    2336 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.137.220:5000
+Press CTRL+C to quit
+W0000 00:00:42.195676    2335 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:43.661020    2477 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.672006    2473 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.689197    2474 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.137.220:5000
+Press CTRL+C to quit
+W0000 00:00:43.794751    2483 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.821641    2487 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET / HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /jquery-3.7.1.min.js HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /style.css HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /control.js HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /socket.io.js HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /js-yaml.min.js HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /main.js HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /config HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /get_video_names HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /get_photo_names HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /socket.io/?EIO=4&transport=polling&t=PLbIDjj HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /getAudioFiles HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/none.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/movtion_arrow.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/baterry.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/linght.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/tilt_pointer.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/tilt_scale.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/focus.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/pan_pointer.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/grey/record.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/pan_scale.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/pause.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/capture.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /font/woff2/SourceCodePro-Regular.otf.woff2 HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/grey/faces.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/grey/ctrl_arrow.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/grey/capture.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/grey/zoom.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/grey/movtion.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "POST /socket.io/?EIO=4&transport=polling&t=PLbIDlB&sid=1oU2RDfmXy4imYuAAAAA HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/setting.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /socket.io/?EIO=4&transport=polling&t=PLbIDlD&sid=1oU2RDfmXy4imYuAAAAA HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/record.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/ctrl_arrow.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/faces.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/zoom.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/movtion.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/white/delete.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "POST /socket.io/?EIO=4&transport=polling&t=PLbIDlr&sid=1oU2RDfmXy4imYuAAAAA HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /socket.io/?EIO=4&transport=polling&t=PLbIDlr.0&sid=1oU2RDfmXy4imYuAAAAA HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/grey/delete.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /pictures/placeholder_3.jpg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /pictures/placeholder_5.jpg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /pictures/placeholder_1.jpg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /pictures/placeholder_4.jpg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /pictures/placeholder_6.jpg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /pictures/placeholder_2.jpg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:27] "GET /img/grey/play.svg HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:28] "GET /video_feed HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:28] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.50.195 - - [05/Mar/2025 15:50:38] "POST /send_command HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:41] "POST /send_command HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:46] "POST /send_command HTTP/1.1" 200 -
+192.168.50.195 - - [05/Mar/2025 15:50:47] "POST /send_command HTTP/1.1" 200 -
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:42.896061    2397 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.911481    2391 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.931280    2392 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.5:5000
+Press CTRL+C to quit
+W0000 00:00:43.020733    2404 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.047425    2406 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:41.418526    2395 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:41.424211    2390 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:41.444075    2392 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.5:5000
+Press CTRL+C to quit
+W0000 00:00:41.543797    2401 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:41.566464    2402 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:43.127823    2440 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.135344    2438 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.154010    2438 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.9.4:5000
+Press CTRL+C to quit
+W0000 00:00:43.249993    2449 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.273206    2448 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET / HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /jquery-3.7.1.min.js HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /control.js HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /style.css HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /js-yaml.min.js HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /socket.io.js HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /main.js HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /get_photo_names HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /socket.io/?EIO=4&transport=polling&t=Q59Qv6j HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /get_video_names HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /config HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /getAudioFiles HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/none.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/baterry.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/movtion_arrow.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/linght.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/tilt_pointer.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/tilt_scale.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/focus.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/pan_pointer.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/pan_scale.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/grey/record.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/capture.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/grey/zoom.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/grey/ctrl_arrow.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/pause.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/grey/movtion.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/grey/faces.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/grey/capture.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/record.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/setting.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/ctrl_arrow.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/zoom.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/faces.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/movtion.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/white/delete.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /img/grey/delete.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:28] "GET /font/woff2/SourceCodePro-Regular.otf.woff2 HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:29] "GET /video_feed HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:30] "GET /pictures/placeholder_3.jpg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:30] "GET /pictures/placeholder_5.jpg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:30] "GET /pictures/placeholder_1.jpg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:30] "POST /socket.io/?EIO=4&transport=polling&t=Q59QvSk&sid=G-5-ZPdTaxPYWlG-AAAA HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:30] "GET /socket.io/?EIO=4&transport=polling&t=Q59QvSn&sid=G-5-ZPdTaxPYWlG-AAAA HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:30] "GET /pictures/placeholder_4.jpg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:30] "GET /pictures/placeholder_6.jpg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:30] "GET /pictures/placeholder_2.jpg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:30] "POST /socket.io/?EIO=4&transport=polling&t=Q59QvTH&sid=G-5-ZPdTaxPYWlG-AAAA HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:30] "GET /socket.io/?EIO=4&transport=polling&t=Q59QvTI&sid=G-5-ZPdTaxPYWlG-AAAA HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:30] "GET /img/grey/play.svg HTTP/1.1" 200 -
+172.16.8.245 - - [17/Oct/2026 18:32:30] "GET /favicon.ico HTTP/1.1" 404 -
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:44.730017    2392 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.736453    2386 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.755691    2386 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.5:5000
+Press CTRL+C to quit
+W0000 00:00:44.857587    2399 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.881133    2402 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET / HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /jquery-3.7.1.min.js HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /socket.io.js HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /js-yaml.min.js HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /control.js HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /style.css HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /config HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /get_photo_names HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /main.js HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /getAudioFiles HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /socket.io/?EIO=4&transport=polling&t=Q5NmRDM HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /get_video_names HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /font/woff2/SourceCodePro-Regular.otf.woff2 HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/tilt_pointer.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/none.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/capture.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/grey/ctrl_arrow.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /video_feed HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/pan_pointer.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/tilt_scale.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/focus.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/pan_scale.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/grey/record.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/grey/movtion.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/movtion_arrow.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/grey/capture.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/grey/faces.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/grey/zoom.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/linght.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/baterry.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "POST /socket.io/?EIO=4&transport=polling&t=Q5NmRGa&sid=3UePFM0RYNrWRzh4AAAA HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /socket.io/?EIO=4&transport=polling&t=Q5NmRGb&sid=3UePFM0RYNrWRzh4AAAA HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/pause.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/setting.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/record.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/zoom.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/ctrl_arrow.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/faces.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/movtion.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/white/delete.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /pictures/placeholder_3.jpg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/grey/delete.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /pictures/placeholder_5.jpg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /pictures/placeholder_1.jpg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /pictures/placeholder_4.jpg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /pictures/placeholder_6.jpg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /pictures/placeholder_2.jpg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /img/grey/play.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.50.220 - - [01/Jan/1970 08:08:07] "GET /img/white/play.svg HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:07] "GET /settings.html HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:07] "GET /style.css HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:07] "GET /jquery-3.7.1.min.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:07] "GET /socket.io.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:07] "GET /js-yaml.min.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:07] "GET /control.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:07] "GET /config HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:07] "GET /socket.io/?EIO=4&transport=polling&t=Q5NmT0O HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:07] "GET /get_photo_names HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:07] "GET /get_video_names HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:07] "POST /socket.io/?EIO=4&transport=polling&t=Q5NmT0p&sid=iE_5u2wgpEif3l8qAAAD HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:07] "GET /socket.io/?EIO=4&transport=polling&t=Q5NmT0q&sid=iE_5u2wgpEif3l8qAAAD HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET / HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /style.css HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /jquery-3.7.1.min.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /js-yaml.min.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /socket.io.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /control.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /video_feed HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /main.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /img/white/capture.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /img/white/none.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /img/grey/record.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /img/grey/capture.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /img/grey/zoom.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /img/grey/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /socket.io/?EIO=4&transport=polling&t=Q5NmU8x HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /img/grey/faces.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /img/grey/movtion.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /img/grey/delete.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /config HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /get_photo_names HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /get_video_names HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /getAudioFiles HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "POST /socket.io/?EIO=4&transport=polling&t=Q5NmUC6&sid=HjNRcz24DkPadm8BAAAG HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /socket.io/?EIO=4&transport=polling&t=Q5NmUC7&sid=HjNRcz24DkPadm8BAAAG HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /img/white/record.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /img/white/zoom.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /img/white/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /img/white/faces.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /img/white/movtion.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /img/white/delete.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /pictures/placeholder_3.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /pictures/placeholder_5.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /pictures/placeholder_1.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /pictures/placeholder_4.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /pictures/placeholder_6.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:12] "GET /pictures/placeholder_2.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:18] "GET /socket.io/?EIO=4&transport=websocket&sid=3UePFM0RYNrWRzh4AAAA HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:08:36] "GET /pictures/placeholder_5.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:08:56] "GET /socket.io/?EIO=4&transport=websocket&sid=iE_5u2wgpEif3l8qAAAD HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:09:22] "GET /img/white/pause.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:09:24] "POST /stop_audio HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:22:09] "POST /send_command HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:22:11] "POST /send_command HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:22:31] "POST /send_command HTTP/1.1" 200 -
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:42.348600    2404 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.356471    2401 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.376057    2402 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.5:5000
+Press CTRL+C to quit
+W0000 00:00:42.470025    2410 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.491927    2410 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET / HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /jquery-3.7.1.min.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /js-yaml.min.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /socket.io.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /control.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /style.css HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /main.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /config HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /getAudioFiles HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /socket.io/?EIO=4&transport=polling&t=Q5OJuON HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /get_video_names HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /get_photo_names HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/none.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/linght.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/tilt_pointer.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/baterry.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/movtion_arrow.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/tilt_scale.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/focus.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/pan_pointer.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/grey/record.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/pan_scale.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /font/woff2/SourceCodePro-Regular.otf.woff2 HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/grey/movtion.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/capture.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/grey/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/grey/zoom.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/grey/capture.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/grey/faces.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/pause.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/setting.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/record.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/movtion.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/faces.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/zoom.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/white/delete.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /img/grey/delete.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:50] "GET /video_feed HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:02:55] "POST /socket.io/?EIO=4&transport=polling&t=Q5OJvdM&sid=VtBgIdrTfzraJnLhAAAA HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:02:55] "GET /socket.io/?EIO=4&transport=polling&t=Q5OJvdN&sid=VtBgIdrTfzraJnLhAAAA HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:02:55] "GET /pictures/placeholder_3.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:55] "GET /pictures/placeholder_5.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:55] "GET /pictures/placeholder_4.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:55] "GET /pictures/placeholder_1.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:55] "GET /pictures/placeholder_6.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:55] "GET /pictures/placeholder_2.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:55] "GET /img/grey/play.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:02:55] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET / HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /style.css HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /jquery-3.7.1.min.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /socket.io.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /js-yaml.min.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /img/white/linght.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /img/white/capture.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /img/white/pan_pointer.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /img/grey/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /font/woff2/SourceCodePro-Regular.otf.woff2 HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /img/white/pan_scale.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /img/white/tilt_scale.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /img/white/focus.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /img/grey/record.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /img/grey/movtion.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /img/grey/zoom.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /img/grey/faces.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /img/grey/capture.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /img/white/tilt_pointer.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /control.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /video_feed HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /main.js HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /img/white/none.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /img/white/movtion_arrow.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /socket.io/?EIO=4&transport=polling&t=Q5OKEN1 HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /config HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /get_photo_names HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /getAudioFiles HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /get_video_names HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "POST /socket.io/?EIO=4&transport=polling&t=Q5OKEPv&sid=XuyHzJ1otsO7_YjHAAAD HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /socket.io/?EIO=4&transport=polling&t=Q5OKEPw&sid=XuyHzJ1otsO7_YjHAAAD HTTP/1.1" 200 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /img/white/pause.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:20] "GET /img/white/baterry.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:21] "GET /img/white/setting.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:21] "GET /img/white/zoom.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:21] "GET /img/white/record.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:21] "GET /img/white/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:21] "GET /img/white/movtion.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:21] "GET /img/white/faces.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:21] "GET /img/grey/delete.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:21] "GET /img/white/delete.svg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:21] "GET /pictures/placeholder_5.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:21] "GET /pictures/placeholder_3.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:21] "GET /pictures/placeholder_4.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:21] "GET /pictures/placeholder_1.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:21] "GET /pictures/placeholder_6.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:21] "GET /pictures/placeholder_2.jpg HTTP/1.1" 304 -
+192.168.50.220 - - [01/Jan/1970 08:04:21] "GET /img/grey/play.svg HTTP/1.1" 304 -
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:42.108638    2290 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.114100    2285 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:42.137297    2286 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+W0000 00:00:42.235331    2293 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+Press CTRL+C to quit
+W0000 00:00:42.257121    2294 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+  File "/home/jetson/ugv_jetson/os_info.py", line 93, in run
+  File "/home/jetson/ugv_jetson/os_info.py", line 51, in get_info_jtop
+  File "/usr/local/lib/python3.10/dist-packages/jtop/jtop.py", line 1277, in __enter__
+  File "/usr/local/lib/python3.10/dist-packages/jtop/jtop.py", line 1113, in start
+  File "/usr/lib/python3.10/multiprocessing/managers.py", line 531, in connect
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 502, in Client
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 628, in SocketClient
+  File "/usr/lib/python3.10/socket.py", line 232, in __init__
+OSError: [Errno 24] Too many open files
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:43.216493    2385 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.222012    2380 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.241721    2383 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+W0000 00:00:43.339976    2391 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:43.363603    2395 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET / HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /js-yaml.min.js HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /jquery-3.7.1.min.js HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /socket.io.js HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /control.js HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /style.css HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /main.js HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /config HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /get_video_names HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /get_photo_names HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /socket.io/?EIO=4&transport=polling&t=Q5P8kmc HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /getAudioFiles HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /img/white/baterry.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /img/white/none.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /img/white/movtion_arrow.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /img/white/linght.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /img/white/tilt_pointer.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /video_feed HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /img/white/pan_scale.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /font/woff2/SourceCodePro-Regular.otf.woff2 HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /img/grey/record.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /img/white/pan_pointer.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:01] "GET /img/white/tilt_scale.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:02] "GET /img/white/capture.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:02] "GET /img/white/focus.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:02] "GET /img/grey/zoom.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:02] "GET /img/grey/ctrl_arrow.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:02] "GET /img/white/pause.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:02] "GET /img/grey/faces.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:02] "GET /img/grey/movtion.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:02] "GET /img/white/setting.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:02] "GET /img/grey/capture.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:02] "GET /img/white/record.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:02] "GET /img/white/ctrl_arrow.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:02] "GET /img/white/zoom.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:02] "GET /img/white/faces.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:02] "GET /img/white/movtion.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:02] "GET /img/white/delete.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:02] "GET /img/grey/delete.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:03] "POST /socket.io/?EIO=4&transport=polling&t=Q5P8lDf&sid=uidtmgaG3YhQnVnlAAAA HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:03] "GET /socket.io/?EIO=4&transport=polling&t=Q5P8lDh&sid=uidtmgaG3YhQnVnlAAAA HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:03] "GET /pictures/placeholder_5.jpg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:03] "GET /pictures/placeholder_3.jpg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:03] "GET /pictures/placeholder_1.jpg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:03] "GET /pictures/placeholder_4.jpg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:03] "POST /socket.io/?EIO=4&transport=polling&t=Q5P8lFF&sid=uidtmgaG3YhQnVnlAAAA HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:03] "GET /pictures/placeholder_6.jpg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:03] "GET /pictures/placeholder_2.jpg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:03] "GET /img/grey/play.svg HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:47:04] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.168.169 - - [20/Oct/2026 19:54:35] "POST /stop_audio HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 19:54:43] "GET /img/white/play.svg HTTP/1.1" 200 -
+Killed
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:44.351679    2438 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.357492    2435 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.376940    2435 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.7:5000
+Press CTRL+C to quit
+W0000 00:00:44.481374    2445 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:44.504089    2449 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET / HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /jquery-3.7.1.min.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /js-yaml.min.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /style.css HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /socket.io.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /control.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /main.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /config HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /get_photo_names HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /socket.io/?EIO=4&transport=polling&t=Q5PI1l9 HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /get_video_names HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /getAudioFiles HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /img/white/movtion_arrow.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /img/white/none.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /img/white/linght.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /img/white/baterry.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /img/white/capture.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /img/grey/movtion.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:38] "GET /img/white/tilt_pointer.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /font/woff2/SourceCodePro-Regular.otf.woff2 HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/white/focus.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /video_feed HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/grey/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/white/pan_scale.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/white/pan_pointer.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/white/tilt_scale.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/grey/record.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/grey/capture.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/white/pause.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/white/setting.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/grey/faces.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/grey/zoom.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/white/record.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/white/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/white/zoom.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/white/faces.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/white/movtion.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/white/delete.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:39] "GET /img/grey/delete.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:44] "POST /socket.io/?EIO=4&transport=polling&t=Q5PI34a&sid=09A5HdUTg-ohtr_5AAAA HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:27:44] "GET /socket.io/?EIO=4&transport=polling&t=Q5PI34b&sid=09A5HdUTg-ohtr_5AAAA HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:27:44] "GET /pictures/placeholder_5.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:44] "GET /pictures/placeholder_3.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:44] "GET /pictures/placeholder_4.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:44] "GET /pictures/placeholder_1.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:44] "GET /pictures/placeholder_2.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:44] "GET /pictures/placeholder_6.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:44] "GET /img/grey/play.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:27:44] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.168.169 - - [20/Oct/2026 20:28:58] "GET /img/white/play.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:29:08] "GET /socket.io/?EIO=4&transport=websocket&sid=09A5HdUTg-ohtr_5AAAA HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET / HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /jquery-3.7.1.min.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /style.css HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /control.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /socket.io.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /js-yaml.min.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /main.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /video_feed HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /config HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /socket.io/?EIO=4&transport=polling&t=Q5PNT8b HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /get_photo_names HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /get_video_names HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /getAudioFiles HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/none.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/movtion_arrow.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /font/woff2/SourceCodePro-Regular.otf.woff2 HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/baterry.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/linght.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/tilt_pointer.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/grey/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/pan_scale.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/pan_pointer.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/capture.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/tilt_scale.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/focus.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/grey/record.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/grey/movtion.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/grey/zoom.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/grey/faces.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/grey/capture.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/setting.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/pause.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/zoom.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/record.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/movtion.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/faces.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/white/delete.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:21] "GET /img/grey/delete.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:27] "POST /socket.io/?EIO=4&transport=polling&t=Q5PNUVL&sid=1X5CZT4RCuqfuAedAAAD HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:51:27] "GET /socket.io/?EIO=4&transport=polling&t=Q5PNUVL.0&sid=1X5CZT4RCuqfuAedAAAD HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:51:27] "GET /pictures/placeholder_3.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:27] "GET /pictures/placeholder_5.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:27] "GET /pictures/placeholder_4.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:27] "GET /pictures/placeholder_6.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:27] "GET /pictures/placeholder_2.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:27] "GET /pictures/placeholder_1.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:27] "POST /socket.io/?EIO=4&transport=polling&t=Q5PNUcC&sid=1X5CZT4RCuqfuAedAAAD HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:51:27] "GET /img/grey/play.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:51:27] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.168.169 - - [20/Oct/2026 20:54:40] "GET /img/white/play.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:54:44] "GET /settings.html HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:54:45] "GET /style.css HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:54:45] "GET /socket.io.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:54:45] "GET /js-yaml.min.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:54:45] "GET /jquery-3.7.1.min.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:54:46] "GET /font/woff2/SourceCodePro-Regular.otf.woff2 HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:54:46] "GET /control.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:54:46] "GET /config HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:54:46] "GET /get_video_names HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:54:46] "GET /socket.io/?EIO=4&transport=polling&t=Q5POF1W HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:54:46] "GET /get_photo_names HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:54:46] "POST /socket.io/?EIO=4&transport=polling&t=Q5POF32&sid=pspWy7cc5U78CM-MAAAG HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:54:46] "GET /socket.io/?EIO=4&transport=polling&t=Q5POF33&sid=pspWy7cc5U78CM-MAAAG HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:54:46] "GET /socket.io/?EIO=4&transport=polling&t=Q5POFCe&sid=pspWy7cc5U78CM-MAAAG HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:54:53] "GET /socket.io/?EIO=4&transport=websocket&sid=1X5CZT4RCuqfuAedAAAD HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:55:17] "GET / HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:55:17] "GET /jquery-3.7.1.min.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:17] "GET /js-yaml.min.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:17] "GET /style.css HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:17] "GET /video_feed HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:55:17] "GET /socket.io.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:17] "GET /control.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/white/movtion_arrow.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /main.js HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /font/woff2/SourceCodePro-Regular.otf.woff2 HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/white/none.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/white/baterry.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/white/linght.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/white/tilt_pointer.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/white/tilt_scale.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/white/focus.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/white/pan_scale.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/grey/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/white/pan_pointer.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/white/capture.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/grey/record.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/grey/zoom.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/grey/movtion.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/grey/faces.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/grey/capture.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /config HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /getAudioFiles HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /socket.io/?EIO=4&transport=polling&t=Q5POMn8 HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /get_video_names HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /get_photo_names HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/white/pause.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/white/zoom.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/white/setting.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "GET /img/white/record.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:18] "POST /socket.io/?EIO=4&transport=polling&t=Q5POMrR&sid=Pcc4AXT4b-T3pVMbAAAJ HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:55:19] "POST /socket.io/?EIO=4&transport=polling&t=Q5PON2X&sid=Pcc4AXT4b-T3pVMbAAAJ HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:55:19] "GET /socket.io/?EIO=4&transport=polling&t=Q5POMrS&sid=Pcc4AXT4b-T3pVMbAAAJ HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 20:55:19] "GET /img/white/ctrl_arrow.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:19] "GET /img/white/faces.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:19] "GET /img/white/movtion.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:19] "GET /img/white/delete.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:19] "GET /img/grey/delete.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:19] "GET /img/grey/play.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:19] "GET /pictures/placeholder_3.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:19] "GET /pictures/placeholder_5.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:19] "GET /pictures/placeholder_1.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:19] "GET /pictures/placeholder_6.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:19] "GET /pictures/placeholder_4.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:19] "GET /pictures/placeholder_2.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 20:55:57] "GET /socket.io/?EIO=4&transport=websocket&sid=pspWy7cc5U78CM-MAAAG HTTP/1.1" 200 -
+192.168.168.169 - - [20/Oct/2026 21:00:15] "GET /img/white/play.svg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 21:00:16] "GET /pictures/placeholder_1.jpg HTTP/1.1" 304 -
+192.168.168.169 - - [20/Oct/2026 21:07:21] "GET /socket.io/?EIO=4&transport=websocket&sid=Pcc4AXT4b-T3pVMbAAAJ HTTP/1.1" 200 -
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+  File "/home/jetson/ugv_jetson/os_info.py", line 98, in run
+  File "/home/jetson/ugv_jetson/os_info.py", line 59, in get_ip_address
+OSError: [Errno 24] Too many open files
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+No PulseAudio daemon running, or not running as session daemon.
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+Failed to create secure directory (/run/user/1000/pulse): No such file or directory
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:41.584626    2471 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:41.590952    2465 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:41.609798    2465 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+Error: Command '['pacmd', 'set-default-sink', 'alsa_output.usb-Solid_State_System_Co._Ltd._USB_PnP_Audio_Device_000000000000-00.analog-stereo']' returned non-zero exit status 1.
+pygame 2.5.2 (SDL 2.28.3, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+audio usb connected
+base -c {"T":4,"cmd":0}
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.7:5000
+Press CTRL+C to quit
+W0000 00:00:41.705875    2478 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:41.730917    2482 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Killed

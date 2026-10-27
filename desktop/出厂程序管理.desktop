@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=出厂程序管理
+Comment=出厂 Web 主程序(占相机)/JupyterLab 的停止、禁用自启与恢复
+Exec=gnome-terminal --window --title=出厂程序管理 -- bash -lc /home/jetson/ugv_factory_menu.sh
+Icon=system-run
+Terminal=false
+Categories=Utility;
+StartupNotify=true

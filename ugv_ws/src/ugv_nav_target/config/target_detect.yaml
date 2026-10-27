@@ -1,0 +1,32 @@
+/target_detector:
+  ros__parameters:
+    # 图像话题（ugv_vision OAK-D Lite 相机）
+    image_topic: /oak/rgb/image_rect
+    # 与 RGB 对齐的深度图（由 oak_camera_aligned.launch.py 开启）
+    depth_topic: /oak/stereo/image_raw
+    camera_info_topic: /oak/rgb/camera_info
+    # 输出话题
+    annotated_topic: /target_detector/annotated_image
+    pose_topic: /target_detector/target_pose
+    # 目标位置要变换到哪个坐标系（map = 已建地图的全局系）
+    target_frame: map
+    # 目标在画面中至少占这么多像素才被识别（调大可以减少误检）
+    min_area_px: 300
+    # 连续多少帧稳定识别后才发布目标（防止误触发）
+    stable_frames: 5
+    # 有效深度范围（米）。上限收紧到 4m：更远的红色干扰物深度无效，
+    # 深度优先选择会跳过它们，只追近距离的真目标
+    min_depth_m: 0.1
+    max_depth_m: 4.0
+    # HSV 颜色范围：扁平列表，每 6 个数一组 [H低,S低,V低,H高,S高,V高]。默认检测红色（两组）。
+    # 改颜色时按组修改；单组范围就只写 6 个数。
+    # 例：绿色 [35,80,80,85,255,255]；蓝色 [100,120,70,130,255,255]；黄色 [20,120,120,40,255,255]
+    hsv_ranges: [0,120,70,10,255,255,170,120,70,180,255,255]
+
+/goal_sender:
+  ros__parameters:
+    pose_topic: /target_detector/target_pose
+    action_name: /navigate_to_pose
+    # 目标移动超过这个距离（米）就重新规划
+    replan_move_threshold: 0.3
+    arrive_threshold: 0.35

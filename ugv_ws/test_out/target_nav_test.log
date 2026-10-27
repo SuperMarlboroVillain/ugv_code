@@ -1,0 +1,37 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-10-27-10-45-54-445797-ubuntu-12216
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [target_detector-1]: process started with pid [12217]
+[INFO] [goal_sender-2]: process started with pid [12219]
+[goal_sender-2] [INFO] [1793069155.129155761] [goal_sender]: 等待目标位置 (/target_detector/target_pose)，导航动作: /navigate_to_pose
+[target_detector-1] [INFO] [1793069155.240355906] [target_detector]: 识别颜色范围 HSV: [[100, 120, 70, 130, 255, 255]]
+[target_detector-1] [INFO] [1793069155.260021476] [target_detector]: 等待图像: /oak/rgb/image_rect  深度: /oak/stereo/image_raw  相机信息: /oak/rgb/camera_info
+[target_detector-1] [INFO] [1793069167.760452875] [target_detector]: [在线调参] HSV 已更新: [[35, 80, 80, 85, 255, 255]]
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [goal_sender-2]: sending signal 'SIGINT' to process[goal_sender-2]
+[INFO] [target_detector-1]: sending signal 'SIGINT' to process[target_detector-1]
+[goal_sender-2] Traceback (most recent call last):
+[goal_sender-2]   File "/home/ws/ugv_ws/install/ugv_nav_target/lib/ugv_nav_target/goal_sender", line 33, in <module>
+[goal_sender-2]     sys.exit(load_entry_point('ugv-nav-target', 'console_scripts', 'goal_sender')())
+[goal_sender-2]   File "/home/ws/ugv_ws/build/ugv_nav_target/ugv_nav_target/goal_sender.py", line 138, in main
+[goal_sender-2]     rclpy.shutdown()
+[goal_sender-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 126, in shutdown
+[goal_sender-2]     _shutdown(context=context)
+[goal_sender-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[goal_sender-2]     return context.shutdown()
+[goal_sender-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[goal_sender-2]     self.__context.shutdown()
+[goal_sender-2] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[target_detector-1] Traceback (most recent call last):
+[target_detector-1]   File "/home/ws/ugv_ws/install/ugv_nav_target/lib/ugv_nav_target/target_detector", line 33, in <module>
+[target_detector-1]     sys.exit(load_entry_point('ugv-nav-target', 'console_scripts', 'target_detector')())
+[target_detector-1]   File "/home/ws/ugv_ws/build/ugv_nav_target/ugv_nav_target/target_detector.py", line 345, in main
+[target_detector-1]     rclpy.shutdown()
+[target_detector-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 126, in shutdown
+[target_detector-1]     _shutdown(context=context)
+[target_detector-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[target_detector-1]     return context.shutdown()
+[target_detector-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[target_detector-1]     self.__context.shutdown()
+[target_detector-1] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[ERROR] [goal_sender-2]: process has died [pid 12219, exit code 1, cmd '/home/ws/ugv_ws/install/ugv_nav_target/lib/ugv_nav_target/goal_sender --ros-args -r __node:=goal_sender --params-file /home/ws/ugv_ws/install/ugv_nav_target/share/ugv_nav_target/config/target_detect.yaml'].
+[ERROR] [target_detector-1]: process has died [pid 12217, exit code 1, cmd '/home/ws/ugv_ws/install/ugv_nav_target/lib/ugv_nav_target/target_detector --ros-args -r __node:=target_detector --params-file /home/ws/ugv_ws/install/ugv_nav_target/share/ugv_nav_target/config/target_detect.yaml --params-file /tmp/launch_params_gjmtn7kk'].

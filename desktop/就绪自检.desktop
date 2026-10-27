@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=就绪自检
+Comment=UGV 上电检查：显示器/键鼠/磁盘/容器/四路USB/相机占用，全过再进实验
+Exec=gnome-terminal --window --title=就绪自检 -- bash -lc /home/jetson/ugv_selfcheck_gui.sh
+Icon=utilities-terminal
+Terminal=false
+Categories=Utility;
+StartupNotify=true

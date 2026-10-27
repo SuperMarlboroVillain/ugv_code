@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=会话模式
+Comment=UGV 会话模式切换：BENCH/ROS2/OPENCV/MANUAL 互斥，切换时自动释放相机与底盘
+Exec=gnome-terminal --window --title=会话模式 --maximize -- bash -lc /home/jetson/ugv_mode_menu.sh
+Icon=preferences-system
+Terminal=false
+Categories=Utility;
+StartupNotify=true

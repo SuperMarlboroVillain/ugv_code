@@ -1,0 +1,2 @@
+#[factory-disabled] @reboot sleep 3 && whoami && pulseaudio --start && sleep 2 && XDG_RUNTIME_DIR=/run/user/1000 ~/ugv_jetson/ugv-env/bin/python ~/ugv_jetson/app.py >> ~/ugv.log 2>&1
+*/5 * * * * /home/jetson/auto_save_map.sh

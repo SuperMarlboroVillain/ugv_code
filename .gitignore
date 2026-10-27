@@ -1,0 +1,12 @@
+# colcon build artifacts (regenerable, see README.txt)
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS / editor
+.DS_Store
+Thumbs.db

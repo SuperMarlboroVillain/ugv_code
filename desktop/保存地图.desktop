@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=保存地图
+Comment=保存 UGV 正式地图（map.pgm/yaml/pbstream 到 ugv_nav/maps/；必须先开着建图再点！）
+Exec=/home/jetson/ugv_save_map_now.sh
+Icon=document-save
+Terminal=false
+Categories=Utility;
+StartupNotify=true

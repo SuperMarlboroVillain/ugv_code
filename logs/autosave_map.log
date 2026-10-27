@@ -1,0 +1,143 @@
+2026-10-22_16:15:03 autosave...
+[INFO] [1792656905.355407465] [map_saver]: 
+	map_saver lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1792656905.355769042] [map_saver]: Creating
+[INFO] [1792656905.356425347] [map_saver]: Configuring
+[INFO] [1792656905.360636430] [map_saver]: Saving map from 'map' topic to '/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_161504' file
+[WARN] [1792656905.360716976] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[WARN] [1792656905.361115738] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[WARN] [map_io]: Image format unspecified. Setting it to: pgm
+[INFO] [map_io]: Received a 230 X 277 map @ 0.05 m/pix
+[INFO] [map_io]: Writing map occupancy data to /home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_161504.pgm
+[INFO] [map_io]: Writing map metadata to /home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_161504.yaml
+[INFO] [map_io]: Map saved
+[INFO] [1792656906.423870873] [map_saver]: Map saved successfully
+[INFO] [1792656906.427365587] [map_saver]: Destroying
+waiting for service to become available...
+requester: making request: cartographer_ros_msgs.srv.WriteState_Request(filename='/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_161504.pbstream', include_unfinished_submaps=False)
+
+response:
+cartographer_ros_msgs.srv.WriteState_Response(status=cartographer_ros_msgs.msg.StatusResponse(code=0, message="State written to '/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_161504.pbstream'."))
+
+2026-10-22_16:20:03 autosave...
+[INFO] [1792657205.670545178] [map_saver]: 
+	map_saver lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1792657205.670962031] [map_saver]: Creating
+[INFO] [1792657205.671367428] [map_saver]: Configuring
+[INFO] [1792657205.677519357] [map_saver]: Saving map from 'map' topic to '/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_162004' file
+[WARN] [1792657205.677999125] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[WARN] [1792657205.678205728] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[WARN] [map_io]: Image format unspecified. Setting it to: pgm
+[INFO] [map_io]: Received a 518 X 429 map @ 0.05 m/pix
+[INFO] [map_io]: Writing map occupancy data to /home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_162004.pgm
+[INFO] [map_io]: Writing map metadata to /home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_162004.yaml
+[INFO] [map_io]: Map saved
+[INFO] [1792657206.241156045] [map_saver]: Map saved successfully
+[INFO] [1792657206.243234135] [map_saver]: Destroying
+requester: making request: cartographer_ros_msgs.srv.WriteState_Request(filename='/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_162004.pbstream', include_unfinished_submaps=False)
+
+response:
+cartographer_ros_msgs.srv.WriteState_Response(status=cartographer_ros_msgs.msg.StatusResponse(code=0, message="State written to '/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_162004.pbstream'."))
+
+2026-10-22_16:25:03 autosave...
+[INFO] [1792657505.238200042] [map_saver]: 
+	map_saver lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1792657505.238978662] [map_saver]: Creating
+[INFO] [1792657505.239440772] [map_saver]: Configuring
+[INFO] [1792657505.243272373] [map_saver]: Saving map from 'map' topic to '/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_162504' file
+[WARN] [1792657505.243611891] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[WARN] [1792657505.243797267] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[WARN] [map_io]: Image format unspecified. Setting it to: pgm
+[INFO] [map_io]: Received a 517 X 433 map @ 0.05 m/pix
+[INFO] [map_io]: Writing map occupancy data to /home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_162504.pgm
+[INFO] [map_io]: Writing map metadata to /home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_162504.yaml
+[INFO] [map_io]: Map saved
+[INFO] [1792657506.258675147] [map_saver]: Map saved successfully
+[INFO] [1792657506.261741087] [map_saver]: Destroying
+requester: making request: cartographer_ros_msgs.srv.WriteState_Request(filename='/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_162504.pbstream', include_unfinished_submaps=False)
+
+response:
+cartographer_ros_msgs.srv.WriteState_Response(status=cartographer_ros_msgs.msg.StatusResponse(code=0, message="State written to '/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_162504.pbstream'."))
+
+2026-10-22_16:30:03 autosave...
+[INFO] [1792657805.965032882] [map_saver]: 
+	map_saver lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1792657805.965480892] [map_saver]: Creating
+[INFO] [1792657805.965662016] [map_saver]: Configuring
+[INFO] [1792657805.976849366] [map_saver]: Saving map from 'map' topic to '/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_163005' file
+[WARN] [1792657805.977000953] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[WARN] [1792657805.977028474] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[WARN] [map_io]: Image format unspecified. Setting it to: pgm
+[INFO] [map_io]: Received a 518 X 436 map @ 0.05 m/pix
+[INFO] [map_io]: Writing map occupancy data to /home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_163005.pgm
+[INFO] [map_io]: Writing map metadata to /home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_163005.yaml
+[INFO] [map_io]: Map saved
+[INFO] [1792657806.318672772] [map_saver]: Map saved successfully
+[INFO] [1792657806.322531673] [map_saver]: Destroying
+requester: making request: cartographer_ros_msgs.srv.WriteState_Request(filename='/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_163005.pbstream', include_unfinished_submaps=False)
+
+response:
+cartographer_ros_msgs.srv.WriteState_Response(status=cartographer_ros_msgs.msg.StatusResponse(code=0, message="State written to '/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261022_163005.pbstream'."))
+
+2026-10-23_09:00:03 autosave...
+waiting for service to become available...
+requester: making request: cartographer_ros_msgs.srv.WriteState_Request(filename='/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261023_090004.pbstream', include_unfinished_submaps=False)
+
+response:
+cartographer_ros_msgs.srv.WriteState_Response(status=cartographer_ros_msgs.msg.StatusResponse(code=0, message="State written to '/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261023_090004.pbstream'."))
+
+I1023 09:00:08.250591  1016 pbstream_to_ros_map_main.cpp:44] Loading submap slices from serialized data.
+I1023 09:00:08.362481  1016 pbstream_to_ros_map_main.cpp:52] Generating combined map image from submap slices.
+2026-10-23_09:40:04 autosave...
+waiting for service to become available...
+requester: making request: cartographer_ros_msgs.srv.WriteState_Request(filename='/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261023_094005.pbstream', include_unfinished_submaps=False)
+
+response:
+cartographer_ros_msgs.srv.WriteState_Response(status=cartographer_ros_msgs.msg.StatusResponse(code=0, message="State written to '/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261023_094005.pbstream'."))
+
+I1023 09:40:18.397527  3752 pbstream_to_ros_map_main.cpp:44] Loading submap slices from serialized data.
+I1023 09:40:18.399672  3752 pbstream_to_ros_map_main.cpp:52] Generating combined map image from submap slices.
+F1023 09:40:18.400132  3752 image.cc:55] Check failed: cairo_image_surface_get_format(surface.get()) == kCairoFormat (-1 vs. 0) 
+*** Check failure stack trace: ***
+    @     0xffff88e8d41c  google::LogMessage::Fail()
+    @     0xffff88e946d0  google::LogMessage::SendToLog()
+    @     0xffff88e8d0f4  google::LogMessage::Flush()
+    @     0xffff88e8eebc  google::LogMessageFatal::~LogMessageFatal()
+    @     0xaaaae1731248  (unknown)
+    @     0xaaaae1730010  (unknown)
+    @     0xaaaae172e278  (unknown)
+    @     0xffff885873fc  (unknown)
+    @     0xffff885874cc  __libc_start_main
+    @     0xaaaae172f630  (unknown)
+[ros2run]: Aborted
+2026-10-23_09:40:18 FAILED
+2026-10-23_10:05:03 autosave...
+waiting for service to become available...
+requester: making request: cartographer_ros_msgs.srv.WriteState_Request(filename='/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261023_100504.pbstream', include_unfinished_submaps=False)
+
+response:
+cartographer_ros_msgs.srv.WriteState_Response(status=cartographer_ros_msgs.msg.StatusResponse(code=0, message="State written to '/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261023_100504.pbstream'."))
+
+I1023 10:05:09.156085  7128 pbstream_to_ros_map_main.cpp:44] Loading submap slices from serialized data.
+I1023 10:05:09.172132  7128 pbstream_to_ros_map_main.cpp:52] Generating combined map image from submap slices.
+2026-10-23_10:10:03 autosave...
+waiting for service to become available...
+requester: making request: cartographer_ros_msgs.srv.WriteState_Request(filename='/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261023_101004.pbstream', include_unfinished_submaps=False)
+
+response:
+cartographer_ros_msgs.srv.WriteState_Response(status=cartographer_ros_msgs.msg.StatusResponse(code=0, message="State written to '/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261023_101004.pbstream'."))
+
+I1023 10:10:07.283530  7588 pbstream_to_ros_map_main.cpp:44] Loading submap slices from serialized data.
+I1023 10:10:07.364666  7588 pbstream_to_ros_map_main.cpp:52] Generating combined map image from submap slices.
+2026-10-23_10:15:03 autosave...
+waiting for service to become available...
+context canceled
+2026-10-23_10:18:03 FAILED

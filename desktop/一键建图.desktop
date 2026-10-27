@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=一键建图
+Comment=启动 UGV 扫图：Cartographer 建图 + 键盘遥控（扫图前请关闭 Chrome）
+Exec=/home/jetson/ugv_start_mapping.sh
+Icon=utilities-terminal
+Terminal=false
+Categories=Utility;
+StartupNotify=true
