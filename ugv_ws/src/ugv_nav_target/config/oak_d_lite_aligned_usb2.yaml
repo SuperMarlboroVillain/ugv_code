@@ -1,0 +1,25 @@
+/oak:
+  ros__parameters:
+    camera:
+      i_enable_imu: false
+      i_enable_ir: false
+      i_nn_type: none
+      # OAK 在 USB 2.0 总线上会随机出现 X_LINK_ERROR 掉线；
+      # 开启诊断错误自动重启，断流后驱动自动重连，无需手动重启。
+      i_restart_on_diagnostics_error: true
+      # 发布相机外参 TF（3d_camera_link → oak 各光心坐标系），
+      # target_detector 的 像素坐标→map 变换链需要
+      i_publish_tf_from_calibration: true
+      i_tf_base_frame: oak
+      i_tf_parent_frame: 3d_camera_link
+    rgb:
+      # USB 2.0 带宽有限，限制帧率降低总线压力（驱动自身也会限速，这里显式压低）
+      i_fps: 5.0
+    left:
+      i_fps: 5.0
+    right:
+      i_fps: 5.0
+    stereo:
+      i_subpixel: true
+      # 让深度图与 RGB 图像对齐（目标识别需要同一像素在两张图里对应同一物体）
+      i_align_depth: true

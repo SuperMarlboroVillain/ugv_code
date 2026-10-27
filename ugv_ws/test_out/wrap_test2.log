@@ -1,0 +1,88 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-10-27-13-05-24-232214-ubuntu-18143
+[INFO] [launch]: Default logging verbosity is set to INFO
+建图已启动(pid 18143)。扫完后在本窗口按 Ctrl+C：将先自动保存地图[wraptest2]再停止（约 5~15 秒）。
+（保存名称可改: mapping_autosave_wrap.sh 名称 load_state:=...）
+[INFO] [robot_pose_publisher-9]: process started with pid [18176]
+[INFO] [robot_state_publisher-1]: process started with pid [18147]
+[INFO] [joint_state_publisher-2]: process started with pid [18149]
+[INFO] [ugv_bringup-3]: process started with pid [18151]
+[INFO] [ugv_driver-4]: process started with pid [18153]
+[INFO] [ldlidar_node-5]: process started with pid [18155]
+[INFO] [rf2o_laser_odometry_node-6]: process started with pid [18157]
+[INFO] [cmd_vel_watchdog-7]: process started with pid [18159]
+[INFO] [base_node-8]: process started with pid [18165]
+[INFO] [cartographer_node-10]: process started with pid [18191]
+[INFO] [cartographer_occupancy_grid_node-11]: process started with pid [18203]
+[INFO] [joy_node-12]: process started with pid [18205]
+[INFO] [joy_teleop-13]: process started with pid [18216]
+[robot_state_publisher-1] [WARN] [1793077525.938725074] [robot_state_publisher]: No robot_description parameter, but command-line argument available.  Assuming argument is name of URDF file.  This backwards compatibility fallback will be removed in the future.
+[rf2o_laser_odometry_node-6] [WARN] [1793077525.975748337] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[rf2o_laser_odometry_node-6] [INFO] [1793077526.018254763] [rf2o_laser_odometry]: Initializing RF2O node...
+[ldlidar_node-5] [INFO] [1793077526.073760139] [LD19]: LDLiDAR SDK Pack Version is: v3.0.3
+[ldlidar_node-5] [INFO] [1793077526.074009121] [LD19]: <product_name>: LDLiDAR_LD19
+[ldlidar_node-5] [INFO] [1793077526.074036227] [LD19]: <topic_name>: scan
+[ldlidar_node-5] [INFO] [1793077526.074046948] [LD19]: <frame_id>: base_lidar_link
+[ldlidar_node-5] [INFO] [1793077526.074056069] [LD19]: <port_name>: /dev/ttyACM0
+[ldlidar_node-5] [INFO] [1793077526.074066982] [LD19]: <port_baudrate>: 230400
+[ldlidar_node-5] [INFO] [1793077526.074077159] [LD19]: <laser_scan_dir>: Counterclockwise
+[ldlidar_node-5] [INFO] [1793077526.074085064] [LD19]: <enable_angle_crop_func>: true
+[ldlidar_node-5] [INFO] [1793077526.074092968] [LD19]: <angle_crop_min>: 225.000000
+[ldlidar_node-5] [INFO] [1793077526.074111914] [LD19]: <angle_crop_max>: 315.000000
+[ldlidar_node-5] [INFO] [1793077526.077072234] [LD19]: ldlidar node start is success
+[rf2o_laser_odometry_node-6] [WARN] [1793077526.077313663] [rf2o_laser_odometry]: Waiting for laser_scans....
+[ldlidar_node-5] [INFO] [1793077526.088215342] [LD19]: ldlidar communication is normal.
+[ldlidar_node-5] [INFO] [1793077526.101993909] [LD19]: Publish topic message:ldlidar scan data.
+[robot_state_publisher-1] [INFO] [1793077526.276586705] [robot_state_publisher]: got segment 3d_camera_link
+[robot_state_publisher-1] [INFO] [1793077526.278741739] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-1] [INFO] [1793077526.280043868] [robot_state_publisher]: got segment base_imu_link
+[robot_state_publisher-1] [INFO] [1793077526.281129337] [robot_state_publisher]: got segment base_lidar_link
+[robot_state_publisher-1] [INFO] [1793077526.282189685] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1793077526.283052288] [robot_state_publisher]: got segment left_down_wheel_link
+[robot_state_publisher-1] [INFO] [1793077526.284272425] [robot_state_publisher]: got segment left_up_wheel_link
+[robot_state_publisher-1] [INFO] [1793077526.285314531] [robot_state_publisher]: got segment pt_base_link
+[robot_state_publisher-1] [INFO] [1793077526.287048697] [robot_state_publisher]: got segment pt_camera_link
+[robot_state_publisher-1] [INFO] [1793077526.287076380] [robot_state_publisher]: got segment pt_link1
+[robot_state_publisher-1] [INFO] [1793077526.287087261] [robot_state_publisher]: got segment pt_link2
+[robot_state_publisher-1] [INFO] [1793077526.287095389] [robot_state_publisher]: got segment right_down_wheel_link
+[robot_state_publisher-1] [INFO] [1793077526.287104062] [robot_state_publisher]: got segment right_up_wheel_link
+[cartographer_node-10] [INFO] [1793077526.288581854] [cartographer logger]: I1027 13:05:26.000000 18191 configuration_file_resolver.cc:41] Found '/home/ws/ugv_ws/install/cartographer/share/cartographer/config/mapping_2d.lua' for 'mapping_2d.lua'.
+[cartographer_node-10] [INFO] [1793077526.289305885] [cartographer logger]: I1027 13:05:26.000000 18191 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.
+[cartographer_node-10] [INFO] [1793077526.289385700] [cartographer logger]: I1027 13:05:26.000000 18191 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.
+[cartographer_node-10] [INFO] [1793077526.289496301] [cartographer logger]: I1027 13:05:26.000000 18191 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.
+[cartographer_node-10] [INFO] [1793077526.289541809] [cartographer logger]: I1027 13:05:26.000000 18191 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.
+[cartographer_node-10] [INFO] [1793077526.289753795] [cartographer logger]: I1027 13:05:26.000000 18191 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.
+[cartographer_node-10] [INFO] [1793077526.289795783] [cartographer logger]: I1027 13:05:26.000000 18191 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.
+[cartographer_node-10] [INFO] [1793077526.289877358] [cartographer logger]: I1027 13:05:26.000000 18191 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.
+[cartographer_node-10] [INFO] [1793077526.289912305] [cartographer logger]: I1027 13:05:26.000000 18191 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.
+[cartographer_node-10] [INFO] [1793077526.290100449] [cartographer logger]: I1027 13:05:26.000000 18191 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.
+[cartographer_node-10] [INFO] [1793077526.290145573] [cartographer logger]: I1027 13:05:26.000000 18191 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.
+[cartographer_node-10] [INFO] [1793077526.392440820] [cartographer logger]: I1027 13:05:26.000000 18191 map_builder_bridge.cpp:136] Added trajectory with ID '0'.
+[rf2o_laser_odometry_node-6] [INFO] [1793077526.425653580] [rf2o_laser_odometry]: Got first Laser Scan .... Configuring node
+[cartographer_node-10] [INFO] [1793077526.703115624] [cartographer logger]: I1027 13:05:26.000000 18191 ordered_multi_queue.cc:172] All sensor data for trajectory 0 is available starting at '639286743268019945'.
+[cartographer_node-10] [INFO] [1793077526.847506608] [cartographer logger]: I1027 13:05:26.000000 18191 local_trajectory_builder_2d.cc:312] Extrapolator not yet initialized.
+[cartographer_node-10] [INFO] [1793077526.848308949] [cartographer logger]: I1027 13:05:26.000000 18191 local_trajectory_builder_2d.cc:135] Extrapolator is still initializing.
+[joy_teleop-13] [INFO] [1793077526.950651368] [joy_teleop]: joy_teleop 已启动，等待手柄输入...
+[cartographer_node-10] [INFO] [1793077526.950869755] [cartographer logger]: I1027 13:05:26.000000 18191 pose_graph_2d.cc:148] Inserted submap (0, 0).
+[cartographer_node-10] [WARN] [1793077527.148262453] [cartographer logger]: W1027 13:05:27.000000 18191 range_data_collator.cc:82] Dropped 1 earlier points.
+[cmd_vel_watchdog-7] [INFO] [1793077527.453510986] [cmd_vel_watchdog]: cmd_vel 看门狗启动: /cmd_vel -> /cmd_vel_safe, 超时 0.5s 自动归零
+[cartographer_node-10] [WARN] [1793077527.547345860] [cartographer logger]: W1027 13:05:27.000000 18191 range_data_collator.cc:82] Dropped 4 earlier points.
+[cartographer_node-10] [WARN] [1793077527.748391326] [cartographer logger]: W1027 13:05:27.000000 18191 range_data_collator.cc:82] Dropped 1 earlier points.
+[cartographer_node-10] [WARN] [1793077536.052004517] [cartographer logger]: W1027 13:05:36.000000 18191 range_data_collator.cc:82] Dropped 335 earlier points.
+[cartographer_node-10] [INFO] [1793077541.448950998] [cartographer logger]: I1027 13:05:41.000000 18191 collated_trajectory_builder.cc:81] odom rate: 10.00 Hz 1.00e-01 s +/- 5.47e-05 s (pulsed at 100.65% real time)
+[cartographer_node-10] [INFO] [1793077541.449083682] [cartographer logger]: I1027 13:05:41.000000 18191 collated_trajectory_builder.cc:81] scan rate: 9.93 Hz 1.01e-01 s +/- 1.86e-02 s (pulsed at 99.99% real time)
+[cartographer_node-10] [WARN] [1793077543.949155821] [cartographer logger]: W1027 13:05:43.000000 18191 range_data_collator.cc:82] Dropped 1 earlier points.
+
+===== 停止指令收到：正在自动保存地图 [wraptest2] =====
+[cartographer_node-10] [WARN] [1793077548.255300538] [cartographer logger]: W1027 13:05:48.000000 18191 range_data_collator.cc:82] Dropped 338 earlier points.
+waiting for service to become available...
+[cartographer_node-10] [WARN] [1793077549.150535491] [cartographer logger]: W1027 13:05:49.000000 18191 range_data_collator.cc:82] Dropped 3 earlier points.
+requester: making request: cartographer_ros_msgs.srv.WriteState_Request(filename='/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/wraptest2_saving_20261027_130546.pbstream', include_unfinished_submaps=True)
+
+response:
+cartographer_ros_msgs.srv.WriteState_Response(status=cartographer_ros_msgs.msg.StatusResponse(code=0, message="State written to '/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/wraptest2_saving_20261027_130546.pbstream'."))
+
+I1027 13:05:50.938906 18457 pbstream_to_ros_map_main.cpp:44] Loading submap slices from serialized data.
+I1027 13:05:50.949108 18457 pbstream_to_ros_map_main.cpp:52] Generating combined map image from submap slices.
+已保存: /home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/wraptest2.pgm / wraptest2.yaml / wraptest2.pbstream（pgm 59676 字节）
+===== 自动保存成功：ugv_nav/maps/wraptest2.pgm/.yaml/.pbstream =====
+（建图会话结束，地图已保存到 [wraptest2]）

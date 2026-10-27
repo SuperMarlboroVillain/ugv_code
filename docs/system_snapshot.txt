@@ -1,0 +1,35 @@
+# 系统状态快照 2026-10-27 10:58:20
+
+Linux ubuntu 5.15.136-tegra #1 SMP PREEMPT Mon May 6 09:56:39 PDT 2024 aarch64 aarch64 aarch64 GNU/Linux
+
+               total        used        free      shared  buff/cache   available
+Mem:           3.5Gi       2.1Gi        76Mi        20Mi       1.4Gi       1.2Gi
+Swap:          5.8Gi       485Mi       5.3Gi
+
+NAME       TYPE        SIZE  USED PRIO
+/swapfile  file          4G    0B    0
+/dev/zram0 partition 300.2M   82M    5
+/dev/zram1 partition 300.2M 81.3M    5
+/dev/zram2 partition 300.2M 80.4M    5
+/dev/zram3 partition 300.2M 79.7M    5
+/dev/zram4 partition 300.2M 80.7M    5
+/dev/zram5 partition 300.2M 81.5M    5
+
+active
+
+Filesystem       Size  Used Avail Use% Mounted on
+/dev/nvme0n1p15  232G   43G  181G  19% /
+/dev/nvme0n1p15  232G   43G  181G  19% /
+
+Bus 002 Device 002: ID 0bda:0489 Realtek Semiconductor Corp. 4-Port USB 3.0 Hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 003: ID 0bda:c822 Realtek Semiconductor Corp. Bluetooth Radio 
+Bus 001 Device 008: ID 1a86:55d3 QinHeng Electronics USB Single Serial
+Bus 001 Device 007: ID 0c76:1229 JMTek, LLC. USB PnP Audio Device
+Bus 001 Device 006: ID 1a40:0101 Terminus Technology Inc. Hub
+Bus 001 Device 005: ID 0abd:8050 Xitech USB Camera
+Bus 001 Device 010: ID 03e7:2485 Intel Movidius MyriadX
+Bus 001 Device 002: ID 0bda:5489 Realtek Semiconductor Corp. 4-Port USB 2.0 Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
+ugv_jetson_ros_humble Up 56 years

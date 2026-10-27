@@ -1,0 +1,723 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-10-27-13-40-10-057134-ubuntu-22703
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_pose_publisher-10]: process started with pid [22762]
+[INFO] [robot_state_publisher-1]: process started with pid [22716]
+[INFO] [joint_state_publisher-2]: process started with pid [22718]
+[INFO] [ugv_bringup-3]: process started with pid [22720]
+[INFO] [ugv_driver-4]: process started with pid [22722]
+[INFO] [ldlidar_node-5]: process started with pid [22724]
+[INFO] [rf2o_laser_odometry_node-6]: process started with pid [22726]
+[INFO] [cmd_vel_watchdog-7]: process started with pid [22736]
+[INFO] [base_node-8]: process started with pid [22755]
+[INFO] [component_container_isolated-9]: process started with pid [22758]
+[robot_state_publisher-1] [WARN] [1793079612.640987669] [robot_state_publisher]: No robot_description parameter, but command-line argument available.  Assuming argument is name of URDF file.  This backwards compatibility fallback will be removed in the future.
+[rf2o_laser_odometry_node-6] [WARN] [1793079612.636585111] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[rf2o_laser_odometry_node-6] [INFO] [1793079612.664755133] [rf2o_laser_odometry]: Initializing RF2O node...
+[ldlidar_node-5] [INFO] [1793079612.678048150] [LD19]: LDLiDAR SDK Pack Version is: v3.0.3
+[ldlidar_node-5] [INFO] [1793079612.678325140] [LD19]: <product_name>: LDLiDAR_LD19
+[ldlidar_node-5] [INFO] [1793079612.678350100] [LD19]: <topic_name>: scan
+[ldlidar_node-5] [INFO] [1793079612.678361172] [LD19]: <frame_id>: base_lidar_link
+[ldlidar_node-5] [INFO] [1793079612.678369492] [LD19]: <port_name>: /dev/ttyACM0
+[ldlidar_node-5] [INFO] [1793079612.678376787] [LD19]: <port_baudrate>: 230400
+[ldlidar_node-5] [INFO] [1793079612.678384339] [LD19]: <laser_scan_dir>: Counterclockwise
+[ldlidar_node-5] [INFO] [1793079612.678392499] [LD19]: <enable_angle_crop_func>: true
+[ldlidar_node-5] [INFO] [1793079612.678400627] [LD19]: <angle_crop_min>: 225.000000
+[ldlidar_node-5] [INFO] [1793079612.678419699] [LD19]: <angle_crop_max>: 315.000000
+[ldlidar_node-5] [INFO] [1793079612.680053575] [LD19]: ldlidar node start is success
+[ldlidar_node-5] [INFO] [1793079612.690084121] [LD19]: ldlidar communication is normal.
+[ldlidar_node-5] [INFO] [1793079612.696574503] [LD19]: Publish topic message:ldlidar scan data.
+[rf2o_laser_odometry_node-6] [WARN] [1793079612.734710016] [rf2o_laser_odometry]: Waiting for laser_scans....
+[robot_state_publisher-1] [INFO] [1793079612.838882554] [robot_state_publisher]: got segment 3d_camera_link
+[robot_state_publisher-1] [INFO] [1793079612.839121592] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-1] [INFO] [1793079612.839195895] [robot_state_publisher]: got segment base_imu_link
+[robot_state_publisher-1] [INFO] [1793079612.839234583] [robot_state_publisher]: got segment base_lidar_link
+[robot_state_publisher-1] [INFO] [1793079612.839244983] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1793079612.839252791] [robot_state_publisher]: got segment left_down_wheel_link
+[robot_state_publisher-1] [INFO] [1793079612.839260279] [robot_state_publisher]: got segment left_up_wheel_link
+[robot_state_publisher-1] [INFO] [1793079612.839267927] [robot_state_publisher]: got segment pt_base_link
+[robot_state_publisher-1] [INFO] [1793079612.839392214] [robot_state_publisher]: got segment pt_camera_link
+[robot_state_publisher-1] [INFO] [1793079612.839419734] [robot_state_publisher]: got segment pt_link1
+[robot_state_publisher-1] [INFO] [1793079612.839433494] [robot_state_publisher]: got segment pt_link2
+[robot_state_publisher-1] [INFO] [1793079612.841657764] [robot_state_publisher]: got segment right_down_wheel_link
+[robot_state_publisher-1] [INFO] [1793079612.841742244] [robot_state_publisher]: got segment right_up_wheel_link
+[rf2o_laser_odometry_node-6] [INFO] [1793079612.934904467] [rf2o_laser_odometry]: Got first Laser Scan .... Configuring node
+[component_container_isolated-9] [INFO] [1793079613.509424853] [nav2_container]: Load Library: /opt/ros/humble/lib/libmap_server_core.so
+[cmd_vel_watchdog-7] [INFO] [1793079613.568538728] [cmd_vel_watchdog]: cmd_vel 看门狗启动: /cmd_vel -> /cmd_vel_safe, 超时 0.5s 自动归零
+[component_container_isolated-9] [INFO] [1793079613.581980671] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::CostmapFilterInfoServer>
+[component_container_isolated-9] [INFO] [1793079613.582103390] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapSaver>
+[component_container_isolated-9] [INFO] [1793079613.582118814] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapServer>
+[component_container_isolated-9] [INFO] [1793079613.582129374] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapServer>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/map_server' in container '/nav2_container'
+[component_container_isolated-9] [INFO] [1793079613.643554014] [map_server]: 
+[component_container_isolated-9] 	map_server lifecycle node launched. 
+[component_container_isolated-9] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-9] [INFO] [1793079613.643685149] [map_server]: Creating
+[component_container_isolated-9] [INFO] [1793079613.645307921] [nav2_container]: Load Library: /opt/ros/humble/lib/libcontroller_server_core.so
+[component_container_isolated-9] [INFO] [1793079613.656716440] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_controller::ControllerServer>
+[component_container_isolated-9] [INFO] [1793079613.656823991] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_controller::ControllerServer>
+[component_container_isolated-9] [INFO] [1793079613.703314828] [controller_server]: 
+[component_container_isolated-9] 	controller_server lifecycle node launched. 
+[component_container_isolated-9] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-9] [INFO] [1793079613.731628463] [controller_server]: Creating controller server
+[component_container_isolated-9] [INFO] [1793079613.777913190] [local_costmap.local_costmap]: 
+[component_container_isolated-9] 	local_costmap lifecycle node launched. 
+[component_container_isolated-9] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-9] [INFO] [1793079613.785069870] [local_costmap.local_costmap]: Creating Costmap
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/controller_server' in container '/nav2_container'
+[component_container_isolated-9] [INFO] [1793079613.787336669] [nav2_container]: Load Library: /opt/ros/humble/lib/libamcl_core.so
+[component_container_isolated-9] [INFO] [1793079613.795859482] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_amcl::AmclNode>
+[component_container_isolated-9] [INFO] [1793079613.795946297] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_amcl::AmclNode>
+[component_container_isolated-9] [INFO] [1793079613.826190349] [amcl]: 
+[component_container_isolated-9] 	amcl lifecycle node launched. 
+[component_container_isolated-9] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-9] [INFO] [1793079613.829152790] [amcl]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/amcl' in container '/nav2_container'
+[component_container_isolated-9] [INFO] [1793079613.840995162] [nav2_container]: Load Library: /opt/ros/humble/lib/libsmoother_server_core.so
+[component_container_isolated-9] [INFO] [1793079613.846204625] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_smoother::SmootherServer>
+[component_container_isolated-9] [INFO] [1793079613.846318032] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_smoother::SmootherServer>
+[component_container_isolated-9] [INFO] [1793079613.876808674] [smoother_server]: 
+[component_container_isolated-9] 	smoother_server lifecycle node launched. 
+[component_container_isolated-9] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-9] [INFO] [1793079613.883110641] [smoother_server]: Creating smoother server
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/smoother_server' in container '/nav2_container'
+[component_container_isolated-9] [INFO] [1793079613.885818268] [nav2_container]: Load Library: /opt/ros/humble/lib/libnav2_lifecycle_manager_core.so
+[component_container_isolated-9] [INFO] [1793079613.888094506] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-9] [INFO] [1793079613.888148554] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-9] [INFO] [1793079613.913780482] [lifecycle_manager_localization]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/lifecycle_manager_localization' in container '/nav2_container'
+[component_container_isolated-9] [INFO] [1793079613.924277904] [lifecycle_manager_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[component_container_isolated-9] [INFO] [1793079613.925095978] [nav2_container]: Load Library: /opt/ros/humble/lib/libplanner_server_core.so
+[component_container_isolated-9] [INFO] [1793079613.928736749] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_planner::PlannerServer>
+[component_container_isolated-9] [INFO] [1793079613.928823469] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_planner::PlannerServer>
+[component_container_isolated-9] [INFO] [1793079613.963666781] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[component_container_isolated-9] [INFO] [1793079613.963802780] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m
+[component_container_isolated-9] [INFO] [1793079613.964323544] [map_server]: Configuring
+[component_container_isolated-9] [INFO] [map_io]: Loading yaml file: /home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/map_1027.yaml
+[component_container_isolated-9] [DEBUG] [map_io]: resolution: 0.05
+[component_container_isolated-9] [DEBUG] [map_io]: origin[0]: -7.47635
+[component_container_isolated-9] [DEBUG] [map_io]: origin[1]: -10.2258
+[component_container_isolated-9] [DEBUG] [map_io]: origin[2]: 0
+[component_container_isolated-9] [DEBUG] [map_io]: free_thresh: 0.196
+[component_container_isolated-9] [DEBUG] [map_io]: occupied_thresh: 0.65
+[component_container_isolated-9] [DEBUG] [map_io]: mode: trinary
+[component_container_isolated-9] [DEBUG] [map_io]: negate: 0
+[component_container_isolated-9] [INFO] [map_io]: Loading image_file: /home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/map_1027.pgm
+[component_container_isolated-9] [INFO] [1793079613.988218717] [planner_server]: 
+[component_container_isolated-9] 	planner_server lifecycle node launched. 
+[component_container_isolated-9] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-9] [INFO] [1793079613.994515916] [planner_server]: Creating
+[component_container_isolated-9] [INFO] [1793079614.023671751] [global_costmap.global_costmap]: 
+[component_container_isolated-9] 	global_costmap lifecycle node launched. 
+[component_container_isolated-9] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-9] [INFO] [1793079614.025529785] [global_costmap.global_costmap]: Creating Costmap
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planner_server' in container '/nav2_container'
+[component_container_isolated-9] [INFO] [1793079614.038572754] [nav2_container]: Load Library: /opt/ros/humble/lib/libbehavior_server_core.so
+[component_container_isolated-9] [DEBUG] [map_io]: Read map /home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/map_1027.pgm: 551 X 395 map @ 0.05 m/cell
+[component_container_isolated-9] [INFO] [1793079614.064538278] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<behavior_server::BehaviorServer>
+[component_container_isolated-9] [INFO] [1793079614.064637701] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<behavior_server::BehaviorServer>
+[component_container_isolated-9] [INFO] [1793079614.080465032] [lifecycle_manager_localization]: [34m[1mConfiguring amcl[0m[0m
+[component_container_isolated-9] [INFO] [1793079614.081363937] [amcl]: Configuring
+[component_container_isolated-9] [INFO] [1793079614.081566272] [amcl]: initTransforms
+[component_container_isolated-9] [INFO] [1793079614.324658343] [amcl]: initPubSub
+[component_container_isolated-9] [INFO] [1793079614.348848072] [amcl]: Subscribed to map topic.
+[component_container_isolated-9] [INFO] [1793079614.363450646] [behavior_server]: 
+[component_container_isolated-9] 	behavior_server lifecycle node launched. 
+[component_container_isolated-9] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-9] [INFO] [1793079614.374220193] [lifecycle_manager_localization]: [34m[1mActivating map_server[0m[0m
+[component_container_isolated-9] [INFO] [1793079614.374534206] [map_server]: Activating
+[component_container_isolated-9] [INFO] [1793079614.374978235] [map_server]: Creating bond (map_server) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079614.376101458] [amcl]: Received a 551 X 395 map @ 0.050 m/pix
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/behavior_server' in container '/nav2_container'
+[component_container_isolated-9] [INFO] [1793079614.387664183] [nav2_container]: Load Library: /opt/ros/humble/lib/libbt_navigator_core.so
+[component_container_isolated-9] [INFO] [1793079614.395020989] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_bt_navigator::BtNavigator>
+[component_container_isolated-9] [INFO] [1793079614.398417602] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_bt_navigator::BtNavigator>
+[ugv_bringup-3] JSON decode error: Expecting ':' delimiter: line 1 column 24 (char 23) with line: {"":0,"ax":72,"ay2152,"odl":8737,:04}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {4"gx":6,"gy":-10"gz":-15,"mx":"162,"odl":8737,"1054}
+[ugv_bringup-3] 
+[component_container_isolated-9] [INFO] [1793079614.466260173] [bt_navigator]: 
+[component_container_isolated-9] 	bt_navigator lifecycle node launched. 
+[component_container_isolated-9] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-9] [INFO] [1793079614.466445451] [bt_navigator]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/bt_navigator' in container '/nav2_container'
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 3 (char 2) with line: ""40,"my":36,"mz":104}
+[ugv_bringup-3] 
+[component_container_isolated-9] [INFO] [1793079614.476033216] [nav2_container]: Load Library: /opt/ros/humble/lib/libwaypoint_follower_core.so
+[component_container_isolated-9] [INFO] [1793079614.478410189] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_waypoint_follower::WaypointFollower>
+[component_container_isolated-9] [INFO] [1793079614.478463885] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_waypoint_follower::WaypointFollower>
+[component_container_isolated-9] [INFO] [1793079614.489198296] [lifecycle_manager_localization]: Server map_server connected with bond.
+[component_container_isolated-9] [INFO] [1793079614.489301559] [lifecycle_manager_localization]: [34m[1mActivating amcl[0m[0m
+[component_container_isolated-9] [INFO] [1793079614.489737748] [amcl]: Activating
+[component_container_isolated-9] [INFO] [1793079614.489836595] [amcl]: initialPoseReceived
+[component_container_isolated-9] [INFO] [1793079614.490261360] [amcl]: Setting pose (1793079614.490259): 0.000 0.000 0.000
+[component_container_isolated-9] [INFO] [1793079614.491007434] [amcl]: Creating bond (amcl) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079614.526056886] [waypoint_follower]: 
+[component_container_isolated-9] 	waypoint_follower lifecycle node launched. 
+[component_container_isolated-9] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-9] [INFO] [1793079614.529348028] [waypoint_follower]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/waypoint_follower' in container '/nav2_container'
+[component_container_isolated-9] [INFO] [1793079614.536349317] [nav2_container]: Load Library: /opt/ros/humble/lib/libvelocity_smoother_core.so
+[component_container_isolated-9] [INFO] [1793079614.540136071] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_velocity_smoother::VelocitySmoother>
+[component_container_isolated-9] [INFO] [1793079614.540248710] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_velocity_smoother::VelocitySmoother>
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[component_container_isolated-9] [INFO] [1793079614.572397097] [amcl]: createLaserObject
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/velocity_smoother' in container '/nav2_container'
+[component_container_isolated-9] [INFO] [1793079614.581035909] [velocity_smoother]: 
+[component_container_isolated-9] 	velocity_smoother lifecycle node launched. 
+[component_container_isolated-9] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-9] [INFO] [1793079614.587091734] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-9] [INFO] [1793079614.587172373] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-9] [INFO] [1793079614.604920873] [lifecycle_manager_localization]: Server amcl connected with bond.
+[component_container_isolated-9] [INFO] [1793079614.605024553] [lifecycle_manager_localization]: [34m[1mManaged nodes are active[0m[0m
+[component_container_isolated-9] [INFO] [1793079614.605056776] [lifecycle_manager_localization]: [34m[1mCreating bond timer...[0m[0m
+[component_container_isolated-9] [INFO] [1793079614.620162002] [lifecycle_manager_navigation]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/lifecycle_manager_navigation' in container '/nav2_container'
+[component_container_isolated-9] [INFO] [1793079614.628791182] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "{"T":1001,"L":0,"R":0,"ax":106,"ay":-90,"az":8298,"gx":5,"gy":-8,"gz":-8,"mx":-177,"my":98,"mz":1158,"odl":8737,"odr":7734,"v":1054}
+[ugv_bringup-3] 
+[component_container_isolated-9] [INFO] [1793079614.666963745] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[component_container_isolated-9] [INFO] [1793079614.668480981] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[component_container_isolated-9] [INFO] [1793079614.669656204] [controller_server]: Configuring controller interface
+[component_container_isolated-9] [INFO] [1793079614.670231432] [controller_server]: getting goal checker plugins..
+[component_container_isolated-9] [INFO] [1793079614.670521061] [controller_server]: Controller frequency set to 20.0000Hz
+[component_container_isolated-9] [INFO] [1793079614.670610149] [local_costmap.local_costmap]: Configuring
+[component_container_isolated-9] [INFO] [1793079614.692324250] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[component_container_isolated-9] [INFO] [1793079614.710163021] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[component_container_isolated-9] [INFO] [1793079614.726163983] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer"
+[component_container_isolated-9] [INFO] [1793079614.726259247] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[component_container_isolated-9] [INFO] [1793079614.729974065] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[component_container_isolated-9] [INFO] [1793079614.767510186] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[component_container_isolated-9] [INFO] [1793079614.772061990] [controller_server]: Created goal checker : goal_checker of type nav2_controller::SimpleGoalChecker
+[component_container_isolated-9] [INFO] [1793079614.776657762] [controller_server]: Controller Server has goal_checker  goal checkers available.
+[component_container_isolated-9] [INFO] [1793079614.786510645] [controller_server]: Created controller : FollowPath of type nav2_rotation_shim_controller::RotationShimController
+[component_container_isolated-9] [INFO] [1793079614.815960973] [controller_server]: Created internal controller for rotation shimming: FollowPath of type teb_local_planner::TebLocalPlannerROS
+[component_container_isolated-9] [WARN] [1793079614.816450921] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[component_container_isolated-9] [INFO] [1793079614.918353831] [TEBLocalPlanner]: Footprint model 'circular' (radius: 0.100000m) loaded for trajectory optimization.
+[component_container_isolated-9] [INFO] [1793079614.918520582] [controller_server]: Parallel planning in distinctive topologies enabled.
+[component_container_isolated-9] [INFO] [1793079615.039880456] [controller_server]: library path : /home/ws/ugv_ws/install/costmap_converter/lib/libcostmap_converter.so
+[component_container_isolated-9] [INFO] [1793079615.040404772] [controller_server]: Costmap conversion plugin costmap_converter::CostmapToPolygonsDBSMCCH loaded.
+[component_container_isolated-9] [INFO] [1793079615.064490533] [controller_server]: Controller Server has FollowPath  controllers available.
+[component_container_isolated-9] [INFO] [1793079615.089055362] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[component_container_isolated-9] [INFO] [1793079615.089380032] [smoother_server]: Configuring smoother server
+[component_container_isolated-9] [INFO] [1793079615.120949253] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[component_container_isolated-9] [INFO] [1793079615.124745287] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[component_container_isolated-9] [INFO] [1793079615.146748344] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[component_container_isolated-9] [INFO] [1793079615.147017110] [planner_server]: Configuring
+[component_container_isolated-9] [INFO] [1793079615.147120277] [global_costmap.global_costmap]: Configuring
+[component_container_isolated-9] [INFO] [1793079615.158486843] [global_costmap.global_costmap]: Using plugin "static_layer"
+[component_container_isolated-9] [INFO] [1793079615.165750178] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[component_container_isolated-9] [INFO] [1793079615.171180183] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[component_container_isolated-9] [INFO] [1793079615.171277622] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[component_container_isolated-9] [INFO] [1793079615.175147543] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[component_container_isolated-9] [INFO] [1793079615.190350846] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[component_container_isolated-9] [INFO] [1793079615.190459806] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[component_container_isolated-9] [INFO] [1793079615.194935290] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[component_container_isolated-9] [INFO] [1793079615.217343944] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[component_container_isolated-9] [INFO] [1793079615.217452327] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[component_container_isolated-9] [INFO] [1793079615.222013603] [planner_server]: Planner Server has GridBased  planners available.
+[component_container_isolated-9] [INFO] [1793079615.239874229] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 551 X 395 at 0.050000 m/pix
+[component_container_isolated-9] [INFO] [1793079615.251496601] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[component_container_isolated-9] [INFO] [1793079615.251811991] [behavior_server]: Configuring
+[component_container_isolated-9] [INFO] [1793079615.265717256] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[component_container_isolated-9] [INFO] [1793079615.268920815] [behavior_server]: Configuring spin
+[component_container_isolated-9] [INFO] [1793079615.289018064] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[component_container_isolated-9] [INFO] [1793079615.292054999] [behavior_server]: Configuring backup
+[component_container_isolated-9] [INFO] [1793079615.305891146] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[component_container_isolated-9] [INFO] [1793079615.309271215] [behavior_server]: Configuring drive_on_heading
+[component_container_isolated-9] [INFO] [1793079615.320970514] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[component_container_isolated-9] [INFO] [1793079615.323720668] [behavior_server]: Configuring wait
+[component_container_isolated-9] [INFO] [1793079615.335267681] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[component_container_isolated-9] [INFO] [1793079615.335590942] [bt_navigator]: Configuring
+[component_container_isolated-9] [INFO] [1793079615.550582068] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[component_container_isolated-9] [INFO] [1793079615.550928785] [waypoint_follower]: Configuring
+[component_container_isolated-9] [INFO] [1793079615.585666110] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[component_container_isolated-9] [INFO] [1793079615.588786949] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[component_container_isolated-9] [INFO] [1793079615.589172034] [velocity_smoother]: Configuring velocity smoother
+[component_container_isolated-9] [INFO] [1793079615.600385385] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[component_container_isolated-9] [INFO] [1793079615.600838789] [controller_server]: Activating
+[component_container_isolated-9] [INFO] [1793079615.600932932] [local_costmap.local_costmap]: Activating
+[component_container_isolated-9] [INFO] [1793079615.600971588] [local_costmap.local_costmap]: Checking transform
+[component_container_isolated-9] [INFO] [1793079615.601199970] [local_costmap.local_costmap]: start
+[component_container_isolated-9] [INFO] [1793079615.803409246] [controller_server]: Activating controller: FollowPath of type nav2_rotation_shim_controller::RotationShimController
+[component_container_isolated-9] [INFO] [1793079615.803563837] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079615.917864050] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[component_container_isolated-9] [INFO] [1793079615.918010352] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[component_container_isolated-9] [INFO] [1793079615.918805066] [smoother_server]: Activating
+[component_container_isolated-9] [INFO] [1793079615.918918601] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079616.038459538] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[component_container_isolated-9] [INFO] [1793079616.038634705] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[component_container_isolated-9] [INFO] [1793079616.039432107] [planner_server]: Activating
+[component_container_isolated-9] [INFO] [1793079616.039560650] [global_costmap.global_costmap]: Activating
+[component_container_isolated-9] [INFO] [1793079616.039603945] [global_costmap.global_costmap]: Checking transform
+[component_container_isolated-9] [INFO] [1793079616.039684713] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1793079615.971790 but the earliest data is at time 1793079616.100310, when looking up transform from frame [base_link] to frame [map]
+[component_container_isolated-9] [INFO] [1793079616.539970502] [global_costmap.global_costmap]: start
+[component_container_isolated-9] [WARN] [1793079617.540411518] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079617.540590685] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [INFO] [1793079617.593133909] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[component_container_isolated-9] [INFO] [1793079617.598988806] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079617.708731536] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[component_container_isolated-9] [INFO] [1793079617.708876271] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[component_container_isolated-9] [INFO] [1793079617.710036390] [behavior_server]: Activating
+[component_container_isolated-9] [INFO] [1793079617.710112069] [behavior_server]: Activating spin
+[component_container_isolated-9] [INFO] [1793079617.710172773] [behavior_server]: Activating backup
+[component_container_isolated-9] [INFO] [1793079617.710211652] [behavior_server]: Activating drive_on_heading
+[component_container_isolated-9] [INFO] [1793079617.710243972] [behavior_server]: Activating wait
+[component_container_isolated-9] [INFO] [1793079617.710288228] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079617.819520275] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[component_container_isolated-9] [INFO] [1793079617.819687121] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[component_container_isolated-9] [INFO] [1793079617.821038662] [bt_navigator]: Activating
+[component_container_isolated-9] [INFO] [1793079618.094056518] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079618.206810833] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[component_container_isolated-9] [INFO] [1793079618.207203406] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[component_container_isolated-9] [INFO] [1793079618.208033191] [waypoint_follower]: Activating
+[component_container_isolated-9] [INFO] [1793079618.208152166] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079618.321793930] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[component_container_isolated-9] [INFO] [1793079618.321928649] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[component_container_isolated-9] [INFO] [1793079618.322718947] [velocity_smoother]: Activating
+[component_container_isolated-9] [INFO] [1793079618.322862818] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079618.443450701] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[component_container_isolated-9] [INFO] [1793079618.443600556] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[component_container_isolated-9] [INFO] [1793079618.443640811] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[component_container_isolated-9] [WARN] [1793079618.540270874] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079618.540380345] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079619.540284915] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079619.540428977] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079620.540331530] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079620.540468521] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079621.540257570] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079621.540379937] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079622.540252601] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079622.540439096] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079623.540269520] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079623.540406543] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079624.540247239] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079624.540383493] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079625.540255645] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079625.540385916] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079626.540330068] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079626.540466675] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079627.540204078] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079627.540337260] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079628.540257158] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079628.540389925] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079629.540253889] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079629.540387776] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079630.540211357] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079630.540341756] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079631.540239547] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079631.540364346] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079632.540256410] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079632.540391801] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079633.540237340] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079633.540364283] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079634.540245729] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079634.540377023] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079635.540260872] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079635.540397126] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079636.540642510] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079636.542576252] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079637.540260191] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079637.540397982] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079638.540280592] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079638.540417102] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079639.540255140] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079639.540390595] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079640.540264316] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079640.540402075] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079641.540259961] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079641.540385816] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079642.540281081] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079642.540424664] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079643.540210239] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079643.540315486] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079644.540234185] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079644.540326633] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079645.540254297] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079645.540379415] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079646.540293485] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079646.540424619] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079647.540249735] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079647.540379878] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079648.540261191] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079648.540390214] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079649.540283533] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079649.540422699] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079650.540289753] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079650.540424087] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079651.540286891] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079651.540421738] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079652.540256740] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079652.540391779] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079653.540263012] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079653.540394179] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079654.540269579] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079654.540400842] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079655.540264570] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079655.540399097] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079656.540296464] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079656.540427758] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079657.540210990] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079657.540339469] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079658.540256404] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079658.540395890] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079659.540323553] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079659.540457215] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079660.540269752] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079660.540398774] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079661.540243159] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079661.540470165] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079662.540292126] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079662.540420221] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079663.540260080] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079663.540390126] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079664.540229450] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079664.540411304] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079665.540251086] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079665.540378957] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079666.540235452] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079666.540365978] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079667.540258771] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079667.540395569] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079668.540245204] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079668.540372787] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079669.540244992] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079669.540394271] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079670.540273110] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079670.540400789] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079671.540225368] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079671.540324503] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079672.540267780] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079672.540377731] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079673.540250011] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079673.540384474] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079674.540315005] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079674.544333488] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079675.540251405] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079675.540355499] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079676.540234503] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079676.540344198] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079677.540268141] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079677.540411275] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079678.540476541] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079678.540572667] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079679.540263934] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079679.540393436] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079680.540283369] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079680.540414663] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079681.540278849] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079681.540407456] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079682.540263719] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079682.540393637] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079683.540205434] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079683.540306361] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079684.540275321] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079684.540405719] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079685.540216103] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079685.540315270] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079686.540514046] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079686.540617181] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079687.540233483] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079687.540337610] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079688.540213059] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079688.540317665] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079689.540280936] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079689.540394566] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079690.542335491] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079690.542476097] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079691.540310943] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079691.540432541] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079692.540210994] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079692.540398672] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079693.540199380] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079693.541772544] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079694.540281059] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079694.540410242] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079695.540234596] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079695.540552512] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079696.540255156] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079696.540379666] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079697.540149301] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079697.540305139] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079698.540265539] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079698.540398722] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079699.540270212] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079699.540413378] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079700.540239989] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079700.540386899] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079701.540262198] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079701.540399540] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079702.540243912] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079702.540357639] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079703.540285963] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079703.540421513] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079704.540260128] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079704.540386782] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079705.540276933] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079705.540446307] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079706.540257213] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079706.540388539] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079707.540263526] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079707.540387909] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079708.540264865] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079708.540556318] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079709.540243855] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079709.540377645] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079710.540269582] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079710.540402220] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079711.540247585] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079711.540378623] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079712.540274277] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079712.540403491] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079713.540274205] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079713.540405755] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079714.540274215] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079714.540403941] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079715.540315620] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079715.540458018] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079716.540287990] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079716.540418196] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079717.540272027] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079717.540396409] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079718.540244467] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079718.540371154] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079719.540263264] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079719.540391742] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079720.540272672] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079720.540395390] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079721.540251669] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079721.540389715] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079722.540244126] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079722.540369148] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079723.540273147] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079723.540547703] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079724.540280845] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079724.540416139] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079725.540248468] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079725.540381395] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079726.540271312] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079726.540406095] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079727.540258978] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079727.540390304] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079728.540295432] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079728.540430439] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079729.540289925] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079729.540422691] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079730.540211128] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079730.540339415] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079731.540257248] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079731.540394430] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079732.540260830] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079732.540411772] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079733.540219795] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079733.540347953] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079734.540262845] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079734.540396251] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079735.540232767] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079735.540360125] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079736.540252151] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079736.540382933] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079737.540239398] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079737.540360708] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079738.540263276] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079738.540533960] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079739.540268873] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079739.540403783] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079740.540263166] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079740.540405340] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079741.540228586] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079741.540355529] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079742.540279694] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079742.540414508] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079743.540241098] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079743.540355400] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079744.540243229] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079744.540373884] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079745.540258505] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079745.540387143] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079746.540267693] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079746.540401451] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079747.540251946] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079747.540390536] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079748.540269855] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079748.540400989] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079749.540259757] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079749.540384715] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079750.540256660] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079750.540393810] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079751.540255444] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079751.540385106] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079752.540248109] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079752.540380651] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079753.540255488] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079753.540391998] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079754.540242572] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079754.540369994] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079755.540227026] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079755.540326417] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079756.540166387] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079756.540280657] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079757.540207180] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079757.540302378] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079758.540263647] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079758.540396221] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079759.540214414] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079759.540317356] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[component_container_isolated-9] [WARN] [1793079760.540292661] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079760.540387571] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [robot_pose_publisher-10]: sending signal 'SIGINT' to process[robot_pose_publisher-10]
+[INFO] [component_container_isolated-9]: sending signal 'SIGINT' to process[component_container_isolated-9]
+[INFO] [base_node-8]: sending signal 'SIGINT' to process[base_node-8]
+[INFO] [cmd_vel_watchdog-7]: sending signal 'SIGINT' to process[cmd_vel_watchdog-7]
+[INFO] [rf2o_laser_odometry_node-6]: sending signal 'SIGINT' to process[rf2o_laser_odometry_node-6]
+[INFO] [ldlidar_node-5]: sending signal 'SIGINT' to process[ldlidar_node-5]
+[INFO] [ugv_driver-4]: sending signal 'SIGINT' to process[ugv_driver-4]
+[INFO] [ugv_bringup-3]: sending signal 'SIGINT' to process[ugv_bringup-3]
+[INFO] [joint_state_publisher-2]: sending signal 'SIGINT' to process[joint_state_publisher-2]
+[INFO] [robot_state_publisher-1]: sending signal 'SIGINT' to process[robot_state_publisher-1]
+[component_container_isolated-9] [WARN] [1793079761.540223097] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[component_container_isolated-9] [WARN] [1793079761.540313592] [global_costmap.global_costmap]: Sensor origin at (-35.08, 35.19) is out of map bounds (-7.48, -10.23) to (20.05, 9.50). The costmap cannot raytrace for it.
+[robot_pose_publisher-10] [0m[INFO] [1793079761.763323624] [rclcpp]: signal_handler(signum=2)[0m
+[component_container_isolated-9] [INFO] [1793079761.766353498] [rclcpp]: signal_handler(signum=2)
+[component_container_isolated-9] [INFO] [1793079761.766597014] [lifecycle_manager_navigation]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_navigation)
+[component_container_isolated-9] [INFO] [1793079761.766746356] [lifecycle_manager_navigation]: [34m[1mTerminating bond timer...[0m[0m
+[base_node-8] [INFO] [1793079761.770053377] [rclcpp]: signal_handler(signum=2)
+[cmd_vel_watchdog-7] Traceback (most recent call last):
+[cmd_vel_watchdog-7]   File "/home/ws/ugv_ws/install/ugv_auto/lib/ugv_auto/cmd_vel_watchdog", line 33, in <module>
+[cmd_vel_watchdog-7]     sys.exit(load_entry_point('ugv-auto', 'console_scripts', 'cmd_vel_watchdog')())
+[cmd_vel_watchdog-7]   File "/home/ws/ugv_ws/build/ugv_auto/ugv_auto/cmd_vel_watchdog.py", line 54, in main
+[cmd_vel_watchdog-7]     node.pub.publish(Twist())
+[cmd_vel_watchdog-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/publisher.py", line 70, in publish
+[cmd_vel_watchdog-7]     self.__publisher.publish(msg)
+[cmd_vel_watchdog-7] rclpy._rclpy_pybind11.RCLError: Failed to publish: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[rf2o_laser_odometry_node-6] [INFO] [1793079761.777085750] [rclcpp]: signal_handler(signum=2)
+[ldlidar_node-5] [INFO] [1793079761.781727407] [rclcpp]: signal_handler(signum=2)
+[ldlidar_node-5] [INFO] [1793079761.789563735] [LD19]: ldlidar_published is end
+[ugv_bringup-3] Traceback (most recent call last):
+[ugv_bringup-3]   File "/home/ws/ugv_ws/install/ugv_bringup/lib/ugv_bringup/ugv_bringup", line 33, in <module>
+[ugv_bringup-3]     sys.exit(load_entry_point('ugv-bringup', 'console_scripts', 'ugv_bringup')())
+[ugv_bringup-3]   File "/home/ws/ugv_ws/build/ugv_bringup/ugv_bringup/ugv_bringup.py", line 174, in main
+[ugv_bringup-3]     rclpy.spin(node)  # Keep the node running
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 222, in spin
+[ugv_bringup-3]     executor.spin_once()
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+[ugv_bringup-3]     self._spin_once_impl(timeout_sec)
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 734, in _spin_once_impl
+[ugv_bringup-3]     handler()
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/task.py", line 239, in __call__
+[ugv_bringup-3]     self._handler.send(None)
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 437, in handler
+[ugv_bringup-3]     await call_coroutine(entity, arg)
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 351, in _execute_timer
+[ugv_bringup-3]     await await_or_execute(tmr.callback)
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 107, in await_or_execute
+[ugv_bringup-3]     return callback(*args)
+[ugv_bringup-3]   File "/home/ws/ugv_ws/build/ugv_bringup/ugv_bringup/ugv_bringup.py", line 115, in feedback_loop
+[ugv_bringup-3]     self.base_controller.feedback_data()
+[ugv_bringup-3]   File "/home/ws/ugv_ws/build/ugv_bringup/ugv_bringup/ugv_bringup.py", line 68, in feedback_data
+[ugv_bringup-3]     line = self.rl.readline().decode('utf-8')  # Read line from UART
+[ugv_bringup-3]   File "/home/ws/ugv_ws/build/ugv_bringup/ugv_bringup/ugv_bringup.py", line 39, in readline
+[ugv_bringup-3]     data = self.s.read(i)
+[ugv_bringup-3]   File "/usr/local/lib/python3.10/dist-packages/serial/serialposix.py", line 565, in read
+[ugv_bringup-3]     ready, _, _ = select.select([self.fd, self.pipe_abort_read_r], [], [], timeout.time_left())
+[ugv_bringup-3] KeyboardInterrupt
+[robot_state_publisher-1] [INFO] [1793079761.812847540] [rclcpp]: signal_handler(signum=2)
+[ugv_driver-4] Traceback (most recent call last):
+[ugv_driver-4]   File "/home/ws/ugv_ws/install/ugv_bringup/lib/ugv_bringup/ugv_driver", line 33, in <module>
+[ugv_driver-4]     sys.exit(load_entry_point('ugv-bringup', 'console_scripts', 'ugv_driver')())
+[ugv_driver-4]   File "/home/ws/ugv_ws/build/ugv_bringup/ugv_bringup/ugv_driver.py", line 121, in main
+[ugv_driver-4]     rclpy.shutdown()
+[ugv_driver-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 126, in shutdown
+[ugv_driver-4]     _shutdown(context=context)
+[ugv_driver-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[ugv_driver-4]     return context.shutdown()
+[ugv_driver-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[ugv_driver-4]     self.__context.shutdown()
+[ugv_driver-4] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[ldlidar_node-5] [LDS][INFO][1793079612.679848296][Actual BaudRate reported:230400]
+[INFO] [ldlidar_node-5]: process has finished cleanly [pid 22724]
+[INFO] [rf2o_laser_odometry_node-6]: process has finished cleanly [pid 22726]
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 22716]
+[component_container_isolated-9] [INFO] [1793079761.997956200] [global_costmap.global_costmap]: Message Filter dropping message: frame 'base_lidar_link' at time 1793079761.697 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[component_container_isolated-9] [INFO] [1793079761.998226211] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_lidar_link' at time 1793079761.697 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [base_node-8]: process has finished cleanly [pid 22755]
+[INFO] [robot_pose_publisher-10]: process has finished cleanly [pid 22762]
+[ERROR] [ugv_bringup-3]: process has died [pid 22720, exit code -2, cmd '/home/ws/ugv_ws/install/ugv_bringup/lib/ugv_bringup/ugv_bringup --ros-args'].
+[component_container_isolated-9] [INFO] [1793079762.143146072] [velocity_smoother]: Running Nav2 LifecycleNode rcl preshutdown (velocity_smoother)
+[component_container_isolated-9] [INFO] [1793079762.144385317] [velocity_smoother]: Deactivating
+[component_container_isolated-9] [INFO] [1793079762.144434852] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079762.144502499] [velocity_smoother]: Cleaning up
+[component_container_isolated-9] [INFO] [1793079762.144547843] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079762.144565346] [waypoint_follower]: Running Nav2 LifecycleNode rcl preshutdown (waypoint_follower)
+[component_container_isolated-9] [INFO] [1793079762.144609154] [waypoint_follower]: Deactivating
+[component_container_isolated-9] [INFO] [1793079762.144642209] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079762.144688672] [waypoint_follower]: Cleaning up
+[component_container_isolated-9] [INFO] [1793079762.160621612] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079762.160827113] [smoother_server]: Running Nav2 LifecycleNode rcl preshutdown (smoother_server)
+[component_container_isolated-9] [INFO] [1793079762.160886344] [smoother_server]: Deactivating
+[component_container_isolated-9] [INFO] [1793079762.160930408] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079762.161009319] [smoother_server]: Cleaning up
+[component_container_isolated-9] [INFO] [1793079762.213487107] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079762.213580257] [amcl]: Running Nav2 LifecycleNode rcl preshutdown (amcl)
+[component_container_isolated-9] [INFO] [1793079762.213634753] [amcl]: Deactivating
+[component_container_isolated-9] [INFO] [1793079762.213663136] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[ERROR] [cmd_vel_watchdog-7]: process has died [pid 22736, exit code 1, cmd '/home/ws/ugv_ws/install/ugv_auto/lib/ugv_auto/cmd_vel_watchdog --ros-args -r __node:=cmd_vel_watchdog'].
+[INFO] [joint_state_publisher-2]: process has finished cleanly [pid 22718]
+[component_container_isolated-9] [INFO] [1793079762.224701815] [amcl]: Cleaning up
+[component_container_isolated-9] [INFO] [1793079762.242894528] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079762.242988191] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[component_container_isolated-9] [INFO] [1793079762.243042174] [behavior_server]: Deactivating
+[component_container_isolated-9] [INFO] [1793079762.243091965] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079762.243165852] [behavior_server]: Cleaning up
+[ERROR] [ugv_driver-4]: process has died [pid 22722, exit code 1, cmd '/home/ws/ugv_ws/install/ugv_bringup/lib/ugv_bringup/ugv_driver --ros-args'].
+[component_container_isolated-9] [INFO] [1793079762.270238014] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079762.270361724] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[component_container_isolated-9] [INFO] [1793079762.270428731] [planner_server]: Deactivating
+[component_container_isolated-9] [INFO] [1793079762.270534841] [global_costmap.global_costmap]: Deactivating
+[component_container_isolated-9] [INFO] [1793079762.403599075] [lifecycle_manager_localization]: [34m[1mHave not received a heartbeat from amcl.[0m[0m
+[component_container_isolated-9] [ERROR] [1793079762.403729921] [lifecycle_manager_localization]: CRITICAL FAILURE: SERVER amcl IS DOWN after not receiving a heartbeat for 4000 ms. Shutting down related nodes.
+[component_container_isolated-9] [INFO] [1793079762.403783328] [lifecycle_manager_localization]: [34m[1mTerminating bond timer...[0m[0m
+[component_container_isolated-9] [INFO] [1793079762.403803680] [lifecycle_manager_localization]: [34m[1mResetting managed nodes...[0m[0m
+[component_container_isolated-9] [INFO] [1793079762.403817088] [lifecycle_manager_localization]: [34m[1mDeactivating amcl[0m[0m
+[component_container_isolated-9] [WARN] [1793079762.404440246] [rcl_lifecycle]: No transition matching 4 found for current state unconfigured
+[component_container_isolated-9] [ERROR] [1793079762.404474422] [amcl]: Unable to start transition 4 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355
+[component_container_isolated-9] [ERROR] [1793079762.404808081] [lifecycle_manager_localization]: Failed to change state for node: amcl
+[component_container_isolated-9] [INFO] [1793079762.404850224] [lifecycle_manager_localization]: [34m[1mDeactivating map_server[0m[0m
+[component_container_isolated-9] [INFO] [1793079762.405202987] [map_server]: Deactivating
+[component_container_isolated-9] [INFO] [1793079762.405322537] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079762.515692942] [lifecycle_manager_localization]: [34m[1mCleaning up amcl[0m[0m
+[component_container_isolated-9] [WARN] [1793079762.517002170] [rcl_lifecycle]: No transition matching 2 found for current state unconfigured
+[component_container_isolated-9] [ERROR] [1793079762.517059321] [amcl]: Unable to start transition 2 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355
+[component_container_isolated-9] [INFO] [1793079762.517767695] [lifecycle_manager_localization]: [34m[1mCleaning up map_server[0m[0m
+[component_container_isolated-9] [INFO] [1793079762.518059178] [map_server]: Cleaning up
+[component_container_isolated-9] [INFO] [1793079762.540140696] [lifecycle_manager_localization]: [34m[1mManaged nodes have been reset[0m[0m
+[component_container_isolated-9] [INFO] [1793079762.540539538] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[component_container_isolated-9] [INFO] [1793079762.540620401] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079762.540733999] [planner_server]: Cleaning up
+[component_container_isolated-9] [INFO] [1793079762.569510390] [global_costmap.global_costmap]: Cleaning up
+[component_container_isolated-9] [INFO] [1793079762.580711819] [planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[component_container_isolated-9] [INFO] [1793079762.581092965] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[component_container_isolated-9] [INFO] [1793079762.603938567] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079762.604035717] [lifecycle_manager_localization]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_localization)
+[component_container_isolated-9] [INFO] [1793079762.612752896] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[component_container_isolated-9] [INFO] [1793079762.612984508] [controller_server]: Deactivating
+[component_container_isolated-9] [INFO] [1793079762.613021116] [controller_server]: Deactivating controller: FollowPath of type nav2_rotation_shim_controller::RotationShimController
+[component_container_isolated-9] [INFO] [1793079762.613140538] [local_costmap.local_costmap]: Deactivating
+[component_container_isolated-9] [INFO] [1793079762.801634515] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[component_container_isolated-9] [INFO] [1793079762.801849712] [controller_server]: Cleaning up
+[component_container_isolated-9] [INFO] [1793079762.801887439] [controller_server]: Cleaning up controller: FollowPath of type nav2_rotation_shim_controller::RotationShimController
+[component_container_isolated-9] Magick: abort due to signal 11 (SIGSEGV) "Segmentation Fault"...
+[ERROR] [component_container_isolated-9]: process has died [pid 22758, exit code -6, cmd '/opt/ros/humble/lib/rclcpp_components/component_container_isolated --ros-args --log-level info --ros-args -r __node:=nav2_container --params-file /tmp/launch_params_d99qd0oc --params-file /tmp/launch_params_e8chxmso -r /tf:=tf -r /tf_static:=tf_static'].

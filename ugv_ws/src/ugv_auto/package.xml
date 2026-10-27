@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ugv_auto</name>
+  <version>1.0.0</version>
+  <description>UGV Beast 一体式项目包：手柄遥控建图 → 保存地图 → Nav2 导航 + 单目视觉目标识别自动接近</description>
+  <maintainer email="ugv@project.local">ugv_project</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>nav2_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>ugv_slam</depend>
+  <depend>ugv_nav</depend>
+  <depend>ugv_vision</depend>
+  <depend>ugv_tools</depend>
+  <depend>joy</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

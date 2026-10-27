@@ -1,0 +1,24 @@
+# ugv_auto 目标识别与接近参数
+mono_detector:
+  ros__parameters:
+    # 红色目标 HSV 双区间阈值（ugv_nav_target 同款，实测 80 样本 100% 正确）
+    hsv_lower1: [0, 120, 70]
+    hsv_upper1: [10, 255, 255]
+    hsv_lower2: [170, 120, 70]
+    hsv_upper2: [180, 255, 255]
+    min_area: 60             # 连通块最小面积(px)，5cm 小球远距离小目标调小
+    target_width_m: 0.05     # 目标实际宽度(米)：5cm 红色小球，用于单目测距
+    min_dist: 0.3
+    max_dist: 6.0
+    stable_frames: 5         # 连续稳定帧数才发布目标
+    rearm_frames: 30         # 发布后的冷却帧数
+    camera_frame: 'pt_camera_link'
+    publish_annotated: true
+
+approach_manager:
+  ros__parameters:
+    stop_offset: 0.35        # 停在目标前 0.35 m
+    replan_threshold: 0.3    # 目标移动超过该值则重规划
+    retry_limit: 3          # 重规划/重试次数上限
+    max_goal_dist: 5.0       # 超过该距离的目标忽略（防误检乱跑）
+    auto_start: true

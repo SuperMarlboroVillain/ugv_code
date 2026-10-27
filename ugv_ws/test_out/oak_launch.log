@@ -1,0 +1,43 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-10-27-10-09-27-376898-ubuntu-5860
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [component_container-1]: process started with pid [5875]
+[component_container-1] [INFO] [1793066968.097102610] [oak_container]: Load Library: /opt/ros/humble/lib/librobot_state_publisher_node.so
+[component_container-1] [INFO] [1793066968.117508816] [oak_container]: Found class: rclcpp_components::NodeFactoryTemplate<robot_state_publisher::RobotStatePublisher>
+[component_container-1] [INFO] [1793066968.117675612] [oak_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<robot_state_publisher::RobotStatePublisher>
+[component_container-1] [INFO] [1793066968.239273110] [oak_state_publisher]: got segment 3d_camera_link
+[component_container-1] [INFO] [1793066968.239431329] [oak_state_publisher]: got segment oak
+[component_container-1] [INFO] [1793066968.239453795] [oak_state_publisher]: got segment oak_imu_frame
+[component_container-1] [INFO] [1793066968.239467684] [oak_state_publisher]: got segment oak_left_camera_frame
+[component_container-1] [INFO] [1793066968.239480741] [oak_state_publisher]: got segment oak_left_camera_optical_frame
+[component_container-1] [INFO] [1793066968.239492166] [oak_state_publisher]: got segment oak_model_origin
+[component_container-1] [INFO] [1793066968.239503366] [oak_state_publisher]: got segment oak_rgb_camera_frame
+[component_container-1] [INFO] [1793066968.239514439] [oak_state_publisher]: got segment oak_rgb_camera_optical_frame
+[component_container-1] [INFO] [1793066968.239524904] [oak_state_publisher]: got segment oak_right_camera_frame
+[component_container-1] [INFO] [1793066968.239535113] [oak_state_publisher]: got segment oak_right_camera_optical_frame
+[component_container-1] [INFO] [1793066968.248950720] [oak_container]: Load Library: /opt/ros/humble/lib/libdepthai_ros_driver.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/oak_state_publisher' in container '/oak_container'
+[component_container-1] [INFO] [1793066968.518488949] [oak_container]: Found class: rclcpp_components::NodeFactoryTemplate<depthai_ros_driver::Camera>
+[component_container-1] [INFO] [1793066968.518628350] [oak_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<depthai_ros_driver::Camera>
+[component_container-1] [INFO] [1793066968.525681584] [oak_container]: Load Library: /opt/ros/humble/lib/librectify.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/oak' in container '/oak_container'
+[component_container-1] [INFO] [1793066968.529579106] [oak_container]: Found class: rclcpp_components::NodeFactoryTemplate<image_proc::RectifyNode>
+[component_container-1] [INFO] [1793066968.529634502] [oak_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<image_proc::RectifyNode>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/rectify_color_node' in container 'oak_container'
+[component_container-1] [INFO] [1793066969.526309267] [oak]: Starting camera.
+[component_container-1] [INFO] [1793066969.542168815] [oak]: No ip/mxid specified, connecting to the next available device.
+[component_container-1] [INFO] [1793066972.239018378] [oak]: Camera with MXID: 19443010C193307E00 and Name: 1.2.1 connected!
+[component_container-1] [INFO] [1793066972.240020241] [oak]: USB SPEED: HIGH
+[component_container-1] [INFO] [1793066972.287439627] [oak]: Device type: OAK-D-LITE
+[component_container-1] [INFO] [1793066972.290228910] [oak]: Pipeline type: RGBD
+[component_container-1] [INFO] [1793066973.278690073] [oak]: Finished setting up pipeline.
+[component_container-1] [INFO] [1793066974.453349229] [oak]: Published URDF
+[component_container-1] [INFO] [1793066974.456685526] [oak]: Camera ready!
+[component_container-1] [INFO] [1793066974.643696478] [oak_state_publisher]: got segment 3d_camera_link
+[component_container-1] [INFO] [1793066974.643809894] [oak_state_publisher]: got segment oak
+[component_container-1] [INFO] [1793066974.643826311] [oak_state_publisher]: got segment oak_model_origin
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [component_container-1]: sending signal 'SIGINT' to process[component_container-1]
+[component_container-1] [INFO] [1793067247.778705698] [rclcpp]: signal_handler(signum=2)
+[component_container-1] [INFO] [1793067247.781666961] [oak]: Stopping camera.
+[component_container-1] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [component_container-1]: process has finished cleanly [pid 5875]

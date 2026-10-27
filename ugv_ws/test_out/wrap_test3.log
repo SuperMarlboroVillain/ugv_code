@@ -1,0 +1,846 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-10-27-13-10-01-027827-ubuntu-19253
+[INFO] [launch]: Default logging verbosity is set to INFO
+建图已启动(pid 19253)。扫完后在本窗口按 Ctrl+C：将先自动保存地图[wraptest3]再停止（约 5~15 秒）。
+（保存名称可改: mapping_autosave_wrap.sh 名称 load_state:=...）
+[INFO] [robot_pose_publisher-9]: process started with pid [19376]
+[INFO] [robot_state_publisher-1]: process started with pid [19341]
+[INFO] [joint_state_publisher-2]: process started with pid [19343]
+[INFO] [ugv_bringup-3]: process started with pid [19345]
+[INFO] [ugv_driver-4]: process started with pid [19347]
+[INFO] [ldlidar_node-5]: process started with pid [19349]
+[INFO] [rf2o_laser_odometry_node-6]: process started with pid [19351]
+[INFO] [cmd_vel_watchdog-7]: process started with pid [19362]
+[INFO] [base_node-8]: process started with pid [19373]
+[INFO] [cartographer_node-10]: process started with pid [19379]
+[INFO] [cartographer_occupancy_grid_node-11]: process started with pid [19387]
+[INFO] [joy_node-12]: process started with pid [19390]
+[INFO] [joy_teleop-13]: process started with pid [19404]
+[robot_state_publisher-1] [WARN] [1793077802.743054353] [robot_state_publisher]: No robot_description parameter, but command-line argument available.  Assuming argument is name of URDF file.  This backwards compatibility fallback will be removed in the future.
+[ldlidar_node-5] [INFO] [1793077802.736232805] [LD19]: LDLiDAR SDK Pack Version is: v3.0.3
+[ldlidar_node-5] [INFO] [1793077802.736475538] [LD19]: <product_name>: LDLiDAR_LD19
+[ldlidar_node-5] [INFO] [1793077802.736503223] [LD19]: <topic_name>: scan
+[ldlidar_node-5] [INFO] [1793077802.736514201] [LD19]: <frame_id>: base_lidar_link
+[ldlidar_node-5] [INFO] [1793077802.736523291] [LD19]: <port_name>: /dev/ttyACM0
+[ldlidar_node-5] [INFO] [1793077802.736530428] [LD19]: <port_baudrate>: 230400
+[ldlidar_node-5] [INFO] [1793077802.736538717] [LD19]: <laser_scan_dir>: Counterclockwise
+[ldlidar_node-5] [INFO] [1793077802.736546399] [LD19]: <enable_angle_crop_func>: true
+[ldlidar_node-5] [INFO] [1793077802.736553984] [LD19]: <angle_crop_min>: 225.000000
+[ldlidar_node-5] [INFO] [1793077802.736573092] [LD19]: <angle_crop_max>: 315.000000
+[ldlidar_node-5] [INFO] [1793077802.737828460] [LD19]: ldlidar node start is success
+[ldlidar_node-5] [INFO] [1793077802.753827064] [LD19]: ldlidar communication is normal.
+[ldlidar_node-5] [INFO] [1793077802.756767799] [LD19]: Publish topic message:ldlidar scan data.
+[robot_state_publisher-1] [INFO] [1793077802.913242534] [robot_state_publisher]: got segment 3d_camera_link
+[robot_state_publisher-1] [INFO] [1793077802.917425515] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-1] [INFO] [1793077802.917489015] [robot_state_publisher]: got segment base_imu_link
+[robot_state_publisher-1] [INFO] [1793077802.917506810] [robot_state_publisher]: got segment base_lidar_link
+[robot_state_publisher-1] [INFO] [1793077802.917518556] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1793077802.918127917] [robot_state_publisher]: got segment left_down_wheel_link
+[robot_state_publisher-1] [INFO] [1793077802.918148881] [robot_state_publisher]: got segment left_up_wheel_link
+[robot_state_publisher-1] [INFO] [1793077802.918158899] [robot_state_publisher]: got segment pt_base_link
+[robot_state_publisher-1] [INFO] [1793077802.918167028] [robot_state_publisher]: got segment pt_camera_link
+[robot_state_publisher-1] [INFO] [1793077802.918244386] [robot_state_publisher]: got segment pt_link1
+[robot_state_publisher-1] [INFO] [1793077802.918374010] [robot_state_publisher]: got segment pt_link2
+[robot_state_publisher-1] [INFO] [1793077802.918405312] [robot_state_publisher]: got segment right_down_wheel_link
+[robot_state_publisher-1] [INFO] [1793077802.918446696] [robot_state_publisher]: got segment right_up_wheel_link
+[rf2o_laser_odometry_node-6] [WARN] [1793077802.921550853] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[rf2o_laser_odometry_node-6] [INFO] [1793077802.942326340] [rf2o_laser_odometry]: Initializing RF2O node...
+[rf2o_laser_odometry_node-6] [WARN] [1793077803.054179025] [rf2o_laser_odometry]: Waiting for laser_scans....
+[rf2o_laser_odometry_node-6] [INFO] [1793077803.104274924] [rf2o_laser_odometry]: Got first Laser Scan .... Configuring node
+[cartographer_node-10] [INFO] [1793077803.209283259] [cartographer logger]: I1027 13:10:03.000000 19379 configuration_file_resolver.cc:41] Found '/home/ws/ugv_ws/install/cartographer/share/cartographer/config/mapping_2d.lua' for 'mapping_2d.lua'.
+[cartographer_node-10] [INFO] [1793077803.212934685] [cartographer logger]: I1027 13:10:03.000000 19379 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.
+[cartographer_node-10] [INFO] [1793077803.213041488] [cartographer logger]: I1027 13:10:03.000000 19379 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.
+[cartographer_node-10] [INFO] [1793077803.213139971] [cartographer logger]: I1027 13:10:03.000000 19379 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.
+[cartographer_node-10] [INFO] [1793077803.214545318] [cartographer logger]: I1027 13:10:03.000000 19379 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.
+[cartographer_node-10] [INFO] [1793077803.219463569] [cartographer logger]: I1027 13:10:03.000000 19379 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.
+[cartographer_node-10] [INFO] [1793077803.219803504] [cartographer logger]: I1027 13:10:03.000000 19379 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.
+[cartographer_node-10] [INFO] [1793077803.219916261] [cartographer logger]: I1027 13:10:03.000000 19379 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.
+[cartographer_node-10] [INFO] [1793077803.220539800] [cartographer logger]: I1027 13:10:03.000000 19379 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.
+[cartographer_node-10] [INFO] [1793077803.220809354] [cartographer logger]: I1027 13:10:03.000000 19379 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.
+[cartographer_node-10] [INFO] [1793077803.220856498] [cartographer logger]: I1027 13:10:03.000000 19379 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.
+[cartographer_node-10] [INFO] [1793077803.321298487] [cartographer logger]: I1027 13:10:03.000000 19379 map_builder_bridge.cpp:136] Added trajectory with ID '0'.
+[cartographer_node-10] [INFO] [1793077803.685773190] [cartographer logger]: I1027 13:10:03.000000 19379 ordered_multi_queue.cc:172] All sensor data for trajectory 0 is available starting at '639286746036835162'.
+[cartographer_node-10] [INFO] [1793077803.685924130] [cartographer logger]: I1027 13:10:03.000000 19379 local_trajectory_builder_2d.cc:135] Extrapolator is still initializing.
+[cartographer_node-10] [INFO] [1793077803.789420410] [cartographer logger]: I1027 13:10:03.000000 19379 pose_graph_2d.cc:148] Inserted submap (0, 0).
+[cmd_vel_watchdog-7] [INFO] [1793077804.351275986] [cmd_vel_watchdog]: cmd_vel 看门狗启动: /cmd_vel -> /cmd_vel_safe, 超时 0.5s 自动归零
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[joy_teleop-13] [INFO] [1793077804.812321061] [joy_teleop]: joy_teleop 已启动，等待手柄输入...
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 10 (char 9) with line: "{,Ry34,"gx":6,"gy":-,20,"my":279,"mz,4,"gz":-9,"mx":230,"my":279,"mz"1228,"odl":3591":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 1,"odr"R":0,"ax":122,"a":-156,"az":8309,"gz":-12,"mx:1":1326,"odl":31{"T":1001,"L":0,"":0,"ax":200,"ay":-110,"az":8330,"gx":4,"gy":-10,"gz":-9,"mx":2"1:"T":1001,"L":0,"R":0,"ax":200,"ay":-110,"az":83010,"gz":-9,"mx:-9,"odr":3123,"v:{,gz":-11,"mx":-22,"my":439,"mz:1392,"odl":3591,"odr":3123,"v":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"ay":-152,"az":8522,"my":476,"mz":1412,"odl":359,"odr":3123,"v":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"ay:-152,"az":8352"gx":3,"gy":-8,"gz":-13,"mx":-272,"my":476,"mz,:1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":10,"gx":9,"gy":-4,"gz":-9,"mx":-34"odr":3123,"v"1"R":0,"ax":174,"ay":-98,"az":8336,"gx":1,"gy":-9,"gz":-15,"mx":-{"T":1001,"L":0,"R":0,"ax":70,"ay":-156,"az":8306,"gx":0,"gy":-9,"gz":-14,"mx":-417,"my":393,"mz":1276,"odl":3591,"odr":3123,"v":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,R":-156,"az":83,11,"odr":3123,"v":072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 6 (char 5) with line: "y29"gz":-13,"mx":4z":1223,"odl":3591"odr":3123,"v":072}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting value: line 1 column 1 (char 0) with line: y,gz":-16,"mx":-42,"my":315,"mz"1165,"odl":3591"odr":3123,"v":072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {a":-96,"az":8358"gx":5,"gy":-4,"gz":-16,"mx":-32,"my":315,"mz":1165,"odl":3591"odr":3123,"v":{"T":100,"R":0,"ax":72,"a"0"gx":3,"gy":-1,"{T":1001,"L":0,""y,"gz":-10,"mx"""91,"odr":3123,v:{"T":1001,"L":0,"":0,"ax":138,"y0,"gx":11,"gy""3z":1149,"odl":3591,"odr":3123,"v"1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {1,"L":0,R":0,"ay0,"gx":11,"gy",":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[cartographer_node-10] [WARN] [1793077805.858836539] [cartographer logger]: W1027 13:10:05.000000 19379 sensor_bridge.cpp:211] Ignored subdivision of a LaserScan message from sensor scan because previous subdivision time 639286746059568492 is not before current subdivision time 639286746059564822
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting ':' delimiter: line 1 column 134 (char 133) with line: {"T":1001,"L":0,"R":0,"ax":118,"ay":-136,"az":8288,"gx":4,"gy":-11,"gz":-13,"mx":-266,"my":273,"m":1187,"odl":351,"odr":3123,"v{001,"L":0,Ry:-110,"az":832,"gx":4,"gy":-2,gz":-14,"mx":-205,"my":297,"mz"1235,"odl":3591,"odr":3123,"v"001,"L":0,,"gz":-14,"mx":-203,"my":357,"mz:1309,"odl":3591,"odr":3123,"v":01,"L":0,"R":0,"ax":96,"ay0"gx":7,"gy":-7,gz":-14,"mx":-mz":"odr":3123,"v":172}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {38,"gx":5,"gy":9"gz":-11,"mx":-198,"my":372,"m"R":0,"ax":84,"",gx":2,"gy":-5,"1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 9 (char 8) with line: {"T":10,51404,"odl":359,1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting ',' delimiter: line 1 column 54 (char 53) with line: {"T":10,"gz":-6,"mx":-5,"my":434,"mz":1392,"odl":3591"072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting value: line 1 column 1 (char 0) with line: R":0,"ax66,"gx":5,"gy":-7"gz":-12,"mx":":"T":1001,"L":0,R-55,"my":439,"m351"1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 01,"L":0,R52,"gx":4,"gy":-,"91,"odr":3123,{"T":1001,"L":0,"R":0,"ax":106,"ay":-142,"az":8306,"gx":5,"gy":-6"gz":-12,"mx":-11,"my":426,"m9,"odr":3123,"v"1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {R":0,"ax":82,"","417,"my":383,"mz"1257,"odl":3591"1"T":1001,"L":0,"R":0,"ax":82,"ay":-114,"az":8304,"gx":4,"gy":-8,"gz":-16,"mx":-47,"my":383,"mz:1Ry0,"gz":-10,"mx:444,"my":339,"m":1191,"odl":39":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":1a":-124,"az":8364"gz":-16,"mx":-mz":1146,"odl":359,"odr":3123,"v"1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {1,"L":0,"":106,"a":-130,"az":833,"gx":6,"gy":-6,"gz":-13,"mx":-410,"my":257,"mz":1127,"odl":3591,"dr":3123,"v":10a":-130,"az":833,"gx":6,"gy":-6:-10,"my":257,"m":1127,"odl":359,"odr":3123,"v":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":1001,"L":0,"R":0,"ax":84,"ay:-188,"az":8326"gx":4,"gy":-5,gz":-16,"mx":-33,"my":253,"mz{T":1001,"L":0,"":0,"ax":118,"ay":-154,"az":831,"gx":3,"gy":-7"gz":-13,"mx":"1":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting ',' delimiter: line 1 column 22 (char 21) with line: {"T":8,"gx":3,"gy":-3":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":108"gx":2,"gy":-3,-26,"my":275,"mz"91"odr":3123,"v":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,4,2z:1226,"odl":3591,"odr":3123,"v"1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {1,"L":0,"R":0,"ax":98,"a":-110,"az":826-"27,"my":345,"mz:,:1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"4,"gx":4,"gy":9"1:1280,"odl":35"4"gx":6,"gy":-7,206,"my":343,"mz":1326,"odl":3591,odr":3123,"v":172}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {1,"gx":3,"gy":-"2"9,"odr":3123,"v{001,"L":0,"R":0,"ax":114,"y96,"gx":4,"gy"-7,"gz":-13,"mx":"1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 5 (char 4) with line: "6,"gz":-13,"mx"z:1391,"odl":3591,"odr":3123,"v"1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting value: line 1 column 1 (char 0) with line: Ry:-144,"az":831,,:072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {01,"L":0,"R":0,"ax":162,"a":-126,"az":833,"gx":7,"gy":-1"-320,"my":450,m"T":1001,R":0,"377,"my":446,"m1"odr":3123,"v"1""R":0,"ax":72,ay:-136,"az":832,"1361,"odl":359v:072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 0R","gx":9,"gy":-0"gz":-13,"mx":4":1315,"odl":3":"T":1001,"L":0,"R":0,"ax":90,"ay:-130,"az":8318"gx":3,"gy":-7""odr":3123,"v":172}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {y":-130,"az":8313,"my":402,"mz":1,"odr":3123,"v":172}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 1y3,"gx":-1,"gy":7438,"my":350,"z51:1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 8 (char 7) with line: {"T":1,gz":-15,"mx":-4:1176,"odl":359,"T":1001,"L":0,"R":0,"ax":74,"a"41"odr":3123,"v":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {4"gx":5,"gy":-6,-31,"my":287,"m:,"odr":3123,"v{01,"L":0,"R":0,"ax":126,"y2,"gx":5,"gy":0-06,"my":255,"mz59,"odr":3123,"v"1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"R":0,"ax":142,"a":-126,"az":832-379,"my":257,"m591,"odr":3123,v:1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 5 (char 4) with line: "5,"gx":6,"gy":-6:-39,"my":233,"mz":1125,"odl":351:1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":105,"gx":6,"gy":-6"gz":-10,"mx":-m"91,"odr":3123,v:{T":1001,"L":0,,y4"gx":8,"gy":-6,-30,"my":255,"mz:,"odr":3123,"v:{"T":1001,"L":0,"R":0,"ax":98,"ay"az":8316,"gx":1,"gy":-10"gz":-9,"mx":-2z:1187,"odl":35,:072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {01,"L":0,yz":8316,"gx":1,"gy":-10"gz":-9,"mx":-29,"my":249,"mz:1{1,odr":3123,"v":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 5 (char 4) with line: "Ra":-98,"az":8290"gx":-1,"gy":-5-16,"my":301,"m"91,"odr":3123,"v"""":0,"ax":102,"a21-215,"my":368,91,"odr":3123,"v{01,"L":0,"R":0,"ax":102,"a":-144,"az":833-11,"gz":-18,"m"-z":1322,"odl":""R":0,"ax":78,"ay":-150,"az":8340"gx":1,"gy":-4,-1:1342,"odl":351,"odr":3123,"v":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"R":0,"ax":118,"a":1382,"odl":3591,"odr":3123,"v":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {6,"gx":3,"gy":-1"gz":-12,"mx":2z:1382,"odl":359,"odr":3123,"v"1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 5 (char 4) with line: "6,"gx":4,"gy":--m":1398,"odl":35"R":0,"ax":104,y0,"gx":3,"gy":7:-262,"my":471,"m"1:{T":1001,"L":0,Ry":-136,"az":83,,gz":-15,"mx":-2z:1383,"odl":35,:072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {01,"L":0,,gz":-15,"mx":-2z":1383,"odl":359,"odr":3123,"v"""R":0,"ax":144,"ay":-96,"az":8298"gx":4,"gy":-4:3"1380,"odl":3591":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":108"gx":7,"gy":-13-1,"odr":3123,"v"01,"L":0,"R":0,"ax":124,"a":-150,"az":832,gz":-12,"mx":-1"1312,"odl":3591"odr":3123,"v"{01,"L":0,"R":0,"ax":124,"y2,"gx":4,"gy":,gz":-12,"mx":-46,"my":426,"mz"91,"odr":3123,"v"1{"T":101,"L":0,"a":-166,"az":8343"gz":-11,"mx":-17,"my":388,"mz:1272,"odl":351":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":12"gx":3,"gy":-7"47,"my":364,"m51"odr":3123,"v":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 3 (char 2) with line: """:0,"ax":68,"a"47,"my":364,"mz,:1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":10,gx":5,"gy":-4,"z":-11,"mx":-454,"my":324,"mz"1"T":10"ax":130,"y0,"gx":3,"gy":3"3"1172,"odl":3591"odr":3123,"v"1"T":10"R":0,"ax":136,"a6,"az":836,"gx"2,"gz":-1-420,"z":1132,"591,"or":3123,"v":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,Ry":-146,"az":81-2,"gz":-13,"mx,z":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting ',' delimiter: line 1 column 7 (char 6) with line: {"T":6"R":0,"ax":118,y{R":0,"ax":158,",,gz":-6,"mx":-31,"my":229,"mz"1{"T":1001,"L":0,"R":0,"ax":158,"ay":-86,"az":832,"gx":4,"gy":-8,"gz":-6,"mx":-35:1144,"odl":351,odr":3123,"v":1{,"L":0,"R":0,"ax":58,"a",,2z"Ry2,"gx":3,"gy":1":237,"my":258,"z9{T":1001,"L":0,"R":0,"ax":114,"ay":-138,"az":8321,"gz":-14,"mx51,"odr":3123,"v1001,"L":0,"R":0,"ax":106,"y,"gz":-10,"mx":2":1272,"odl":3591"odr":3123,"v"1"T":10"R":0,"ax":76,"ay,"gx":2,"gy":-51,"odr":3123,"v":1072}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"R":0,"ax":148,"a":-100,"az":832:1349,"odl":351"""R":0,"ax":134"ay":-100,"az":833-,"gz":-10,"mx":207,"my":397,"z591,"odr":3123""{"T":1001,"L":0,ay":-100,"az":8366,"gz":-10,"mx:"m":1380,"odl":35"""T":1001"R":0,"x":70,"a","gx":4,"gy":-2:-38,"my":443,"mz:1403,"odl":351"1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,y,-267,"my":442,"mz":1402,"odl":359{T":1001,"L":0,,,267,"my":442,"3{T":1001,"L":0,R":0,"ax":94,"ay":-134,"az":8282"gx":6,"gy":-5,gz":-12,"mx":-mz"1394,"odl":3591"odr":3123,"v"{T":1001,"L":0,"a":-136,"az":8324"gx":1,"gy":-7,"gz":-12,"mx":-348,"my":442,"mz"1362,"odl":3591,"odr":3123,"v":076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {01,"L":0,"R":0,"ax":126,"y2,"gx":3,"gy":7"gz":-14,"mx":3z:1340,"odl":359,"odr":3123,"v"{01,"L":0,"R":0,"ax":126,"y2,"gx":3,"gy":3z:1340,"odl":35:{"T":1001,"L":0,"R":0,"ax":154,"ay":-136,"az":8344,"gx":9,"gy":-6,"gz":-16,"mx":-11,"my":402,"mz:1298,"odl":359,"odr":3123,"v"{01,"L":0,"R":0,"ax":134,"a":-180,"az":836,"gx":2,"gy":-5-40,"my":375,"mz:1249,"odl":359,"odr":3123,"v"{"T":1000,"R":0,"ax":134,"y2,4":1249,"odl":359""":0,"ax":122,"a":-136,"az":831,"gx":2,"gy":-6:-46,"my":334,"mz:1193,"odl":351:{T":1001,"L":0,"40,"my":296,"mz"91:1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":1002,"gx":4,"gy":-3-16,"my":271,"mz":1126,"odl":351":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":16,"gz":-11,"mx"z:1126,"odl":359v":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting value: line 1 column 6 (char 5) with line: {"T":a":-142,"az":830-10,"gz":-10,"mx":-388,"my":234,"m":1119,"odl":39""":0,"ax":98,"a""2,"my":262,"mz""0{"T":001,"L":0,"172,"a50,"az":8306,"g":4,"gy":-,01"odr":3123,"v":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "R":0,"ax":172,"ay":-150,"az":830,"gx":4,"gy":-6-30,"my":227,"mz"9,:076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 001,"gz":-16,"mx,z91,"odr":3123,v":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,""a":-94,"az":834,:,"T":1001,"L":0,"R":0,"ax":122,"y8,"gx":4,"gy":4"27,"my":276,"mz::076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 0R":0,"ax"y":-11,"az":830","gz":-11,"mx":-212,"my":360,"mz,1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting value: line 1 column 22 (char 21) with line: {"T":101,"gx":3,"gy":-:203,"my":351,"mz:1321,"odl":3591,"odr":3123,"v":076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {,"gx":1,"gy":-1:2":1368,"odl":39,"odr":3123,"v:"T":1001,"L":0,"R":0,"ax":80,"a"2,"gx":1,"gy":12"gz":-15,"mx":2"91,"odr":3123,v:{"T":101,"L":0,xy":-138,"az":8292,"gx":3,"gy":-,2z":1403,"odl":1:"T":1001,"L":0,"R":0,"ax":84,"ay:-100,"az":8328-"1,"odr":3123,""1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"R":0,"ax":84,"ay:-100,"az":832:-"91,"odr":3123,"T":1001,"L":0,"R":0,"ax":76,"ay:-148,"az":8320"gx":10,"gy":-2z":1383,"odl":59,"odr":3123,"v{T":1001,"L":0,"ay":-120,"az":8288,"gx":2,"gy":-7"3,"my":458,"mz:377,"odl":3591"0{T":1001,"L":0,""y":-178,"az":834-3"gz":-11,"mx":""9,"odr":3123,"v:"T":100y8,"gz":-11,"mx"""{T":1001,"L":0,R01,"gz":-10,"mx":-433,"my":410,"m9v{T":1001,"L":0,""2,"gx":0,"gy":5,gz":-10,"mx":-3"1228,"odl":3591":076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 5 (char 4) with line: "2,"gx":4,"gy":-"-54,"my":332,"mz:1188,"odl":359v:1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":1068,"gz":-10,"mx:-54,"my":332,"m":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting value: line 1 column 1 (char 0) with line: R":0,""45,"my":294,"mz1,"odr":3123,"v":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "R":0,"ax":118,"y41,"gz":-11,"mx9v:1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 3 (char 2) with line: ""R":0,"ax":118,"ay":-136,"az":824,"gx":8,"gy":-x:-406,"my":245,"z91,"odr":3123,"{"T":100,"L":0,Ra":-142,"az":830,32,"my":254,"mz"9,1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":1002,"gx":3,"gy":-5-322,"my":223,"1"R":0,"ax":116,a289"gz":-11,"mx":"z:1193,"odl":359,"odr":3123,"v:"T":100"R":0,"a"a":-130,"az":82:,-67,"my":271,"mz":1193,"odl":359v:{"T":10R":0,"axyaz":8334,"gx":4,"gy":-3"45,"my":282,"m:1,"odr":3123,"v"1"R1:,:076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {R":0,"ax"y41-z9""1-z9v:1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"8"gx":7,"gy":-7"217,"my":423,"z"1382,"odl":359v1{"T":101,"L":0,R":0,"ax":138,"ay":-116,"az":83,9,"odr":3123,"v"{01,"L":0,"R":0,"ax":138,"y6,"gx":2,"gy"::1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":1001,2z:1412,"odl":359,"odr":3123,"v1"R":0,"ax":60,"ay:-130,"az":8258"gx":2,"gy":-9,"gz":-12,"mx":-4","odr":3123,"v1"Ray":-108,"az":29,"gx":5,"gy":-7:3":1340,"odl":3:{y":-108,"az":82,-393,"my":442,mz:1340,"odl":359v:"R":0,"9"gz":-12,"mx":-403,"my":405,"mz":1293,"odl":3591,"odr":3123,"v:1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {1,"L":0,R":0,"ax":70,"ayaz":8296,"gy":-100,"mx":y"1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {R":0,"ax",,-435,"my":380,"mz":1242,"odl":351:1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 8 (char 7) with line: {"T":1,1"T":10R":0,"ax"y6,"gx":5,"gy":"491,"odr":3123,{T":1001,"L":0,,a":-146,"az":832,"gx":2,"gy":-8"gz":-11,"mx":-10,"my":265,"mz:1135,"odl":35""1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {2,"gx":2,"gy":-8:-410,"my":265,"mz:1135,"odl":351"1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {1,"L":0,"R":0,"ax":106,"y,"gz":-13,"mx"""9,"odr":3123,"v{001,"L":0,"R":0,"ax":110,"y4,"gx":4,"gy":-6-24,"my":252,"m"1155,"odl":3591":076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,Ray":-144,"az":8345"gz":-8,"mx":-2z:,"odr":3123,"v1{T":1001,"L":0,"R":0,"ax":116,"a":-144,"az":833,"gx":9,"gy":-5"gz":-8,"mx":-24,"my":241,"mz"1162,"odl":3591"odr":3123,"v":01,"L":0,"R":0,"ax":124,"y30,"gx":3,"gy"-,91,"odr":3123,"v":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"R":0,"ax":128,"y8,"gx":7,"gy":-8"gz":-7,"mx":-2z":1260,"odl":3591,"odr":3123,"v":{"T":10,"R":0,"ax":122,"a":-146,"az":83:4"gz":-13,"mx":1z":1339,"odl":51:1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 1,"L":4"gz":-13,"mx":196,"my":380,"m1":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting ':' delimiter: line 1 column 27 (char 26) with line: {"T":86,"gz":-12,"mx:291,"odr":3123,"v":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 3 (char 2) with line: ""R":0,"ax":84,"ay":-158,"az":833,36,"my":451,"mz91"odr":3123,"v"{01,"L":0,"R":0,"ax":84,"ay:-158,"az":833-"36,"my":451,"m51"odr":3123,"v"1{T":1001,"L":0,"R":0,"ax":106,"y,"gz":-15,"mx"-z":1387,"odl":51:1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting ',' delimiter: line 1 column 23 (char 22) with line: {"T":13,"gx":5,"gy":-1m91,"odr":3123,"v":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 3 (char 2) with line: ""0"gx":7,"gy":-9,-37,"my":446,"mz:,1",,gz":-12,"mx":-41"odr":3123,"v"1{T":1001,"L":0,"R":0,"ax":112,"ay":-102,"az":8300,"gx":8,"gy":-4"gz":-11,"mx":-418,"my":442,"m"91,"odr":3123,v"1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {3,"gx":4,"gy":-1":410,"my":396,"z91,"odr":3123,v:1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 1Ry38,"gx":4,"gy":-11,"gz":-14,"mx":410,"my":396,"m":1274,"odl":35""":0,"ax":102,"ay":-158,"az":8362,"gx":0,"gy":-{T":1001,"L":0,"R":0,"ax":142,"ay":-198,"az":83"9,"odr":3123,"v:"T":1001,"L":0,"":0,"ax":136,"a4"1,"odr":3123,"v{001,"L":0,"R":0,"ax":136,"a":-146,"az":83:,1:{T":1001,"L":0,"R":0,"ax":44,"ay:-170,"az":831,"1121,"odl":3591,"odr":3123,"v":01,"L":0,"R":0,"ax":108,"y37,"my":238,"mz"9,"odr":3123,"v:076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 06"gx":-2,"gy":-z:1147,"odl":359v":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":1,-32,"my":246,"m39,"odr":3123,"v"{01,"L":0,2z:1157,"odl":351":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":1,-249,"my":296,"m"9,"odr":3123,"v":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting value: line 1 column 1 (char 0) with line: Ra":-112,"az":831-4,"gz":-14,"mx":21212,"odl":3591,odr":3123,"v":1"Ry":-104,"az":82,"gx":2,"gy":-,-17,"my":290,"m39,"odr":3123,"v"1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,Ry":-108,"az":8"91,"odr":3123,""":0,"ax":70,"a"odr":3123,"v":1"y:-84,"az":8332,,"z":-11,"mx":-203,"my":359,"mz":,"odr":3123,"v":176}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 1R":0,"ax":a2z:1393,"odl":3591,"odr":3123,"v:{"T":10"gx":2,"gy":-6,g6,"my":430,"mz:196,"odl":3591,:06}
+[ugv_bringup-3] 
+[cartographer_node-10] [WARN] [1793077814.786597755] [cartographer logger]: W1027 13:10:14.000000 19379 range_data_collator.cc:82] Dropped 1 earlier points.
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 3 (char 2) with line: """:0,"ax":110,"a":-152,"az":827-1,"gz":-13,"mx"-"y61,"gz":-13,"mx":"z9"{T":1001,"L":0,Ry":-128,"az":8:,328,"my":444,"":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 1,"L":2"gx":7,"gy":-98"1350,"odl":3591"odr":3123,"v":076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 001,"L":0,"R":0,"ax":66,"ay:-172,"az":8342"gx":7,"gy":-9"383,"my":444,"z"1350,"odl":3591,"odr":3123,"v":01,"L":0,"R":0,"ax":106,"a":-120,"az":8310,"gx":7,"gy":-9":1298,"odl":3591,"odr":3123,"v":076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {01,"L":0,"R":0,"ax":66,"ay:-136,"az":82964"gz":-11,"mx":40,"my":385,"mz:,:076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 0Ry68,"gx":2,"gy"-1,"gz":-15,"mx":444,"my":339,"m":1186,"odl":39v:1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {68,"gx":2,"gy"::-444,"my":339,"m":1186,"odl":3591,"odr":3123,""{"T":100,"L":0,8,"gz":-16,"mx"-435,"my":294,"mz":1152,"odl":3591,"odr":3123,"vR1:1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting ',' delimiter: line 1 column 8 (char 7) with line: {"T":11"odr":3123,"v"1"T":1001,"L":0,"y,,gz":-13,"mx":-33,"my":232,"mz":1146,"odl":3591,"odr":3123,"v"1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,,a":-112,"az":830,"gx":2,"gy":-1{"T":1001,"L":0,"R":0,"ax":72,"a8,"my":236,"mz"9"176}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 3 (char 2) with line: "":-124,"az":832,"gz":-8,"mx":-z""R":0,"ax":136,a":-124,"az":830,"gx":7,"gy":-7:2":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "R":0,"ax":88,"y94"gx":6,"gy":-9"230,"my":297,"z"1245,"odl":3591,"odr":3123,"v":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"R":0,"ax":92,"a","gx":-1,"gy":9:-02,"my":374,"mz51":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting ':' delimiter: line 1 column 21 (char 20) with line: {"T":9,"gz":-11,"mx"2":1332,"odl":3591,"odr":3123,"v:{"T":101,"L":0,"":0,"ax":86,"a""gz":-8,"mx":-z:350,"odl":3591"076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting ',' delimiter: line 1 column 25 (char 24) with line: {"T":100,"gz":-7,"mx":-2z:1"odr":3123,"v"1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 0"":0,"ax":80,"ay1,,gz":-13,"mx":-m"1393,"odl":3591":076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {01,"L":0,"R":0,"ax":80,"ay":-126,"az":831,,gz":-13,"mx":-29,"my":433,"mz"91"odr":3123,"v"1""":0,"ax":104,"ay":-102,"az":832-,300,"my":460,"39,"odr":3123,"v":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {,"R":0,"ax":108,"a":-140,"az":832,"gx":8,"gy":-5:3"1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 0R":0,"ax4,"gx":3z:1371,"odl":359v:""R":0,"ax":152"a":-126,"az":831-6389,"my":451,"mz:1336,"odl":359,"odr":3123,"v:"T":1001,"L":0,"R":0,"ax":104,"8,"gz":-8,"mx":4":1286,"odl":391,"odr":3123,"v:{T":1001,"L":0,"R":0,"ax":166,"a":-142,"az":836-5"gz":-8,"mx":-5"1235,"odl":3591"1"6,"gx":3,"gy":-5-5:1235,"odl":35"R":0,"ax":96,"y":-144,"az":8334,"gx":3,"gy":-1,40,"my":315,"mz":1177,"odl":3591"odr":3123,"v":076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {01,"L":0,R":0,"ay":-126,"az":8330,"gx":3,"gy":-1,"gz":-11,"mx"-mz":1146,"odl":351,"odr":3123,""{T":1001,"L":0,"R":0,"ax":128,"a":-126,"az":8306-z51,"odr":3123,"{1001,"L":0,"R":0,"ax":94,"ay:-142,"az":835-,412,"my":267,"3{T":1001,"L":0,":"T":100"R":0,"a":88,"ay:-96,"az":8316,gx":7,"gy":-8,g,1"odr":3123,"v"1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"":0,"ax":88,"ay:-96,"az":8316"g,"my":259,"mz"142,"odl":3591,"1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":1001,"L":0,""6"gx":5,"gy":-6":"49"gz":-14,"mx":29,"odr":3123,"v""3,"gx":-1,"gy":1"-201,"my":309,":591,"odr":3123""":0,"ax":108,"a":-178,"az":833:11,"gz":-13,"m:"mz":1276,"odl:391,"odr":3123,v"T":1001,"L":0,"R":0,"ax":48,"ay:-128,"az":8324"gx":5,"gy":-6,gz":-13,"mx":-2z:1349,"odl":35""R":0,"ax":126"ay":-138,"az":8322,"gx":0,"gy":-,91,"odr":3123,"":076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 0y":-138,"az":8322,"gx":0,"gy":-:-z":1368,"odl":""":0,"ax":130,"y2,"gx":6,"gy":1,-254,"my":454,"mz:1411,"odl":351:1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":109-3,"gz":-13,"m":-275,"my":437,"m":1387,"odl":39v:1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 1Ry":-108,"az":84,,"gz":-12,"mx"-3"1396,"odl":3591,"odr":3123,"v"1{T":1001,"L":0,"":0,"ax":96,"ay":-108,"az":83445,gz":-12,"mx":-3z:,"odr":3123,"v1"Ry":-122,"az":89-9"gz":-11,"mx":-355,"my":444,"m":1345,"odl":359,"odr":3123,"v:"Ry":-146,"az":81,,"gz":-13,"mx"1{"T":1001,"L":0,"R":0,"ax":84,"a"-99,"my":433,"mz:1314,"odl":359v"1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting ':' delimiter: line 1 column 30 (char 29) with line: {"T":1001,"L":0,"x":102,"y6,"gz":-15,"mx:-20,"my":380,"mz":1264,"odl":359,"Ray":-124,"az":31,"gx":5,"gy":-,44,"my":353,"mz"91"odr":3123,"v"{01,"L":0,"R":0,"ax":70,"ay:-134,"az":8328"gx":2,"gy":-7"30,"my":317,"m176}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"ay:-134,"az":8328"gx":2,"gy":-7,gz":-8,"mx":-4z:175,"odl":3591,odr":3123,"v":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting ':' delimiter: line 1 column 20 (char 19) with line: {"T":1001,"L":0,","gx":7,"gy":-,gz":-13,"mx":-2:076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[cartographer_node-10] [WARN] [1793077817.760904854] [cartographer logger]: W1027 13:10:17.000000 19379 sensor_bridge.cpp:211] Ignored subdivision of a LaserScan message from sensor scan because previous subdivision time 639286746178568179 is not before current subdivision time 639286746178564866
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 001,"L":0,"R":0,"ax":148,"a":-130,"az":829-7"gz":-12,"mx":4":1135,"odl":3{m":1127,"odl":351,"odr":3123,":1001,"L":0,"R":0,"ax":102,"a":-126,"az":830,"gx":4,"gy":-1,"gz":-13,"mx":"{,gz":-10,"mx":-35,"my":253,"mz"91,"odr":3123,""R":0,"ax":128,y":-112,"az":8282,"gx":-1,"gy":7"9,"odr":3123,"v"1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {,0"gz":-11,"mx":2z91,"odr":3123,"v":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 5 (char 4) with line: "Ry":-150,"az":840"gx":3,"gy":-1,-57,"my":297,"mz:1218,"odl":351":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"ay:-210,"az":83183,"gz":-12,"mx":-221,"my":286,"mz":1244,"odl":359{9,"gx":4,"gy":-,z:1314,"odl":359,"odr":3123,"v"001,"L":0,"R":0,"ax":106,"a":-114,"az":829-4-96,"my":364,"m91,"odr":3123,"v":1076}
+[ugv_bringup-3] 
+[cartographer_node-10] [INFO] [1793077818.388714190] [cartographer logger]: I1027 13:10:18.000000 19379 collated_trajectory_builder.cc:81] odom rate: 10.00 Hz 1.00e-01 s +/- 2.26e-04 s (pulsed at 99.99% real time)
+[cartographer_node-10] [INFO] [1793077818.388842405] [cartographer logger]: I1027 13:10:18.000000 19379 collated_trajectory_builder.cc:81] scan rate: 9.73 Hz 1.03e-01 s +/- 2.36e-02 s (pulsed at 99.98% real time)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,,a":-132,"az":8334,"gx":-2,"gy":2":1356,"odl":31:{T":1001,"L":0,"R":0,"ax":120,"a":-138,"az":830,"gz":-15,"mx":-26,"my":438,"m"9,"odr":3123,"v:{T":1001,"L":0,y4,"gx":3,"gy":4,"gz":-10,"mx":-238,"my":412,"mz:1396,"odl":359,"odr":3123,"v"{01,"L":0,"R":0,"ax":100,"ay":-124,"az":829,"gx":3,"gy":-4:-238,"my":412,z591,"odr":3123,"v"1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {1,"L":0,"R":0,"ax":140,"a":-156,"az":833,"gx":5,"gy":-6,"gz":-10,"mx":""1,"odr":3123,":{"T":1001,"L":0,"R":0,"ax":112,"y8,"gx":8,"gy":1,"gz":-12,"mx":319,"my":451,"m":1376,"odl":35"v:1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "0"gx":13,"gy":-"3z":1355,"odl"::1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting ':' delimiter: line 1 column 40 (char 39) with line: {"T":1001,"L":0,"":0,"ax":98,"ay:-122,"az":833,8,"gz":-11,"mx:-60,"my":465,"mz""":0,"ax":66,"a","gz":-14,"mx":389,"my":435,"mz":1319,"odl":359,"R":0,"ax":82,"","3:,1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 01,"L":,":1""":-130,"az":83,"8,"my":366,"mz9,odr":3123,"v":076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {001,"L":0,"98,"ay,"az":8306,"gx":2,"gy":-9,"gz":-14,"mx":-42:"":0,"ax":126,"a32,"gx":3,"gy":-0-433,"my":290,z591,"odr":3123,"""T":1001"":126,"ay":-110,"az":8381,"gz":-11,"mx"-z":1149,"odl":9":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting ':' delimiter: line 1 column 45 (char 44) with line: {"T":36,"gx":9,"gy":-1406,"my":266,"z:1129,"odl":359,"odr":3123,"v"y":-116,"az":8310,"gx":2,"gy":-7"gz":-9,"mx":-3"1"0"R":0,"ax":106,13,"gz":-7,"mx"3z:1140,"odl":35":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"R":0,"ax":106,"a":-132,"az":829-1,"gz":-7,"mx":"z:1140,"odl":359,"odr":3123,"v"{01,"L":0,"R":0,"ax":108,"a":-148,"az":830,"gx":15,"gy":-,"gz":-12,"mx":295,"my":255,"z51,"odr":3123,"{"T":1001,"L":0,","ax":106,"2,"g5,"gz":-8,"mx":-2my":263,"mz":359"T":1001,"L"R":0,"ax":106,"ay":-148,"az":833,"gx":9,"gy":-,60,"my":263,"m"91"odr":3123,"v":1076}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"":0,"ax":114,"a8,"gx":5,"gy":-6"gz":-8,"mx":-21{T":1001,"L":0,"":0,"ax":132,"y0,"gx":8,"gy":-9,"gz":-11,"mx":-12,"my":326,"mz":1293,"odl":3591,"odr":3123,"v:""":0,"ax":108,"a20,"gx":5,"gy":2"{T":1001,"L":0,"R":0,"ax":108,"a":-116,"az":828,"gx":5,"gy":-1,"gz":-14,"mx":"m":1353,"odl":3"T":1001,"L":0,"R":0,"ax":122,"y,2":1390,"odl":39,"odr":3123,"v1001,"L":0,"R":0,"ax":136,"y26,"my":456,"mz51"odr":3123,"v":01,"L":0,"ay":-158,"az":8344,"gx":3,"gy":-7"gz":-8,"mx":-256,"my":456,"mz:,1{T":1001,"L":0,"R":0,"ax":92,"ay:-144,"az":8316"gx":5,"gy":-1:,"odr":3123,"v":076}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {01,"L":0,R":0,"y":-136,"z":831:,gz":-12,"mx":-3z"1396,"odl":3591,"odr":3123,"v":{1,"L":0,"R":0,"ax":80,"ay:-158,"az":83187"gz":-14,"mx":38,"my":439,"mz"1342,"odl":3591":1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,R"48,"my":439,"m":1342,"odl":3591,"odr":3123,"v":067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting value: line 1 column 1 (char 0) with line: Ry":-170,"az":8352,"gx":6,"gy":-11"gz":-7,"mx":-40,"my":427,"mz"1321,"odl":3591"odr":3123,"v":067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {01,"L":0,R":0,"ay":-134,az":8356,"gx":5,"gy":-,z:1274,"odl":359v:"T":1001,"L":0,"R":0,"ax":112,"ay,,"gz":-11,"mx""z:1216,"odl":359,"odr":3123,"v"1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {2:456,"my":353,"m3591,"odr":3123"v:1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 5 (char 4) with line: "1,"gx":6,"gy":-1"-456,"my":318,:5v:1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[cartographer_node-10] [INFO] [1793077820.194622810] [cartographer logger]: I1027 13:10:20.000000 19379 pose_graph_2d.cc:148] Inserted submap (0, 1).
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 6 (char 5) with line: "52,"gx":4,"gy":-1,"gz":-9,"mx":-33,"my":269,"m"{T":1001,"L":0,""ay":-128,"az":83211,"gz":-9,"mx-43,"my":269,"mz":1134,"odl":359,"odr":3123,"v:"T":100"x":110,",27"gz":-7,"mx":-407,"my":275,"mz:,"odr":3123,"v1"y":-154,"az":8276"gz":-10,"mx":-68,"my":234,"m31:1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":106"gx":5,"gy":-11:319,"my":262,"z51:1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":10":-146,"az":8356"gx":5,"gy":-11,"gz":-12,"mx":9,"odr":3123,"v"1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":1001,"L":0,"R":0,"ax":112,"y-275,"my":250,"mz"1,"odr":3123,"v1""R":0,"ax":132"ay":-116,"az":83,-235,"my":300,mz:1226,"odl":359v"1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 5 (char 4) with line: "09"gz":-11,"mx":2":1272,"odl":3:1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 1"":0,"ax":110,"8330,"gx":3,"gy":-9"gz":-11,"mx":"91,"odr":3123,v"1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"R":0,"ax":92,"a"8,"gx":3,"gy":19,"my":381,"mz"91"odr":3123,"v":067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "y":-134,"az":898,"gx":3,"gy":-10,"gz":-10,"mx"-212,"my":397,"m9""R":0,"ax":122,"a":-134,"az":82:0-{T":1001,"L":0,"R":0,"ax":134,"y1,"gz":-14,"mx":"mz":1388,"odl":351,"odr":3123,"v":1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 5 (char 4) with line: "0,"gx":4,"gy":-,-265,"my":439,mz:1397,"odl":3591,"odr":3123,"v"1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 5 (char 4) with line: "3,"gx":7,"gy":-2"gz":-9,"mx":-35,"my":465,"mz"1385,"odl":359,1{T":1001,"L":0,Ry":-128,"az":83,"gx":7,"gy":-:35,"my":465,"mz"9,"odr":3123,"v":1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "R":0,"ax":132,a":-100,"az":833-,-349,"my":443,mz:1356,"odl":359,"odr":3123,"v"001,"L":0,"R":0,"ax":100,"a":-74,"az":827,"gz":-7,"mx":-51067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting value: line 1 column 1 (char 0) with line: ,"gz":-"odr":3123,"v":167}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 5 (char 4) with line: "1,"gx":6,"gy":-4z":1254,"odl":59{"T":1001,"L":0,"R":0,"ax":118,"y0,"gz":-10,"mx"-z91,"odr":3123,"{T":1001,"L":0,"R":0,"ax":90,"ay:-140,"az":832,"gx":6,"gy":-10,"gz":-14,"mx":m9,"odr":3123,"v":1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting ':' delimiter: line 1 column 40 (char 39) with line: {"T":1001,"L":0,"":0,"ax":90,"ay:-140,"az":8320"gx":6,"gy":-10,"gz":-14,"mx":41,"odr":3123,"v"{1,"L":0,"R":0,"ax":72,"ay:-134,"az":83662,"gz":-13,"mx"-40,"my":252,"mz:,"odr":3123,"v1{"T":101,"L":0,":110,"ay":-178,az":8330,"gx":4,"gy":-6,"gz":-13,"mx":-71,"my":250,"m"91,"odr":3123,v"1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {3":1140,"odl":391,"odr":3123,"v":1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,Ray":-160,"az":831,"gx":4,"gy":-81":1067}
+[ugv_bringup-3] 
+
+===== 停止指令收到：正在自动保存地图 [wraptest3] =====
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 66 (char 65) with line: {"T":1001,"L":0,"R":0,"ax":76,"ay":-104,"az":8284,"gx":9,"gy":-3,gz":-11,"mx":-5,:{"T":101,"L":0,"":118,"a,"az":83:206,"my":288,":v:1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 3 (char 2) with line: -8,"gz":-12,"mx":-206,"my":288,"mz":1244,"odl":351,"odr":3123,"v:1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {a":-174,"az":8309"gz":-7,"mx":-21,"my":367,"mz"1316,"odl":359,1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting ',' delimiter: line 1 column 8 (char 7) with line: {"T":10a":-174,"az":832-7,"gz":-14,"mx":-05,"my":387,"mz:1357,"odl":35""":0,"ax":114,"y6,"gx":7,"gy":-,230,"my":458,"mz:1,"odr":3123,"":067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting value: line 1 column 1 (char 0) with line: ,:1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting value: line 1 column 1 (char 0) with line: y25,"my":442,"mz"1394,"odl":3591"odr":3123,"v":067}
+[ugv_bringup-3] 
+[cartographer_node-10] [WARN] [1793077821.987857006] [cartographer logger]: W1027 13:10:21.000000 19379 range_data_collator.cc:82] Dropped 1 earlier points.
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {01,"L":0,"":0,"ax":62,"a"2,"gx":3,"gy":6,"gz":-17,"mx":-:1,"odr":3123,"1{T":1001,"L":0,R",324,"my":475,"z:"R":0,"ax":100,"a":-144,"az":8352,"gx":2,"gy":-,-374,"my":438,"m"{"T":1001,"L":0,"":0,"ax":140,"a":-150,"az":834-0,"gz":-11,"mx:422,"my":412,"m351,"odr":3123,"v":1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {,"":0,"ax":110,"31"odr":3123,"v"001,"L":0,Ry":-124,"az":8:,35,"my":343,"m:1,"odr":3123,"":1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[cartographer_node-10] [WARN] [1793077822.387915393] [cartographer logger]: W1027 13:10:22.000000 19379 range_data_collator.cc:82] Dropped 1 earlier points.
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {,:{T":1001,"L":0,Ra":-162,"az":8308,"gx":4,"gy":-4,"gz":-14,"mx":-12,"my":286,"m""Ry":-158,"az":82:1135,"odl":35,1"T":1001,"L":0,Ry":-158,"az":82-91,"odr":3123,"{"T":100"R":0,"ax":90,"ay":-142,"az":8326,"gx":6,"gy":-6,"gz":-13,"mx":-34,"my":254,"mz::067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"ay:-88,"az":8344"g51,"odr":3123,"v:1"T":1"R":0,"ax"-22,"my":313,"mz:1255,"odl":35":""R":0,"ax":128014,"gz":-9,"mx":-22,"my":313,"mz:1255,"odl":351"1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {1,"L":0,"":0,"ax":18,"ay:-122,"az":83181,:1291,"odl":351":067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting value: line 1 column 1 (char 0) with line: R5"gz":-11,"mx":-11,"my":409,"m"1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {ay":-142,"az":8314,"gx":6,"gy":-5"gz":-11,"mx":-11,"my":409,"mz:1378,"odl":3591,"odr":3123,"v"001,"L":0,R:,{T":1001,"L":0,""9,"gx":5,"gy":-6:-315,"my":452,"mz":1372,"odl":359":1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting ',' delimiter: line 1 column 7 (char 6) with line: {"T":1a":-152,"az":8296,"gx":5,"gy":-6,"gz":-13,"mx":-15,"my":452,"mz:1372,"odl":3591,"odr":3123,"v"1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {a":-176,"az":832,"gx":5,"gy":-7,"gz":-9,"mx":-373,"my":455,"mz"1350,"odl":3591,"odr":3123,"v":067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {y:-138,"az":833213,"gz":-13,"mx":-412,"my":406,"m"{T":1001,"L":0,"a":-138,"az":833"gz":-13,"mx":4z":1286,"odl":59,"odr":3123,"v":1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 0"":0,"ax":56,"ay":-116,"az":828,4":1219,"odl":359,{R":0,"ax":136,a336,"gx":4,"gy"-6"gz":-13,"mx":-m91,"odr":3123,"v"1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting ':' delimiter: line 1 column 37 (char 36) with line: {"T":1001,"L":0,"R":0,"ax":100,"y6,"gx":6,"gy":1,"gz":-18,"mx":mz":1141,"odl":591,"odr":3123,"v":1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,""a":-130,"az":8316,"gx":6,"gy":-10,"gz":-18,"mx":-406,"my":253,"m":1141,"odl":3591,"odr":3123,"v:1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {,"L":0,"":0,"ax":86,"ay":-126,"az":8346"gx":8,"gy":-7,gz":-12,"mx":-369,"my":249,"mz:1"odr":3123,"v":1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 17 (char 16) with line: {"T":1001,"L":0,1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":1001a45":067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 0,4,"my":280,"mz:1,odr":3123,"v":1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":1001,"L":0,"R":0,"ax":142,"a":-128,"az":831-,235,"my":290,"z"1245,"odl":3591"odr":3123,"v":067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[cartographer_node-10] [WARN] [1793077823.688105572] [cartographer logger]: W1027 13:10:23.000000 19379 range_data_collator.cc:82] Dropped 21 earlier points.
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 3 (char 2) with line: ""R":0,"ax":122"a":-94,"az":828427,"my":368,"mz51"odr":3123,"v"{01,"L":0,"R":0,"ax":122,"a":-94,"az":828,,"gz":-16,"mx"-27,"my":368,"mz5"T":1001,"L":0,""2,"gx":5,"gy":10"gz":-12,"mx":-05,"my":389,"mz"T":1001,"L":0,"R":0,"ax":72,"ay":-140,"az":8340,"gx":5,"gy":-9,"gz":-14,"mx":-241,"my":454,"mz":1408,"odl":3591,"odr":3123,"v":1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+requester: making request: cartographer_ros_msgs.srv.WriteState_Request(filename='/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/wraptest3_saving_20261027_131022.pbstream', include_unfinished_submaps=True)
+
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"ay:-128,"az":82783"75,"my":447,"m":1390,"odl":3591,"odr":3123,"v":1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "y":-128,"az":8278,"gx":3,"gy":-3":1390,"odl":3591"odr":3123,"v":1067}
+[ugv_bringup-3] 
+response:
+cartographer_ros_msgs.srv.WriteState_Response(status=cartographer_ros_msgs.msg.StatusResponse(code=0, message="State written to '/home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/wraptest3_saving_20261027_131022.pbstream'."))
+
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting value: line 1 column 1 (char 0) with line: Ry":-150,"az":88,"gz":-12,"mx"z:1376,"odl":35:{"T":1001,"L":0,R0-m":1326,"odl":391,"odr":3123,"v",,"gz":-11,"mx":-43,"my":402,"mz":1270,"odl":3591"odr":3123,"v":1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {,"23,"my":402,"m:1,"odr":3123,"v":067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 4 (char 3) with line: "T":1001,"L":0,,z{"T":1001,"L":,"":0,"ax":126,"y40,"gx":0,"gy"-1,"gz":-11,"mx"m":1149,"odl":351,"odr":3123,"v:1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {4,"gx":0,"gy":-1,"gz":-11,"mx"z591,"odr":3123,"v":1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {4":1124,"odl":3":{"T":1001,"L":0,"R":0,"ax":140,"ay":-142,"az":8334,"gx":6,"gy":-3"gz":-9,"mx":-35,"my":242,"mz"91,"odr":3123,"v":1067}
+[ugv_bringup-3] 
+I1027 13:10:24.522528 19678 pbstream_to_ros_map_main.cpp:44] Loading submap slices from serialized data.
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Expecting value: line 1 column 1 (char 0) with line: Ry0,"gx":3,"gy":291,"odr":3123,v"":0,"ax":126,"a":-120,"az":831-8,"gz":-11,"mx:-93,"my":258,"mz:1161,"odl":351ay":-136,"az":830"1067}
+[ugv_bringup-3] 
+I1027 13:10:24.599181 19678 pbstream_to_ros_map_main.cpp:52] Generating combined map image from submap slices.
+[ugv_bringup-3] [base_ctrl.feedback_data] unexpected error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 2 (char 1) with line: 01,"L":0,"R":0,"ax":116,"y5,"gx":13,"gy":z591,"odr":3123,"""R":0,"ax":128"ay":-170,"az":836-197,"my":342,"mz:1320,"odl":351"1067}
+[ugv_bringup-3] 
+已保存: /home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/wraptest3.pgm / wraptest3.yaml / wraptest3.pbstream（pgm 506896 字节）
+===== 自动保存成功：ugv_nav/maps/wraptest3.pgm/.yaml/.pbstream =====
+[robot_pose_publisher-9] [0m[INFO] [1793077824.695984239] [rclcpp]: signal_handler(signum=2)[0m
+[robot_state_publisher-1] [INFO] [1793077824.695950953] [rclcpp]: signal_handler(signum=2)
+[joy_node-12] [INFO] [1793077824.695920900] [rclcpp]: signal_handler(signum=2)
+[base_node-8] [INFO] [1793077824.695949993] [rclcpp]: signal_handler(signum=2)
+[rf2o_laser_odometry_node-6] [INFO] [1793077824.696066974] [rclcpp]: signal_handler(signum=2)
+[cartographer_occupancy_grid_node-11] [INFO] [1793077824.696212664] [rclcpp]: signal_handler(signum=2)
+[ldlidar_node-5] [INFO] [1793077824.696283333] [rclcpp]: signal_handler(signum=2)
+[cmd_vel_watchdog-7] Traceback (most recent call last):
+[cmd_vel_watchdog-7]   File "/home/ws/ugv_ws/build/ugv_auto/ugv_auto/cmd_vel_watchdog.py", line 50, in main
+[cmd_vel_watchdog-7]     rclpy.spin(node)
+[cmd_vel_watchdog-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 222, in spin
+[cmd_vel_watchdog-7]     executor.spin_once()
+[cmd_vel_watchdog-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+[cmd_vel_watchdog-7]     self._spin_once_impl(timeout_sec)
+[cmd_vel_watchdog-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 728, in _spin_once_impl
+[cmd_vel_watchdog-7]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[cmd_vel_watchdog-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 711, in wait_for_ready_callbacks
+[cmd_vel_watchdog-7]     return next(self._cb_iter)
+[cmd_vel_watchdog-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 612, in _wait_for_ready_callbacks
+[cmd_vel_watchdog-7]     raise ExternalShutdownException()
+[cmd_vel_watchdog-7] rclpy.executors.ExternalShutdownException
+[cmd_vel_watchdog-7] 
+[cmd_vel_watchdog-7] During handling of the above exception, another exception occurred:
+[cmd_vel_watchdog-7] 
+[cmd_vel_watchdog-7] Traceback (most recent call last):
+[cmd_vel_watchdog-7]   File "/home/ws/ugv_ws/install/ugv_auto/lib/ugv_auto/cmd_vel_watchdog", line 33, in <module>
+[cmd_vel_watchdog-7]     sys.exit(load_entry_point('ugv-auto', 'console_scripts', 'cmd_vel_watchdog')())
+[cmd_vel_watchdog-7]   File "/home/ws/ugv_ws/build/ugv_auto/ugv_auto/cmd_vel_watchdog.py", line 54, in main
+[cmd_vel_watchdog-7]     node.pub.publish(Twist())
+[cmd_vel_watchdog-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/publisher.py", line 70, in publish
+[cmd_vel_watchdog-7]     self.__publisher.publish(msg)
+[cmd_vel_watchdog-7] rclpy._rclpy_pybind11.RCLError: Failed to publish: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[joint_state_publisher-2] Traceback (most recent call last):
+[joint_state_publisher-2]   File "/opt/ros/humble/lib/joint_state_publisher/joint_state_publisher", line 33, in <module>
+[joint_state_publisher-2]     sys.exit(load_entry_point('joint-state-publisher==2.4.0', 'console_scripts', 'joint_state_publisher')())
+[joint_state_publisher-2]   File "/opt/ros/humble/lib/python3.10/site-packages/joint_state_publisher/joint_state_publisher.py", line 466, in main
+[joy_teleop-13] Traceback (most recent call last):
+[joy_teleop-13]   File "/home/ws/ugv_ws/install/ugv_auto/lib/ugv_auto/joy_teleop", line 33, in <module>
+[joy_teleop-13]     sys.exit(load_entry_point('ugv-auto', 'console_scripts', 'joy_teleop')())
+[joy_teleop-13]   File "/home/ws/ugv_ws/build/ugv_auto/ugv_auto/joy_teleop.py", line 84, in main
+[joy_teleop-13]     rclpy.spin(node)
+[joy_teleop-13]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 222, in spin
+[joy_teleop-13]     executor.spin_once()
+[joy_teleop-13]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+[joy_teleop-13]     self._spin_once_impl(timeout_sec)
+[joy_teleop-13]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 728, in _spin_once_impl
+[joy_teleop-13]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[joy_teleop-13]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 711, in wait_for_ready_callbacks
+[joy_teleop-13]     return next(self._cb_iter)
+[joy_teleop-13]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 612, in _wait_for_ready_callbacks
+[joy_teleop-13]     raise ExternalShutdownException()
+[joy_teleop-13] rclpy.executors.ExternalShutdownException
+[joint_state_publisher-2]     rclpy.spin(jsp)
+[joint_state_publisher-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 222, in spin
+[joint_state_publisher-2]     executor.spin_once()
+[joint_state_publisher-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+[joint_state_publisher-2]     self._spin_once_impl(timeout_sec)
+[joint_state_publisher-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 728, in _spin_once_impl
+[joint_state_publisher-2]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[joint_state_publisher-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 711, in wait_for_ready_callbacks
+[joint_state_publisher-2]     return next(self._cb_iter)
+[joint_state_publisher-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 612, in _wait_for_ready_callbacks
+[joint_state_publisher-2]     raise ExternalShutdownException()
+[joint_state_publisher-2] rclpy.executors.ExternalShutdownException
+[ldlidar_node-5] [INFO] [1793077824.708423269] [LD19]: ldlidar_published is end
+[cartographer_node-10] [INFO] [1793077824.709419832] [rclcpp]: signal_handler(signum=2)
+[ugv_bringup-3] JSON decode error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) with line: {T":1001,"L":0,"R":0,"ax":128,"ay":-170,"az":8336,"gx":2,"gy":-8,"gz":-10,"mx":-197,"my":342,"mz":1320,"odl":3591,"odr":3123,"v":1067}
+[ugv_bringup-3] 
+[ugv_bringup-3] Traceback (most recent call last):
+[ugv_bringup-3]   File "/home/ws/ugv_ws/install/ugv_bringup/lib/ugv_bringup/ugv_bringup", line 33, in <module>
+[ugv_bringup-3]     sys.exit(load_entry_point('ugv-bringup', 'console_scripts', 'ugv_bringup')())
+[ugv_bringup-3]   File "/home/ws/ugv_ws/build/ugv_bringup/ugv_bringup/ugv_bringup.py", line 174, in main
+[ugv_bringup-3]     rclpy.spin(node)  # Keep the node running
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 222, in spin
+[ugv_bringup-3]     executor.spin_once()
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+[ugv_bringup-3]     self._spin_once_impl(timeout_sec)
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 736, in _spin_once_impl
+[ugv_bringup-3]     raise handler.exception()
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/task.py", line 239, in __call__
+[ugv_bringup-3]     self._handler.send(None)
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 437, in handler
+[ugv_bringup-3]     await call_coroutine(entity, arg)
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 351, in _execute_timer
+[ugv_bringup-3]     await await_or_execute(tmr.callback)
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 107, in await_or_execute
+[ugv_bringup-3]     return callback(*args)
+[ugv_bringup-3]   File "/home/ws/ugv_ws/build/ugv_bringup/ugv_bringup/ugv_bringup.py", line 117, in feedback_loop
+[ugv_bringup-3]     self.publish_imu_data_raw()  # Publish IMU raw data
+[ugv_bringup-3]   File "/home/ws/ugv_ws/build/ugv_bringup/ugv_bringup/ugv_bringup.py", line 139, in publish_imu_data_raw
+[ugv_bringup-3]     self.imu_data_raw_publisher_.publish(msg)  # Publish the IMU data
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/publisher.py", line 70, in publish
+[ugv_bringup-3]     self.__publisher.publish(msg)
+[ugv_bringup-3] rclpy._rclpy_pybind11.RCLError: Failed to publish: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[cartographer_node-10] [INFO] [1793077824.777919602] [cartographer logger]: I1027 13:10:24.000000 19379 node.cpp:569] Shutdown the subscriber of [scan]
+[cartographer_node-10] [INFO] [1793077824.791067175] [cartographer logger]: I1027 13:10:24.000000 19379 node.cpp:569] Shutdown the subscriber of [odom]
+[cartographer_node-10] [INFO] [1793077824.791142452] [cartographer logger]: I1027 13:10:24.000000 19379 map_builder_bridge.cpp:152] Finishing trajectory with ID '0'...
+[ugv_driver-4] Traceback (most recent call last):
+[ugv_driver-4]   File "/home/ws/ugv_ws/build/ugv_bringup/ugv_bringup/ugv_driver.py", line 116, in main
+[ugv_driver-4]     rclpy.spin(node)  # Keep the node running and handling callbacks
+[ugv_driver-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 222, in spin
+[ugv_driver-4]     executor.spin_once()
+[ugv_driver-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+[ugv_driver-4]     self._spin_once_impl(timeout_sec)
+[ugv_driver-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 728, in _spin_once_impl
+[ugv_driver-4]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[ugv_driver-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 711, in wait_for_ready_callbacks
+[ugv_driver-4]     return next(self._cb_iter)
+[ugv_driver-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 612, in _wait_for_ready_callbacks
+[ugv_driver-4]     raise ExternalShutdownException()
+[ugv_driver-4] rclpy.executors.ExternalShutdownException
+[ugv_driver-4] 
+[ugv_driver-4] During handling of the above exception, another exception occurred:
+[ugv_driver-4] 
+[ugv_driver-4] Traceback (most recent call last):
+[ugv_driver-4]   File "/home/ws/ugv_ws/install/ugv_bringup/lib/ugv_bringup/ugv_driver", line 33, in <module>
+[ugv_driver-4]     sys.exit(load_entry_point('ugv-bringup', 'console_scripts', 'ugv_driver')())
+[ugv_driver-4]   File "/home/ws/ugv_ws/build/ugv_bringup/ugv_bringup/ugv_driver.py", line 121, in main
+[ugv_driver-4]     rclpy.shutdown()
+[ugv_driver-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 126, in shutdown
+[ugv_driver-4]     _shutdown(context=context)
+[ugv_driver-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[ugv_driver-4]     return context.shutdown()
+[ugv_driver-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[ugv_driver-4]     self.__context.shutdown()
+[ugv_driver-4] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[cartographer_node-10] [WARN] [1793077824.805551852] [cartographer logger]: W1027 13:10:24.000000 19379 node.cpp:773] Can't run final optimization if there are one or more active trajectories. Trying to finish trajectory with ID 0 now.
+[cartographer_node-10] [INFO] [1793077824.805609686] [cartographer logger]: I1027 13:10:24.000000 19379 node.cpp:551] Trajectory 0 already pending to finish.
+[cartographer_node-10] [INFO] [1793077824.805624185] [cartographer logger]: I1027 13:10:24.000000 19379 map_builder_bridge.cpp:161] Running final trajectory optimization...
+[cartographer_node-10] [INFO] [1793077824.806540605] [cartographer logger]: I1027 13:10:24.000000 19456 pose_graph_2d.cc:538] Remaining work items in queue: 0
+[cartographer_node-10] [INFO] [1793077824.806646032] [cartographer logger]: I1027 13:10:24.000000 19456 constraint_builder_2d.cc:290] 0 computations resulted in 0 additional constraints.
+[cartographer_node-10] [INFO] [1793077824.806753411] [cartographer logger]: I1027 13:10:24.000000 19456 constraint_builder_2d.cc:292] Score histogram:
+[cartographer_node-10] Count: 0
+[cartographer_node-10] [WARN] [1793077824.807863210] [cartographer logger]: W1027 13:10:24.000000 19456 preprocessor.cc:62] Specified options.num_threads: 7 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[cartographer_node-10] [INFO] [1793077824.857270437] [cartographer logger]: I1027 13:10:24.000000 19456 pose_graph_2d.cc:538] Remaining work items in queue: 1
+[cartographer_node-10] [INFO] [1793077824.858624919] [cartographer logger]: I1027 13:10:24.000000 19456 constraint_builder_2d.cc:290] 0 computations resulted in 0 additional constraints.
+[cartographer_node-10] [INFO] [1793077824.859194782] [cartographer logger]: I1027 13:10:24.000000 19456 constraint_builder_2d.cc:292] Score histogram:
+[cartographer_node-10] Count: 0
+[cartographer_node-10] [WARN] [1793077824.861157085] [cartographer logger]: W1027 13:10:24.000000 19456 preprocessor.cc:62] Specified options.num_threads: 7 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[cartographer_node-10] [INFO] [1793077824.865699436] [cartographer logger]: I1027 13:10:24.000000 19458 constraint_builder_2d.cc:290] 0 computations resulted in 0 additional constraints.
+[cartographer_node-10] [INFO] [1793077824.870756150] [cartographer logger]: I1027 13:10:24.000000 19458 constraint_builder_2d.cc:292] Score histogram:
+[cartographer_node-10] Count: 0
+[cartographer_node-10] [KOptimizing: Done.     
+[cartographer_node-10] [INFO] [1793077824.883563855] [cartographer logger]: I1027 13:10:24.000000 19457 constraint_builder_2d.cc:290] 0 computations resulted in 0 additional constraints.
+[cartographer_node-10] [INFO] [1793077824.883638620] [cartographer logger]: I1027 13:10:24.000000 19457 constraint_builder_2d.cc:292] Score histogram:
+[cartographer_node-10] Count: 0
+[cartographer_node-10] [KOptimizing: Done.     
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 19341]
+[INFO] [joy_node-12]: process has finished cleanly [pid 19390]
+[ldlidar_node-5] [LDS][INFO][1793077802.737684337][Actual BaudRate reported:230400]
+[INFO] [ldlidar_node-5]: process has finished cleanly [pid 19349]
+[INFO] [base_node-8]: process has finished cleanly [pid 19373]
+[INFO] [cartographer_occupancy_grid_node-11]: process has finished cleanly [pid 19387]
+[INFO] [robot_pose_publisher-9]: process has finished cleanly [pid 19376]
+[INFO] [rf2o_laser_odometry_node-6]: process has finished cleanly [pid 19351]
+[INFO] [cartographer_node-10]: process has finished cleanly [pid 19379]
+[ERROR] [ugv_driver-4]: process has died [pid 19347, exit code 1, cmd '/home/ws/ugv_ws/install/ugv_bringup/lib/ugv_bringup/ugv_driver --ros-args'].
+[ERROR] [ugv_bringup-3]: process has died [pid 19345, exit code 1, cmd '/home/ws/ugv_ws/install/ugv_bringup/lib/ugv_bringup/ugv_bringup --ros-args'].
+[ERROR] [cmd_vel_watchdog-7]: process has died [pid 19362, exit code 1, cmd '/home/ws/ugv_ws/install/ugv_auto/lib/ugv_auto/cmd_vel_watchdog --ros-args -r __node:=cmd_vel_watchdog'].
+[ERROR] [joint_state_publisher-2]: process has died [pid 19343, exit code 1, cmd '/opt/ros/humble/lib/joint_state_publisher/joint_state_publisher /home/ws/ugv_ws/install/ugv_description/share/ugv_description/urdf/ugv_beast.urdf --ros-args -r __node:=joint_state_publisher'].
+[ERROR] [joy_teleop-13]: process has died [pid 19404, exit code 1, cmd '/home/ws/ugv_ws/install/ugv_auto/lib/ugv_auto/joy_teleop --ros-args -r __node:=joy_teleop --params-file /tmp/launch_params_b5k6dc_p'].
+（建图会话结束，地图已保存到 [wraptest3]）

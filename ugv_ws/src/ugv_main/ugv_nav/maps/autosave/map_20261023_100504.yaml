@@ -1,0 +1,6 @@
+image: /home/ws/ugv_ws/src/ugv_main/ugv_nav/maps/autosave/map_20261023_100504.pgm
+resolution: 0.050000
+origin: [-2.428359, -3.424402, 0.0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196

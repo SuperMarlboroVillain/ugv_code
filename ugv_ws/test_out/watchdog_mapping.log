@@ -1,0 +1,192 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-10-27-13-01-24-563398-ubuntu-17565
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_pose_publisher-9]: process started with pid [17608]
+[INFO] [robot_state_publisher-1]: process started with pid [17566]
+[INFO] [joint_state_publisher-2]: process started with pid [17568]
+[INFO] [ugv_bringup-3]: process started with pid [17570]
+[INFO] [ugv_driver-4]: process started with pid [17572]
+[INFO] [ldlidar_node-5]: process started with pid [17574]
+[INFO] [rf2o_laser_odometry_node-6]: process started with pid [17576]
+[INFO] [cmd_vel_watchdog-7]: process started with pid [17583]
+[INFO] [base_node-8]: process started with pid [17597]
+[INFO] [cartographer_node-10]: process started with pid [17610]
+[INFO] [cartographer_occupancy_grid_node-11]: process started with pid [17614]
+[INFO] [joy_node-12]: process started with pid [17617]
+[INFO] [joy_teleop-13]: process started with pid [17629]
+[robot_state_publisher-1] [WARN] [1793077286.242454247] [robot_state_publisher]: No robot_description parameter, but command-line argument available.  Assuming argument is name of URDF file.  This backwards compatibility fallback will be removed in the future.
+[ldlidar_node-5] [INFO] [1793077286.239551941] [LD19]: LDLiDAR SDK Pack Version is: v3.0.3
+[ldlidar_node-5] [INFO] [1793077286.240359200] [LD19]: <product_name>: LDLiDAR_LD19
+[ldlidar_node-5] [INFO] [1793077286.240401538] [LD19]: <topic_name>: scan
+[ldlidar_node-5] [INFO] [1793077286.240412706] [LD19]: <frame_id>: base_lidar_link
+[ldlidar_node-5] [INFO] [1793077286.240420290] [LD19]: <port_name>: /dev/ttyACM0
+[ldlidar_node-5] [INFO] [1793077286.240427171] [LD19]: <port_baudrate>: 230400
+[ldlidar_node-5] [INFO] [1793077286.240435459] [LD19]: <laser_scan_dir>: Counterclockwise
+[ldlidar_node-5] [INFO] [1793077286.240443267] [LD19]: <enable_angle_crop_func>: true
+[ldlidar_node-5] [INFO] [1793077286.240450307] [LD19]: <angle_crop_min>: 225.000000
+[ldlidar_node-5] [INFO] [1793077286.240468516] [LD19]: <angle_crop_max>: 315.000000
+[ldlidar_node-5] [INFO] [1793077286.241903413] [LD19]: ldlidar node start is success
+[ldlidar_node-5] [INFO] [1793077286.251973035] [LD19]: ldlidar communication is normal.
+[ldlidar_node-5] [INFO] [1793077286.255728682] [LD19]: Publish topic message:ldlidar scan data.
+[rf2o_laser_odometry_node-6] [WARN] [1793077286.283377654] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[rf2o_laser_odometry_node-6] [INFO] [1793077286.326890396] [rf2o_laser_odometry]: Initializing RF2O node...
+[rf2o_laser_odometry_node-6] [WARN] [1793077286.383469471] [rf2o_laser_odometry]: Waiting for laser_scans....
+[robot_state_publisher-1] [INFO] [1793077286.397161296] [robot_state_publisher]: got segment 3d_camera_link
+[robot_state_publisher-1] [INFO] [1793077286.397283028] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-1] [INFO] [1793077286.397298549] [robot_state_publisher]: got segment base_imu_link
+[robot_state_publisher-1] [INFO] [1793077286.397309557] [robot_state_publisher]: got segment base_lidar_link
+[robot_state_publisher-1] [INFO] [1793077286.397318358] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1793077286.397326294] [robot_state_publisher]: got segment left_down_wheel_link
+[robot_state_publisher-1] [INFO] [1793077286.397334518] [robot_state_publisher]: got segment left_up_wheel_link
+[robot_state_publisher-1] [INFO] [1793077286.397342134] [robot_state_publisher]: got segment pt_base_link
+[robot_state_publisher-1] [INFO] [1793077286.397349815] [robot_state_publisher]: got segment pt_camera_link
+[robot_state_publisher-1] [INFO] [1793077286.397357079] [robot_state_publisher]: got segment pt_link1
+[robot_state_publisher-1] [INFO] [1793077286.397364119] [robot_state_publisher]: got segment pt_link2
+[robot_state_publisher-1] [INFO] [1793077286.397371287] [robot_state_publisher]: got segment right_down_wheel_link
+[robot_state_publisher-1] [INFO] [1793077286.397378552] [robot_state_publisher]: got segment right_up_wheel_link
+[cartographer_node-10] [INFO] [1793077286.568070624] [cartographer logger]: I1027 13:01:26.000000 17610 configuration_file_resolver.cc:41] Found '/home/ws/ugv_ws/install/cartographer/share/cartographer/config/mapping_2d.lua' for 'mapping_2d.lua'.
+[cartographer_node-10] [INFO] [1793077286.569906110] [cartographer logger]: I1027 13:01:26.000000 17610 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.
+[cartographer_node-10] [INFO] [1793077286.570005729] [cartographer logger]: I1027 13:01:26.000000 17610 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.
+[cartographer_node-10] [INFO] [1793077286.570096420] [cartographer logger]: I1027 13:01:26.000000 17610 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.
+[cartographer_node-10] [INFO] [1793077286.570140422] [cartographer logger]: I1027 13:01:26.000000 17610 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.
+[cartographer_node-10] [INFO] [1793077286.570347693] [cartographer logger]: I1027 13:01:26.000000 17610 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.
+[cartographer_node-10] [INFO] [1793077286.570390286] [cartographer logger]: I1027 13:01:26.000000 17610 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.
+[cartographer_node-10] [INFO] [1793077286.574251986] [cartographer logger]: I1027 13:01:26.000000 17610 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.
+[cartographer_node-10] [INFO] [1793077286.574352309] [cartographer logger]: I1027 13:01:26.000000 17610 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.
+[cartographer_node-10] [INFO] [1793077286.574616382] [cartographer logger]: I1027 13:01:26.000000 17610 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.
+[cartographer_node-10] [INFO] [1793077286.574666464] [cartographer logger]: I1027 13:01:26.000000 17610 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.
+[rf2o_laser_odometry_node-6] [INFO] [1793077286.581700495] [rf2o_laser_odometry]: Got first Laser Scan .... Configuring node
+[cartographer_node-10] [INFO] [1793077286.648808983] [cartographer logger]: I1027 13:01:26.000000 17610 map_builder_bridge.cpp:136] Added trajectory with ID '0'.
+[cartographer_node-10] [INFO] [1793077286.704967915] [cartographer logger]: I1027 13:01:26.000000 17610 ordered_multi_queue.cc:172] All sensor data for trajectory 0 is available starting at '639286740867554620'.
+[cartographer_node-10] [INFO] [1793077286.803481759] [cartographer logger]: I1027 13:01:26.000000 17610 local_trajectory_builder_2d.cc:312] Extrapolator not yet initialized.
+[cartographer_node-10] [INFO] [1793077286.803658469] [cartographer logger]: I1027 13:01:26.000000 17610 local_trajectory_builder_2d.cc:135] Extrapolator is still initializing.
+[cartographer_node-10] [INFO] [1793077286.906820214] [cartographer logger]: I1027 13:01:26.000000 17610 pose_graph_2d.cc:148] Inserted submap (0, 0).
+[cmd_vel_watchdog-7] [INFO] [1793077287.400607296] [cmd_vel_watchdog]: cmd_vel 看门狗启动: /cmd_vel -> /cmd_vel_safe, 超时 0.5s 自动归零
+[cartographer_node-10] [WARN] [1793077287.404266014] [cartographer logger]: W1027 13:01:27.000000 17610 range_data_collator.cc:82] Dropped 8 earlier points.
+[ugv_bringup-3] JSON decode error: Extra data: line 1 column 3 (char 2) with line: 22,"gx":3,"gy":-7,"gz":-11,"mx":-357,"my":430,"mz":1331,"odl":3591,"odr":3123,"v":1096}
+[ugv_bringup-3] 
+[cartographer_node-10] [WARN] [1793077287.903604247] [cartographer logger]: W1027 13:01:27.000000 17610 range_data_collator.cc:82] Dropped 1 earlier points.
+[joy_teleop-13] [INFO] [1793077287.946359736] [joy_teleop]: joy_teleop 已启动，等待手柄输入...
+[cartographer_node-10] [WARN] [1793077290.103672366] [cartographer logger]: W1027 13:01:30.000000 17610 range_data_collator.cc:82] Dropped 1 earlier points.
+[cartographer_node-10] [WARN] [1793077294.610818956] [cartographer logger]: W1027 13:01:34.000000 17610 range_data_collator.cc:82] Dropped 333 earlier points.
+[cartographer_node-10] [INFO] [1793077300.111873823] [cartographer logger]: I1027 13:01:40.000000 17610 pose_graph_2d.cc:148] Inserted submap (0, 1).
+[cartographer_node-10] [INFO] [1793077301.705395465] [cartographer logger]: I1027 13:01:41.000000 17610 collated_trajectory_builder.cc:81] odom rate: 10.00 Hz 1.00e-01 s +/- 3.20e-04 s (pulsed at 100.65% real time)
+[cartographer_node-10] [INFO] [1793077301.706753728] [cartographer logger]: I1027 13:01:41.000000 17610 collated_trajectory_builder.cc:81] scan rate: 9.93 Hz 1.01e-01 s +/- 1.84e-02 s (pulsed at 99.99% real time)
+[cartographer_node-10] [WARN] [1793077305.204384198] [cartographer logger]: W1027 13:01:45.000000 17610 range_data_collator.cc:82] Dropped 4 earlier points.
+[cartographer_node-10] [WARN] [1793077306.807749114] [cartographer logger]: W1027 13:01:46.000000 17610 range_data_collator.cc:82] Dropped 340 earlier points.
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [joy_teleop-13]: sending signal 'SIGINT' to process[joy_teleop-13]
+[INFO] [joy_node-12]: sending signal 'SIGINT' to process[joy_node-12]
+[INFO] [cartographer_occupancy_grid_node-11]: sending signal 'SIGINT' to process[cartographer_occupancy_grid_node-11]
+[INFO] [cartographer_node-10]: sending signal 'SIGINT' to process[cartographer_node-10]
+[INFO] [robot_pose_publisher-9]: sending signal 'SIGINT' to process[robot_pose_publisher-9]
+[INFO] [base_node-8]: sending signal 'SIGINT' to process[base_node-8]
+[INFO] [cmd_vel_watchdog-7]: sending signal 'SIGINT' to process[cmd_vel_watchdog-7]
+[INFO] [rf2o_laser_odometry_node-6]: sending signal 'SIGINT' to process[rf2o_laser_odometry_node-6]
+[INFO] [ldlidar_node-5]: sending signal 'SIGINT' to process[ldlidar_node-5]
+[INFO] [ugv_driver-4]: sending signal 'SIGINT' to process[ugv_driver-4]
+[INFO] [ugv_bringup-3]: sending signal 'SIGINT' to process[ugv_bringup-3]
+[INFO] [joint_state_publisher-2]: sending signal 'SIGINT' to process[joint_state_publisher-2]
+[INFO] [robot_state_publisher-1]: sending signal 'SIGINT' to process[robot_state_publisher-1]
+[joy_teleop-13] Traceback (most recent call last):
+[joy_teleop-13]   File "/home/ws/ugv_ws/install/ugv_auto/lib/ugv_auto/joy_teleop", line 33, in <module>
+[joy_teleop-13]     sys.exit(load_entry_point('ugv-auto', 'console_scripts', 'joy_teleop')())
+[joy_teleop-13]   File "/home/ws/ugv_ws/build/ugv_auto/ugv_auto/joy_teleop.py", line 87, in main
+[joy_teleop-13]     node.pub.publish(Twist())
+[joy_teleop-13]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/publisher.py", line 70, in publish
+[joy_teleop-13]     self.__publisher.publish(msg)
+[joy_teleop-13] rclpy._rclpy_pybind11.RCLError: Failed to publish: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [base_node-8]: process has finished cleanly [pid 17597]
+[joy_node-12] [INFO] [1793077309.786769662] [rclcpp]: signal_handler(signum=2)
+[cartographer_occupancy_grid_node-11] [INFO] [1793077309.789317903] [rclcpp]: signal_handler(signum=2)
+[cartographer_node-10] [INFO] [1793077309.791806333] [rclcpp]: signal_handler(signum=2)
+[cartographer_node-10] [INFO] [1793077309.796131452] [cartographer logger]: I1027 13:01:49.000000 17610 node.cpp:569] Shutdown the subscriber of [scan]
+[robot_pose_publisher-9] [0m[INFO] [1793077309.798931512] [rclcpp]: signal_handler(signum=2)[0m
+[cartographer_node-10] [INFO] [1793077309.801819927] [cartographer logger]: I1027 13:01:49.000000 17610 node.cpp:569] Shutdown the subscriber of [odom]
+[cartographer_node-10] [INFO] [1793077309.801869561] [cartographer logger]: I1027 13:01:49.000000 17610 map_builder_bridge.cpp:152] Finishing trajectory with ID '0'...
+[base_node-8] [INFO] [1793077309.803873874] [rclcpp]: signal_handler(signum=2)
+[rf2o_laser_odometry_node-6] [INFO] [1793077309.820577172] [rclcpp]: signal_handler(signum=2)
+[cmd_vel_watchdog-7] Traceback (most recent call last):
+[cmd_vel_watchdog-7]   File "/home/ws/ugv_ws/install/ugv_auto/lib/ugv_auto/cmd_vel_watchdog", line 33, in <module>
+[cmd_vel_watchdog-7]     sys.exit(load_entry_point('ugv-auto', 'console_scripts', 'cmd_vel_watchdog')())
+[cmd_vel_watchdog-7]   File "/home/ws/ugv_ws/build/ugv_auto/ugv_auto/cmd_vel_watchdog.py", line 54, in main
+[cmd_vel_watchdog-7]     node.pub.publish(Twist())
+[cmd_vel_watchdog-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/publisher.py", line 70, in publish
+[cmd_vel_watchdog-7]     self.__publisher.publish(msg)
+[cmd_vel_watchdog-7] rclpy._rclpy_pybind11.RCLError: Failed to publish: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[ldlidar_node-5] [INFO] [1793077309.826780775] [rclcpp]: signal_handler(signum=2)
+[ldlidar_node-5] [INFO] [1793077309.833062588] [LD19]: ldlidar_published is end
+[cartographer_node-10] [WARN] [1793077309.826913324] [cartographer logger]: W1027 13:01:49.000000 17610 node.cpp:773] Can't run final optimization if there are one or more active trajectories. Trying to finish trajectory with ID 0 now.
+[cartographer_node-10] [INFO] [1793077309.826958574] [cartographer logger]: I1027 13:01:49.000000 17610 node.cpp:551] Trajectory 0 already pending to finish.
+[cartographer_node-10] [INFO] [1793077309.826974255] [cartographer logger]: I1027 13:01:49.000000 17610 map_builder_bridge.cpp:161] Running final trajectory optimization...
+[cartographer_node-10] [INFO] [1793077309.827505319] [cartographer logger]: I1027 13:01:49.000000 17672 pose_graph_2d.cc:538] Remaining work items in queue: 2
+[cartographer_node-10] [INFO] [1793077309.827579274] [cartographer logger]: I1027 13:01:49.000000 17672 constraint_builder_2d.cc:290] 0 computations resulted in 0 additional constraints.
+[cartographer_node-10] [INFO] [1793077309.827595627] [cartographer logger]: I1027 13:01:49.000000 17672 constraint_builder_2d.cc:292] Score histogram:
+[cartographer_node-10] Count: 0
+[cartographer_node-10] [WARN] [1793077309.831494071] [cartographer logger]: W1027 13:01:49.000000 17672 preprocessor.cc:62] Specified options.num_threads: 7 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[cartographer_node-10] [INFO] [1793077309.839171562] [cartographer logger]: I1027 13:01:49.000000 17672 pose_graph_2d.cc:538] Remaining work items in queue: 1
+[cartographer_node-10] [INFO] [1793077309.839265422] [cartographer logger]: I1027 13:01:49.000000 17672 constraint_builder_2d.cc:290] 0 computations resulted in 0 additional constraints.
+[cartographer_node-10] [INFO] [1793077309.839280975] [cartographer logger]: I1027 13:01:49.000000 17672 constraint_builder_2d.cc:292] Score histogram:
+[cartographer_node-10] Count: 0
+[cartographer_node-10] [WARN] [1793077309.840955161] [cartographer logger]: W1027 13:01:49.000000 17672 preprocessor.cc:62] Specified options.num_threads: 7 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[cartographer_node-10] [INFO] [1793077309.842506654] [cartographer logger]: I1027 13:01:49.000000 17673 constraint_builder_2d.cc:290] 0 computations resulted in 0 additional constraints.
+[cartographer_node-10] [INFO] [1793077309.842557824] [cartographer logger]: I1027 13:01:49.000000 17673 constraint_builder_2d.cc:292] Score histogram:
+[cartographer_node-10] Count: 0
+[cartographer_node-10] [INFO] [1793077309.855057993] [cartographer logger]: I1027 13:01:49.000000 17671 constraint_builder_2d.cc:290] 0 computations resulted in 0 additional constraints.
+[cartographer_node-10] [INFO] [1793077309.855124203] [cartographer logger]: I1027 13:01:49.000000 17671 constraint_builder_2d.cc:292] Score histogram:
+[cartographer_node-10] Count: 0
+[cartographer_node-10] [KOptimizing: Done.     
+[cartographer_node-10] [KOptimizing: Done.     
+[ugv_bringup-3] Traceback (most recent call last):
+[ugv_bringup-3]   File "/home/ws/ugv_ws/install/ugv_bringup/lib/ugv_bringup/ugv_bringup", line 33, in <module>
+[ugv_bringup-3]     sys.exit(load_entry_point('ugv-bringup', 'console_scripts', 'ugv_bringup')())
+[ugv_bringup-3]   File "/home/ws/ugv_ws/build/ugv_bringup/ugv_bringup/ugv_bringup.py", line 174, in main
+[ugv_bringup-3]     rclpy.spin(node)  # Keep the node running
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 222, in spin
+[ugv_bringup-3]     executor.spin_once()
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+[ugv_bringup-3]     self._spin_once_impl(timeout_sec)
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 734, in _spin_once_impl
+[ugv_bringup-3]     handler()
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/task.py", line 239, in __call__
+[ugv_bringup-3]     self._handler.send(None)
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 437, in handler
+[ugv_bringup-3]     await call_coroutine(entity, arg)
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 351, in _execute_timer
+[ugv_bringup-3]     await await_or_execute(tmr.callback)
+[ugv_bringup-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 107, in await_or_execute
+[ugv_bringup-3]     return callback(*args)
+[ugv_bringup-3]   File "/home/ws/ugv_ws/build/ugv_bringup/ugv_bringup/ugv_bringup.py", line 115, in feedback_loop
+[ugv_bringup-3]     self.base_controller.feedback_data()
+[ugv_bringup-3]   File "/home/ws/ugv_ws/build/ugv_bringup/ugv_bringup/ugv_bringup.py", line 68, in feedback_data
+[ugv_bringup-3]     line = self.rl.readline().decode('utf-8')  # Read line from UART
+[ugv_bringup-3]   File "/home/ws/ugv_ws/build/ugv_bringup/ugv_bringup/ugv_bringup.py", line 39, in readline
+[ugv_bringup-3]     data = self.s.read(i)
+[ugv_bringup-3]   File "/usr/local/lib/python3.10/dist-packages/serial/serialposix.py", line 565, in read
+[ugv_bringup-3]     ready, _, _ = select.select([self.fd, self.pipe_abort_read_r], [], [], timeout.time_left())
+[ugv_bringup-3] KeyboardInterrupt
+[ugv_driver-4] Traceback (most recent call last):
+[ugv_driver-4]   File "/home/ws/ugv_ws/install/ugv_bringup/lib/ugv_bringup/ugv_driver", line 33, in <module>
+[ugv_driver-4]     sys.exit(load_entry_point('ugv-bringup', 'console_scripts', 'ugv_driver')())
+[ugv_driver-4]   File "/home/ws/ugv_ws/build/ugv_bringup/ugv_bringup/ugv_driver.py", line 121, in main
+[ugv_driver-4]     rclpy.shutdown()
+[ugv_driver-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 126, in shutdown
+[ugv_driver-4]     _shutdown(context=context)
+[ugv_driver-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[ugv_driver-4]     return context.shutdown()
+[ugv_driver-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[ugv_driver-4]     self.__context.shutdown()
+[ugv_driver-4] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[robot_state_publisher-1] [INFO] [1793077309.950943639] [rclcpp]: signal_handler(signum=2)
+[INFO] [joy_node-12]: process has finished cleanly [pid 17617]
+[ldlidar_node-5] [LDS][INFO][1793077286.241747407][Actual BaudRate reported:230400]
+[INFO] [ldlidar_node-5]: process has finished cleanly [pid 17574]
+[INFO] [robot_pose_publisher-9]: process has finished cleanly [pid 17608]
+[INFO] [rf2o_laser_odometry_node-6]: process has finished cleanly [pid 17576]
+[INFO] [cartographer_node-10]: process has finished cleanly [pid 17610]
+[INFO] [cartographer_occupancy_grid_node-11]: process has finished cleanly [pid 17614]
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 17566]
+[ERROR] [ugv_bringup-3]: process has died [pid 17570, exit code -2, cmd '/home/ws/ugv_ws/install/ugv_bringup/lib/ugv_bringup/ugv_bringup --ros-args'].
+[ERROR] [joy_teleop-13]: process has died [pid 17629, exit code 1, cmd '/home/ws/ugv_ws/install/ugv_auto/lib/ugv_auto/joy_teleop --ros-args -r __node:=joy_teleop --params-file /tmp/launch_params_9pyr2s8z'].
+[ERROR] [cmd_vel_watchdog-7]: process has died [pid 17583, exit code 1, cmd '/home/ws/ugv_ws/install/ugv_auto/lib/ugv_auto/cmd_vel_watchdog --ros-args -r __node:=cmd_vel_watchdog'].
+[ERROR] [ugv_driver-4]: process has died [pid 17572, exit code 1, cmd '/home/ws/ugv_ws/install/ugv_bringup/lib/ugv_bringup/ugv_driver --ros-args'].
+[INFO] [joint_state_publisher-2]: process has finished cleanly [pid 17568]

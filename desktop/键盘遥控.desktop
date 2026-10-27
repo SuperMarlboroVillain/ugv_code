@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=键盘遥控
+Comment=UGV 键盘遥控（i/, 前进后退  j/l 转向  k/空格 停止  1/2/3 限速档  [/] 跑偏微调  h 航向保持开关  q 退出；保持窗口有焦点）
+Exec=/home/jetson/ugv_keyboard_teleop.sh
+Icon=input-keyboard
+Terminal=false
+Categories=Utility;
+StartupNotify=true
